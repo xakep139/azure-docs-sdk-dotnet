@@ -15,6 +15,14 @@
   <Interfaces />
   <Docs>
     <summary> The AnomalyDetectionConfiguration. </summary>
+    <summary>
+            Every time a new data point is ingested by a <see cref="T:Azure.AI.MetricsAdvisor.Models.DataFeed" />, it must go through an
+            <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyDetectionConfiguration" />. This configuration is responsible for determining whether the new
+            point is an anomaly or not. As soon as a data feed is created, the Metrics Advisor service creates a default
+            configuration, named "Default", for each one of its metrics, and configures them to make use of the
+            <see cref="T:Azure.AI.MetricsAdvisor.Models.SmartDetectionCondition" />, a detection method powered by machine learning. You can always create new
+            configurations or modify existing ones to better suit your needs.
+            </summary>
     <remarks>
             In order to create an anomaly detection configuration, you must set up at least the properties <see cref="P:Azure.AI.MetricsAdvisor.Models.AnomalyDetectionConfiguration.Name" />,
             <see cref="P:Azure.AI.MetricsAdvisor.Models.AnomalyDetectionConfiguration.MetricId" />, and <see cref="P:Azure.AI.MetricsAdvisor.Models.AnomalyDetectionConfiguration.WholeSeriesDetectionConditions" />, and pass this instance to the method

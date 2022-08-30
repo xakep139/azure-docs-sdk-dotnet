@@ -40,11 +40,15 @@
   <Base>
     <BaseTypeName>Microsoft.Identity.Web.TokenCacheProviders.MsalAbstractTokenCacheProvider</BaseTypeName>
   </Base>
-  <Interfaces></Interfaces>
+  <Interfaces>
+  </Interfaces>
   <Docs>
     <summary>
              An implementation of token cache for confidential clients backed by an HTTP session.
              </summary>
+    <summary>
+            LoggingMessage class for MsalSessionTokenCacheProvider.
+            </summary>
     <remarks>
              For this session cache to work effectively, the ASP.NET Core session has to be configured properly.
              The latest guidance is provided at https://docs.microsoft.com/aspnet/core/fundamentals/app-state

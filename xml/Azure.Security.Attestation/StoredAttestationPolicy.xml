@@ -20,6 +20,9 @@
   </Attributes>
   <Docs>
     <summary> The StoredAttestationPolicy. </summary>
+    <summary>
+            Attestation policy stored on the MAA Service.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -21,6 +21,9 @@
     <summary> 
             Represents a range in a file. 
             </summary>
+    <summary>
+            Provides attributes for files and directories.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

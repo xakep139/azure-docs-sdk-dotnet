@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> Model factory for read-only models. </summary>
+    <summary>
+            ShareModelFactory provides utilities for mocking.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

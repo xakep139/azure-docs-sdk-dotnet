@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The SmartDetectionCondition. </summary>
+    <summary>
+            A detection condition powered by machine learning that learns patterns from historical data, and uses them for future detection.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

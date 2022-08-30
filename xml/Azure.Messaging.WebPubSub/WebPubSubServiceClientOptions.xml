@@ -15,6 +15,7 @@
   <Interfaces />
   <Docs>
     <summary> Provides the client configuration options for connecting to Azure WebPubSub service. </summary>
+    <summary> Client options for WebPubSubServiceClient. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

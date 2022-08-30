@@ -18,6 +18,7 @@
     <summary>
             Information concerning the state of a conversion.
             </summary>
+    <summary> The properties of the conversion. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

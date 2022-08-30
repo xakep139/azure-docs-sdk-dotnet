@@ -15,6 +15,10 @@
   <Interfaces />
   <Docs>
     <summary> The ChangeThresholdCondition. </summary>
+    <summary>
+            Normally used when metric values stay around a certain range. The threshold is set according to the percentage of change.
+            The following scenarios are appropriate for this type of anomaly detection condition:
+            <list type="bullet"><item>Your data is normally stable and smooth. You want to be notified when there are fluctuations.</item><item>Your data is normally quite unstable and fluctuates a lot. You want to be notified when it becomes too stable or flat.</item></list></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

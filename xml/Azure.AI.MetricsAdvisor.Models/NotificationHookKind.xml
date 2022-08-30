@@ -19,6 +19,9 @@
   </Interfaces>
   <Docs>
     <summary> hook type. </summary>
+    <summary>
+            The <see cref="T:Azure.AI.MetricsAdvisor.Models.NotificationHookKind" />. See each specific kind for a description of each.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

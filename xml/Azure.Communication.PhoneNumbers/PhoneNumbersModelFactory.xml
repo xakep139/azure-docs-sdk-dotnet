@@ -16,6 +16,9 @@
   <Interfaces />
   <Docs>
     <summary> Model factory for read-only models. </summary>
+    <summary>
+            Model factory that enables mocking for the Azure.Communication.PhoneNumbers library.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

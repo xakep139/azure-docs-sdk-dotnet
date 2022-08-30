@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The MetricAlertingConfiguration. </summary>
+    <summary>
+            Specifies a set of rules a detected anomaly must satisfy to be included in an alert.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

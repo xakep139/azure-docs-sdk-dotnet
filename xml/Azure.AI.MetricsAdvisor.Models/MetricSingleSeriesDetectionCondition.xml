@@ -15,6 +15,10 @@
   <Interfaces />
   <Docs>
     <summary> The SeriesConfiguration. </summary>
+    <summary>
+            Defines which conditions a data point must satisfy to be considered an anomaly. Applied to a single
+            time series.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

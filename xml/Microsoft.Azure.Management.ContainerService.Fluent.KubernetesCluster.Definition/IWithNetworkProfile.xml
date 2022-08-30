@@ -42,6 +42,9 @@
         <summary>
             Gets Begins the definition of a network profile to be attached to the Kubernetes cluster.
             </summary>
+        <summary>
+            Gets the stage representing configuration for the network profile.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

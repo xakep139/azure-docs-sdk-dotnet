@@ -20,6 +20,8 @@
   </Interfaces>
   <Docs>
     <summary> Type of relation. Examples include: `DosageOfMedication` or 'FrequencyOfMedication', etc. </summary>
+    <summary>
+            Determines the relation type of the entity. <see cref="T:Azure.AI.TextAnalytics.HealthcareEntityRelationType" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

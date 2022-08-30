@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The RootCause. </summary>
+    <summary>
+            A suggestion for likely cause of an incident.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

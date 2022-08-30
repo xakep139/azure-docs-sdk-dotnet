@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> The information about the tone. </summary>
+    <summary>
+            The tone info
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

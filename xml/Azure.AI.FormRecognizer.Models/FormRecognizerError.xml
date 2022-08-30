@@ -20,6 +20,7 @@
             Represents an error that occurred during an operation in the Form Recognizer Azure
             Cognitive Service.
             </summary>
+    <summary> The ErrorInformation. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

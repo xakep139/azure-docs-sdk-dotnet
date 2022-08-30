@@ -22,6 +22,7 @@
     <summary>
             A manifest for an OCI (Open Container Initiative) artifact.
             </summary>
+    <summary> Returns the requested OCI Manifest file. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

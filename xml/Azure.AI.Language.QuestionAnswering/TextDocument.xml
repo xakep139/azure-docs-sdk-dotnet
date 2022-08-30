@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> Represent input text record to be queried. </summary>
+    <summary>
+            Represents the input text document to be queried.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

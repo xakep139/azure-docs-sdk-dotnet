@@ -85,6 +85,9 @@
             Gets The collection for bgp community values to filter on. e.g.
             ['12076:5010','12076:5020'].
             </summary>
+        <summary>
+            Gets collection of community values.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

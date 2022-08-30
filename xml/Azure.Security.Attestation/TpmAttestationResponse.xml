@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> Attestation response for Trusted Platform Module (TPM) attestation. </summary>
+    <summary>
+            Represents a response for a TPM attestation call. See <seealso href="https://docs.microsoft.com/en-us/azure/attestation/virtualization-based-security-protocol" />  for more information.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

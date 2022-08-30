@@ -15,6 +15,11 @@
   <Interfaces />
   <Docs>
     <summary> The MetricFeedback. </summary>
+    <summary>
+      <see cref="T:Azure.AI.MetricsAdvisor.MetricFeedback" /> instances are used to describe feedback on unsatisfactory anomaly detection results.
+            When feedback is created for a given metric, it is applied to future anomaly detection processing of the same series.
+            The processed points will not be re-calculated. The supported feedback classes are:
+            <list type="bullet"><item><see cref="T:Azure.AI.MetricsAdvisor.MetricAnomalyFeedback" /></item><item><see cref="T:Azure.AI.MetricsAdvisor.MetricChangePointFeedback" /></item><item><see cref="T:Azure.AI.MetricsAdvisor.MetricCommentFeedback" /></item><item><see cref="T:Azure.AI.MetricsAdvisor.MetricPeriodFeedback" /></item></list></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

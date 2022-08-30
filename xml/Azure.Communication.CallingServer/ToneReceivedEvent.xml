@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> The subscribe to tone event. </summary>
+    <summary>
+            The subscribe to tone event
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

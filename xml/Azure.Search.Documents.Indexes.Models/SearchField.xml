@@ -17,6 +17,14 @@
   <Interfaces />
   <Docs>
     <summary> Represents a field in an index definition, which describes the name, data type, and search behavior of a field. </summary>
+    <summary>
+      <para>
+            Represents a field in an index definition, which describes the name, data type, and search behavior of a field.
+            </para>
+      <para>
+            When creating an index, instead use the <see cref="T:Azure.Search.Documents.Indexes.Models.SimpleField" />, <see cref="T:Azure.Search.Documents.Indexes.Models.SearchableField" />, and <see cref="T:Azure.Search.Documents.Indexes.Models.ComplexField" /> classes to help you more easily create a <see cref="T:Azure.Search.Documents.Indexes.Models.SearchIndex" />.
+            </para>
+    </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

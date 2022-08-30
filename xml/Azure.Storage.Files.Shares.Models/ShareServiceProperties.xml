@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> Storage service properties. </summary>
+    <summary>
+            ShareServiceProperties.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

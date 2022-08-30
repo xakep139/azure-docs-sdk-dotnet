@@ -19,6 +19,10 @@
   </Interfaces>
   <Docs>
     <summary> value filter direction. </summary>
+    <summary>
+            Sets the boundaries that delimit the expected value range of a <see cref="T:Azure.AI.MetricsAdvisor.Models.MetricBoundaryCondition" />. Data points out
+            of this range can be included in an alert.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

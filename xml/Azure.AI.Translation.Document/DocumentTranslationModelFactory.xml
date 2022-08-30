@@ -16,6 +16,7 @@
     <summary>
             Model factory that enables mocking for the Document Translation Library.
             </summary>
+    <summary> Model factory for read-only models. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

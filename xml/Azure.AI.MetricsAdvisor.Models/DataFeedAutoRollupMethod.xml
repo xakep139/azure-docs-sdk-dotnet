@@ -19,6 +19,10 @@
   </Interfaces>
   <Docs>
     <summary> roll up method. </summary>
+    <summary>
+            The roll-up method performs an aggregation (for example SUM, MAX, MIN) on each dimension during ingestion. Used to
+            build a hierarchy which will be used in root case analysis and other diagnostic features.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

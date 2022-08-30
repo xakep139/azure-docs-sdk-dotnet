@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> Geo-Replication information for the Secondary Storage Service. </summary>
+    <summary>
+            BlobGeoReplication.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

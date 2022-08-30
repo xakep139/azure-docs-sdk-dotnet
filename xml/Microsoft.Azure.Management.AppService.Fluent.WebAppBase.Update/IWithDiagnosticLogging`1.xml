@@ -47,6 +47,9 @@
         <summary>
             Gets Specifies the update of an existing diagnostic logs configuration.
             </summary>
+        <summary>
+            Gets the first stage of an diagnostic logs update.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -17,6 +17,11 @@
     <summary>
             Represents options can be set during the creation of a event hub receiver.
             </summary>
+    <summary>
+            Defines a position of an <see cref="T:Microsoft.Azure.EventHubs.EventData" /> in the event hub partition.
+            The position can be one of <see cref="P:Microsoft.Azure.EventHubs.EventData.SystemPropertiesCollection.Offset" />, <see cref="P:Microsoft.Azure.EventHubs.EventData.SystemPropertiesCollection.SequenceNumber" />
+            or <see cref="P:Microsoft.Azure.EventHubs.EventData.SystemPropertiesCollection.EnqueuedTimeUtc" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

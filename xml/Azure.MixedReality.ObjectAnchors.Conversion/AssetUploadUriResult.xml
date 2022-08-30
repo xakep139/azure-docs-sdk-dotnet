@@ -18,6 +18,7 @@
     <summary>
             The result of obtaining the upload location for an asset.
             </summary>
+    <summary> Represents an upload location for model ingestion. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

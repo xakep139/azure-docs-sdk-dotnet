@@ -23,6 +23,10 @@
             
             should be specified when setting up multiple metric alerting configurations
             </summary>
+    <summary>
+            The operator to be applied between <see cref="T:Azure.AI.MetricsAdvisor.Models.MetricAlertConfiguration" />s in the same
+            <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyAlertConfiguration" /> instance.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

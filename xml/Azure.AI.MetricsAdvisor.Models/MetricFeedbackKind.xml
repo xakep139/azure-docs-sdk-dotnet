@@ -19,6 +19,9 @@
   </Interfaces>
   <Docs>
     <summary> feedback type. </summary>
+    <summary>
+            The <see cref="T:Azure.AI.MetricsAdvisor.Models.MetricFeedbackKind" />. See each specific kind for a description of each.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

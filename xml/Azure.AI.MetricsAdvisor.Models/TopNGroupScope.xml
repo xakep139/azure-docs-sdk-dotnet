@@ -15,6 +15,16 @@
   <Interfaces />
   <Docs>
     <summary> The TopNGroupScope. </summary>
+    <summary>
+            A scope containing only the top N series group. The service determines whether a time series is part of this group
+            or not by following the algorithm below:
+            <list type="number"><item>
+              The service ranks every time series by data point value. A separate rank is done for each of the latest ingestion
+              timestamps. The amount of timestamps to consider is defined by the <see cref="P:Azure.AI.MetricsAdvisor.Models.TopNGroupScope.Period" /> property.
+              </item><item>
+              If a time series is ranked among the top N series in M different timestamps, it is considered part of the top N
+              series group. N can be set with the <see cref="P:Azure.AI.MetricsAdvisor.Models.TopNGroupScope.Top" /> property, and M with <see cref="P:Azure.AI.MetricsAdvisor.Models.TopNGroupScope.MinimumTopCount" />.
+              </item></list></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

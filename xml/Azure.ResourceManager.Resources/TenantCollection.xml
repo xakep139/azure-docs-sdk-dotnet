@@ -33,6 +33,7 @@
     <summary>
             A class representing collection of TenantResource and their operations over their parent.
             </summary>
+    <summary> A class representing a collection of <see cref="T:Azure.ResourceManager.Resources.TenantResource" /> and their operations. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

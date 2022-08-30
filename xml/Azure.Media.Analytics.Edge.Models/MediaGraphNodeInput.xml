@@ -16,6 +16,7 @@
     <summary>
             Extension for <see cref="T:Azure.Media.Analytics.Edge.Models.MediaGraphNodeInput" />.
             </summary>
+    <summary> Represents the input to any node in a media graph. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

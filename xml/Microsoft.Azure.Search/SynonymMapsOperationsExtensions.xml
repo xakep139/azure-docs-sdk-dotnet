@@ -16,6 +16,9 @@
     <summary>
             Operations for managing synonymmaps. 
             </summary>
+    <summary>
+            Extension methods for SynonymMapsOperations.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

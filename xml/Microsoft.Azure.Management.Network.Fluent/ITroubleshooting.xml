@@ -196,6 +196,9 @@
             Gets the resource identifier of the target resource against which the action
             is to be performed.
             </summary>
+        <summary>
+            Gets the targetResourceId value.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

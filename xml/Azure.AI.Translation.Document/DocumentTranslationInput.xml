@@ -19,6 +19,7 @@
             The source document(s) are translated and written to the location provided
             in the <see cref="T:Azure.AI.Translation.Document.TranslationTarget" />.
             </summary>
+    <summary> Definition for the input batch translation request. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

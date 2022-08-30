@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> signed identifier. </summary>
+    <summary>
+            BlobSignedIdentifier.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

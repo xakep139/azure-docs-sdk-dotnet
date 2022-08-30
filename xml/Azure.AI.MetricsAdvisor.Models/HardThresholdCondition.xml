@@ -15,6 +15,10 @@
   <Interfaces />
   <Docs>
     <summary> The HardThresholdCondition. </summary>
+    <summary>
+            Sets fixed upper and/or lower bounds to specify the range in which data points are expected to be.
+            Values outside of upper or lower bounds will be considered to be anomalous.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

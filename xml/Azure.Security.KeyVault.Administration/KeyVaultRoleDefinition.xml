@@ -15,6 +15,7 @@
   <Interfaces />
   <Docs>
     <summary> Role definition. </summary>
+    <summary> A Key Vault role definition. </summary>
     <remarks>To be added.</remarks>
     <inheritdoc />
   </Docs>

@@ -157,6 +157,9 @@
         <summary>
             Gets the provisioning state of the packet capture session.
             </summary>
+        <summary>
+            Gets the provisioningState value.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

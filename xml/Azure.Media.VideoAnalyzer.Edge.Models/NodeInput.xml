@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> Describes an input signal to be used on a pipeline node. </summary>
+    <summary>
+            Extension for <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NodeInput" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -18,6 +18,7 @@
     <summary>
             Specific details about errors that occurred, describing why a conversion failed or a rendering session is in an error state.
             </summary>
+    <summary> The error object containing details of why the request failed. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -18,6 +18,7 @@
     <summary>
             The properties of a remote rendering session.
             </summary>
+    <summary> The properties of a rendering session. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The WholeMetricConfiguration. </summary>
+    <summary>
+            Defines which conditions a data point must satisfy to be considered an anomaly.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

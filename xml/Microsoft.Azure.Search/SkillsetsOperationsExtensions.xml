@@ -16,6 +16,9 @@
     <summary>
             Operations for managing skillsets. 
             </summary>
+    <summary>
+            Extension methods for SkillsetsOperations.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

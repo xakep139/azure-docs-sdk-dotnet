@@ -29,6 +29,9 @@
   </Interfaces>
   <Docs>
     <summary> Error codes returned by the service. </summary>
+    <summary>
+            Error codes returned by the service.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

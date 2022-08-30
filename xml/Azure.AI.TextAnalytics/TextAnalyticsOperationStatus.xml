@@ -20,6 +20,9 @@
   </Interfaces>
   <Docs>
     <summary> The State. </summary>
+    <summary>
+            TextAnalyticsOperationStatus.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

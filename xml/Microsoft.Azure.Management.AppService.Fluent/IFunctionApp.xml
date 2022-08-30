@@ -457,6 +457,9 @@
         <summary>
             Gets Syncs the triggers on the function app.
             </summary>
+        <summary>
+            Gets a task for the operation.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

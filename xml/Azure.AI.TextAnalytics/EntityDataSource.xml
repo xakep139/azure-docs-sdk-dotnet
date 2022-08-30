@@ -18,6 +18,7 @@
     <summary>
             A model representing a reference for the healthcare entity into a specific entity catalog.
             </summary>
+    <summary> The HealthcareEntityLink. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

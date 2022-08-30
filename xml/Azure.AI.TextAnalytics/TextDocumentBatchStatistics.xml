@@ -17,6 +17,13 @@
   <Interfaces />
   <Docs>
     <summary> if showStats=true was specified in the request this field will contain information about the request payload. </summary>
+    <summary>
+            A collection of statistics describing the batch of documents submitted
+            to the service for analysis in a given request.  This information is
+            provided on the result collection returned by an operation when the
+            caller passes in a <see cref="T:Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" /> with
+            IncludeStatistics set to true.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

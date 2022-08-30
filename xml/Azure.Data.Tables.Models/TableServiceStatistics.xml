@@ -23,6 +23,7 @@
   <Interfaces />
   <Docs>
     <summary> Stats for the service. </summary>
+    <summary> The Table Statistics for the service. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

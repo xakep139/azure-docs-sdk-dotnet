@@ -15,6 +15,11 @@
   <Interfaces />
   <Docs>
     <summary> The HookInfo. </summary>
+    <summary>
+            Alert notifications are not sent by default. In order to be notified when an alert is fired, you must
+            create a <see cref="T:Azure.AI.MetricsAdvisor.Administration.NotificationHook" /> and pass its ID to an <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyAlertConfiguration" />.
+            The supported hooks are:
+            <list type="bullet"><item><see cref="T:Azure.AI.MetricsAdvisor.Administration.EmailNotificationHook" /></item><item><see cref="T:Azure.AI.MetricsAdvisor.Administration.WebNotificationHook" /></item></list></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

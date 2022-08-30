@@ -32,6 +32,7 @@
     <AssemblyVersion>4.45.0.0</AssemblyVersion>
     <AssemblyVersion>4.46.0.0</AssemblyVersion>
     <AssemblyVersion>4.46.1.0</AssemblyVersion>
+    <AssemblyVersion>4.46.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -50,6 +51,10 @@
             This class is used in the constructors of <see cref="T:Microsoft.Identity.Client.PublicClientApplication" /> and <see cref="T:Microsoft.Identity.Client.ConfidentialClientApplication" />.
             In the case of ConfidentialClientApplication, two instances are used, one for the user token cache, and one for the application
             token cache (in the case of applications using the client credential flows).
+            </summary>
+    <summary>
+            IMPORTANT: this class is performance critical; any changes must be benchmarked using Microsoft.Identity.Test.Performance.
+            More information about how to test and what data to look for is in https://aka.ms/msal-net-performance-testing.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -88,6 +93,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -147,6 +153,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -216,6 +223,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -279,6 +287,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -342,6 +351,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -407,6 +417,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -469,6 +480,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -531,6 +543,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -582,6 +595,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -633,6 +647,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -686,6 +701,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -735,6 +751,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -784,6 +801,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -833,6 +851,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -900,6 +919,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -961,6 +981,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1022,6 +1043,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1083,6 +1105,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1146,6 +1169,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1203,6 +1227,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1254,6 +1279,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1310,6 +1336,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1361,6 +1388,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1415,6 +1443,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1463,6 +1492,7 @@
         <AssemblyVersion>4.45.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.0.0</AssemblyVersion>
         <AssemblyVersion>4.46.1.0</AssemblyVersion>
+        <AssemblyVersion>4.46.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

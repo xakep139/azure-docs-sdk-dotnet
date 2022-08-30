@@ -17,6 +17,12 @@
   <Interfaces />
   <Docs>
     <summary> if showStats=true was specified in the request this field will contain information about the document payload. </summary>
+    <summary>
+            A collection of statistics describing an individual input document.
+            This information is provided on the result collection returned by an
+            operation when the caller passes in a <see cref="T:Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" />
+            with IncludeStatistics set to true.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

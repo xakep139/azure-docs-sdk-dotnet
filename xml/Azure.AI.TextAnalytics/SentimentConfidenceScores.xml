@@ -17,6 +17,9 @@
   <Interfaces />
   <Docs>
     <summary> Represents the confidence scores between 0 and 1 across all sentiment classes: positive, neutral, negative. </summary>
+    <summary>
+            The sentiment confidence scores, by sentiment.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

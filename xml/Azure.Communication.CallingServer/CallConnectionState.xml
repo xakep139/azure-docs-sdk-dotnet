@@ -18,6 +18,9 @@
   </Interfaces>
   <Docs>
     <summary> The call connection state. </summary>
+    <summary>
+            The states of a call.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

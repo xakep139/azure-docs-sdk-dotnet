@@ -15,6 +15,14 @@
   <Interfaces />
   <Docs>
     <summary> The SuppressCondition. </summary>
+    <summary>
+            Sometimes it's inconvenient to treat every data point outside of an expected range as an anomaly. Transient
+            fluctuations may occur depending on the nature of the data being monitored. A suppress condition makes it
+            possible to ignore an initial group of anomalous points, treating them as normal, and start detecting
+            anomalies only when a specified threshold is exceeded. As soon as a new anomalous data point is detected,
+            the service peeks at the latest ingested points of the time series it belongs. If the amount of anomalous
+            points exceed a specified ratio, the current point will be labeled as an anomaly.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

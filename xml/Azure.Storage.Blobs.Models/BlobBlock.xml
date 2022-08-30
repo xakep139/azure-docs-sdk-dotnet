@@ -29,6 +29,9 @@
   </Interfaces>
   <Docs>
     <summary> Represents a single block in a block blob.  It describes the block's ID and size. </summary>
+    <summary>
+            Represents a single block in a block blob.  It describes the block's ID and size.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

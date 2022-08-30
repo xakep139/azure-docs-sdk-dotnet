@@ -18,6 +18,7 @@
   </Interfaces>
   <Docs>
     <summary> The result of the operation. </summary>
+    <summary>The result of a policy modification operation.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -14,6 +14,7 @@
   <Interfaces />
   <Docs>
     <summary> Description of the field semantic schema.</summary>
+    <summary> Description of the field semantic schema using a JSON Schema style syntax. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

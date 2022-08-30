@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> The properties that enable an account to host a static website. </summary>
+    <summary>
+            BlobStaticWebsite.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

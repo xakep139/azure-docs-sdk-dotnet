@@ -22,6 +22,7 @@
     <summary>
             The status of the rendering session. Once the status reached the 'Ready' state it can be connected to. The terminal state is 'Stopped'.
             </summary>
+    <summary> The status of the rendering session. Terminal states are 'Error', 'Expired', and 'Stopped'. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

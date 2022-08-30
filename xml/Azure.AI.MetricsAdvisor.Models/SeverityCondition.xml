@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The SeverityCondition. </summary>
+    <summary>
+            Sets a range of severity levels in which an anomaly must be to be included in an alert.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

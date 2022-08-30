@@ -15,6 +15,7 @@
   <Interfaces />
   <Docs>
     <summary> Manifest attributes details. </summary>
+    <summary> Properties of an artifact's manifest. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

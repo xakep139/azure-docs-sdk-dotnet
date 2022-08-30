@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> The SkillNames. </summary>
+    <summary>
+            The skills to reset.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

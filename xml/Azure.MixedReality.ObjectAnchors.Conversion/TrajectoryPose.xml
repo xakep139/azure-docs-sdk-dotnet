@@ -22,6 +22,7 @@
     <summary>
             The Pose of a trajectory.
             </summary>
+    <summary> Represents a pose. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

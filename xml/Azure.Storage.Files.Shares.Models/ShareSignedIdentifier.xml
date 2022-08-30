@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> Signed identifier. </summary>
+    <summary>
+            ShareSignedIdentifier.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

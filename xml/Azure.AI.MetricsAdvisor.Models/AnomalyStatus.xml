@@ -23,6 +23,9 @@
             
             only return for alerting anomaly result
             </summary>
+    <summary>
+            The current status of the issue that caused a <see cref="T:Azure.AI.MetricsAdvisor.Models.DataPointAnomaly" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -19,6 +19,10 @@
   </Interfaces>
   <Docs>
     <summary> data used to implement value filter. </summary>
+    <summary>
+            Used as part of a <see cref="T:Azure.AI.MetricsAdvisor.Models.MetricBoundaryCondition" />. Specifies which measure should be
+            used when checking boundaries. Defaults to <see cref="P:Azure.AI.MetricsAdvisor.Models.BoundaryMeasureType.Value" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

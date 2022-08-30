@@ -20,6 +20,7 @@
             Used by the <see cref="T:Azure.AI.FormRecognizer.Training.FormTrainingClient" /> to filter the documents by name in the
             source path provided for training.
             </summary>
+    <summary> Filter to apply to the documents in the source path for training. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

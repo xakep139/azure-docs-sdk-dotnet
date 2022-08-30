@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The DataFeedIngestionProgress. </summary>
+    <summary>
+            Contains information about the ingestion progress of a <see cref="T:Azure.AI.MetricsAdvisor.Models.DataFeed" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

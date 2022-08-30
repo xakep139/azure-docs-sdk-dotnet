@@ -39,6 +39,9 @@
         <summary>
             Gets The function that specifies a task step of type DockerTaskStep.
             </summary>
+        <summary>
+            Gets the first stage of the DockerTaskStep definition.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -64,6 +67,9 @@
         <summary>
             Gets The function that specifies a task step of type EncodedTaskStep.
             </summary>
+        <summary>
+            Gets the first stage of the EncodedTaskStep definition.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -88,6 +94,9 @@
       <Docs>
         <summary>
             Gets The function that specifies a task step of type FileTaskStep.
+            </summary>
+        <summary>
+            Gets the first stage of the FileTaskStep definition.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

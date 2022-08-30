@@ -22,6 +22,9 @@
   <Interfaces />
   <Docs>
     <summary> The GeoReplication. </summary>
+    <summary>
+            QueueGeoReplication.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

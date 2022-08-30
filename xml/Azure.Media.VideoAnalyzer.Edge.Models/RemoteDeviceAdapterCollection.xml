@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> A list of remote device adapters. </summary>
+    <summary>
+            Extensions methods to RemoteDeviceAdapterCollection to add serialization and deserialization.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The MetricSeriesItem. </summary>
+    <summary>
+            Uniquely defines a time series within a <see cref="T:Azure.AI.MetricsAdvisor.Models.DataFeed" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

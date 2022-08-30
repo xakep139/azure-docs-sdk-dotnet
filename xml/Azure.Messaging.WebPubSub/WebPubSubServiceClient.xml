@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The WebPubSubService service client. </summary>
+    <summary>
+            Azure Web PubSub Service Client.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

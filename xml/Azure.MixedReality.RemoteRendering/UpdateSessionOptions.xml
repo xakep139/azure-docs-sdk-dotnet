@@ -18,6 +18,7 @@
     <summary>
             This defines new values for session properties which can be adjusted.
             </summary>
+    <summary> Settings used to update the session. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

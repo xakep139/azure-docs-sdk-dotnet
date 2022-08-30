@@ -19,6 +19,11 @@
             Please note <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
             The available derived classes include <see cref="T:Azure.ResourceManager.CosmosDB.Models.ContinuousModeBackupPolicy" /> and <see cref="T:Azure.ResourceManager.CosmosDB.Models.PeriodicModeBackupPolicy" />.
             </summary>
+    <summary>
+            The object representing the policy for taking backups on an account.
+            Please note <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.CosmosDB.Models.ContinuousModeBackupPolicy" /> and <see cref="T:Azure.ResourceManager.CosmosDB.Models.PeriodicModeBackupPolicy" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

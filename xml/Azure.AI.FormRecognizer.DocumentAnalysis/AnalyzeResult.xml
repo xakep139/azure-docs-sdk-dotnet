@@ -16,6 +16,7 @@
     <summary>
             Represents one or more documents that have been analyzed by a trained or prebuilt model.
             </summary>
+    <summary> Document analysis result. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

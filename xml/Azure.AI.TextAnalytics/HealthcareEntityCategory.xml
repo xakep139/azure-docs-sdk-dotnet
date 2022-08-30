@@ -20,6 +20,9 @@
   </Interfaces>
   <Docs>
     <summary> Healthcare Entity Category. </summary>
+    <summary>
+            Gets the healthcare entity category inferred by the Text Analytics for Heatlh named entity recognition model.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

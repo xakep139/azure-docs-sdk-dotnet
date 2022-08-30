@@ -19,6 +19,9 @@
   </Interfaces>
   <Docs>
     <summary> Anomaly scope. </summary>
+    <summary>
+            The type of a <see cref="T:Azure.AI.MetricsAdvisor.Models.MetricAnomalyAlertScope" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

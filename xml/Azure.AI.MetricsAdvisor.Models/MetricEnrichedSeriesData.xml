@@ -15,6 +15,12 @@
   <Interfaces />
   <Docs>
     <summary> The SeriesResult. </summary>
+    <summary>
+            Contains details about the data ingested by a time series, but with additional content from an
+            <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyDetectionConfiguration" />. To make plotting easier, this data is scattered
+            across different lists, such as <see cref="P:Azure.AI.MetricsAdvisor.Models.MetricEnrichedSeriesData.Timestamps" /> and <see cref="P:Azure.AI.MetricsAdvisor.Models.MetricEnrichedSeriesData.MetricValues" />. A data
+            point is represented by the same index across these lists.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

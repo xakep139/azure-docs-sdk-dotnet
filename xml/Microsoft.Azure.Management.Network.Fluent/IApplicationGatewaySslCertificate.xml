@@ -58,6 +58,9 @@
             Gets Secret Id of (base-64 encoded unencrypted pfx) 'Secret' or 'Certificate'
             object stored in KeyVault.
             </summary>
+        <summary>
+            Gets the secret id.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

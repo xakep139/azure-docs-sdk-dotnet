@@ -29,6 +29,7 @@
     <summary>
             A class representing a sub-resource that contains only the read-only ID.
             </summary>
+    <summary> Sub-resource. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

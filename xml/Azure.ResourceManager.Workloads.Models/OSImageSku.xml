@@ -18,6 +18,7 @@
   </Interfaces>
   <Docs>
     <summary> Application version. </summary>
+    <summary> OS image sku. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

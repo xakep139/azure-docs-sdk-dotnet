@@ -15,6 +15,12 @@
   <Interfaces />
   <Docs>
     <summary> The ChangePointFeedback. </summary>
+    <summary>
+            Sometimes the trend change of data will affect anomaly detection results. When a decision is made as to whether
+            a point is an anomaly or not, the latest window of history data will be taken into consideration. When your time
+            series has a trend change, you could mark the exact change point, this will help our anomaly detector in future
+            analysis.
+            </summary>
     <remarks>
             In order to create change point feedback, you must pass this instance to the method
             <see cref="M:Azure.AI.MetricsAdvisor.MetricsAdvisorClient.AddFeedbackAsync(Azure.AI.MetricsAdvisor.MetricFeedback,System.Threading.CancellationToken)" />.
