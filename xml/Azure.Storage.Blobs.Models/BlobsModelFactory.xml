@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> Model factory for read-only models. </summary>
+    <summary>
+            This class holds BlobModelFactory overloads we need for backwards compatibility.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

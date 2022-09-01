@@ -141,6 +141,9 @@
         <summary>
             Gets the status of the packet capture session.
             </summary>
+        <summary>
+            Gets the packetCaptureStatus value.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

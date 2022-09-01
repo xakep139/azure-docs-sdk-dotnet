@@ -15,6 +15,10 @@
   <Interfaces />
   <Docs>
     <summary> The IncidentResult. </summary>
+    <summary>
+            Detected anomalies within the same time series can be grouped into <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyIncident" />s. The service
+            looks for patterns across anomalies to decide which ones should be grouped together.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

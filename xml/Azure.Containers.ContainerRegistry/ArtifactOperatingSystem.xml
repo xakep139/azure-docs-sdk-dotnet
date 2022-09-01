@@ -19,6 +19,9 @@
   </Interfaces>
   <Docs>
     <summary> The ArtifactOperatingSystem. </summary>
+    <summary>
+            The artifact platform's operating system.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

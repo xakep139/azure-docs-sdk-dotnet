@@ -16,6 +16,7 @@
   <Interfaces />
   <Docs>
     <summary> Settings for the conversion input. </summary>
+    <summary> Conversion input settings describe the origin of conversion input. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

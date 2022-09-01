@@ -17,6 +17,11 @@
   <Interfaces />
   <Docs>
     <summary> The Match. </summary>
+    <summary>
+            Details regarding the specific substring in the document matching
+            the linked entity, or well-known item, that the Text Analytics model
+            identified.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

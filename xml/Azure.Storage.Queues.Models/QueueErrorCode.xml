@@ -26,6 +26,9 @@
   </Interfaces>
   <Docs>
     <summary> Error codes returned by the service. </summary>
+    <summary>
+            QueueErrorCode.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

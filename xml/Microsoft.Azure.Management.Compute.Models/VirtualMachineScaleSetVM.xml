@@ -36,6 +36,9 @@
     <summary>
             Describes a virtual machine scale set virtual machine .
             </summary>
+    <summary>
+            Describes a virtual machine scale set virtual machine.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

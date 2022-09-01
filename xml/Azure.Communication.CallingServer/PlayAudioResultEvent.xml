@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> The play audio result event. </summary>
+    <summary>
+            The play audio result event.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

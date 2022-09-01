@@ -19,6 +19,9 @@
   </Interfaces>
   <Docs>
     <summary> data source type. </summary>
+    <summary>
+            The kind of data source that ingests a <see cref="T:Azure.AI.MetricsAdvisor.Models.DataFeed" /> with data.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

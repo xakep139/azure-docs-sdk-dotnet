@@ -19,6 +19,11 @@
   </Interfaces>
   <Docs>
     <summary> min alert severity. </summary>
+    <summary>
+            The severity of a detected <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyIncident" />, as evaluated by the service. Factors
+            such as the proportion of anomalies in a metric, the confidence of anomalies, and specified
+            favorite settings are taken into account.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

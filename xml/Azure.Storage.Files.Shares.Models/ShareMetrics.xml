@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> Storage Analytics metrics for file service. </summary>
+    <summary>
+            ShareMetrics.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

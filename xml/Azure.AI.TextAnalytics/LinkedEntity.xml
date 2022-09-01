@@ -17,6 +17,12 @@
   <Interfaces />
   <Docs>
     <summary> The LinkedEntity. </summary>
+    <summary>
+            A word or phrase identified as a known entity in a data source.
+            A link to the entry in the data source is provided as well as the formal
+            name of the entity used in the data source.  Note that the formal name
+            may be different from the exact text match in the input document.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

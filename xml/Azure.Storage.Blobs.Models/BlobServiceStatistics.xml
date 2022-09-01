@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> Stats for the storage service. </summary>
+    <summary>
+            BlobServiceStatistics.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -39,6 +39,9 @@
         <summary>
             Gets The function that begins the definition of the Docker task step in the task run request.
             </summary>
+        <summary>
+            Gets the next stage of the container Docker task run request definition.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

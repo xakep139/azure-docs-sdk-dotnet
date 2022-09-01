@@ -19,6 +19,7 @@
     <summary>
             Represents a document that has been used to train a model.
             </summary>
+    <summary> Report for a custom model training document. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

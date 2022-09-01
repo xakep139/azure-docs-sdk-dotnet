@@ -18,6 +18,7 @@
     <summary>
             Information concerning the state of a conversion.
             </summary>
+    <summary> Conversion settings describe the origin of input files and destination of output files. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

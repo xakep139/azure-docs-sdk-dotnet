@@ -15,6 +15,12 @@
   <Interfaces />
   <Docs>
     <summary> The PeriodFeedback. </summary>
+    <summary>
+            For seasonal data, when performing anomaly detection, one step is to estimate the period (seasonality) of the time series,
+            and apply it to the anomaly detection phase. Sometimes, it's hard to identify a precise period, and the period may also
+            change. An incorrectly defined period may have side effects on the anomaly detection results. This class allows providing
+            feedback for a period to fix this kind of anomaly detection error.
+            </summary>
     <remarks>
             In order to create period feedback, you must pass this instance to the method
             <see cref="M:Azure.AI.MetricsAdvisor.MetricsAdvisorClient.AddFeedbackAsync(Azure.AI.MetricsAdvisor.MetricFeedback,System.Threading.CancellationToken)" />.

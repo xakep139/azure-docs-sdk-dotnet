@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> Settings for SMB protocol. </summary>
+    <summary>
+            Settings for SMB protocol.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

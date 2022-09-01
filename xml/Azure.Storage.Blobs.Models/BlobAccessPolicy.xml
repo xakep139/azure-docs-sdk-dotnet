@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> An Access policy. </summary>
+    <summary>
+            An Access policy for Blob Containers.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

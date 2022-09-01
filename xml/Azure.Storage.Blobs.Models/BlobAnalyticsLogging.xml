@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> Azure Analytics Logging settings. </summary>
+    <summary>
+            BlobAnalyticsLogging.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

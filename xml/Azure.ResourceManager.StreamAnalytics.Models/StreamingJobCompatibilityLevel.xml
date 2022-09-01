@@ -20,6 +20,7 @@
     <summary>
             Controls certain runtime behaviors of the streaming job.
             </summary>
+    <summary> Controls certain runtime behaviors of the streaming job. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

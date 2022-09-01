@@ -21,6 +21,7 @@
             The minimum TLS version for the cluster to support, e.g. '1.2'
             Serialized Name: TlsVersion
             </summary>
+    <summary> The minimum TLS version for the cluster to support, e.g. '1.2'. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

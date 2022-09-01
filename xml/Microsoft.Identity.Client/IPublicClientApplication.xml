@@ -45,6 +45,10 @@
             public client applications are not trusted to safely keep application secrets, and therefore they only access web APIs in the name of the user only.
             For details see https://aka.ms/msal-net-client-applications.
             </summary>
+    <summary>
+            Interface defining common API methods and properties.
+            For details see https://aka.ms/msal-net-client-applications
+            </summary>
     <remarks>To be added.</remarks>
     <Summary>
             Interface defining common API methods and properties.

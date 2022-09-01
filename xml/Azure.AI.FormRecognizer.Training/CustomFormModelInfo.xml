@@ -19,6 +19,7 @@
     <summary>
             Describes a model trained in a Cognitive Services Account and its status.
             </summary>
+    <summary> Basic custom model information. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

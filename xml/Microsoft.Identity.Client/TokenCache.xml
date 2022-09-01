@@ -52,6 +52,10 @@
             In the case of ConfidentialClientApplication, two instances are used, one for the user token cache, and one for the application
             token cache (in the case of applications using the client credential flows).
             </summary>
+    <summary>
+            IMPORTANT: this class is performance critical; any changes must be benchmarked using Microsoft.Identity.Test.Performance.
+            More information about how to test and what data to look for is in https://aka.ms/msal-net-performance-testing.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

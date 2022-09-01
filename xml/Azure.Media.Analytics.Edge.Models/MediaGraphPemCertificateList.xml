@@ -16,6 +16,7 @@
     <summary>
             Initializes a new instance of the MediaGraphPemCertificateList class.
             </summary>
+    <summary> A list of PEM formatted certificates. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

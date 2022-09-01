@@ -18,6 +18,9 @@
   </Interfaces>
   <Docs>
     <summary> The tone value. </summary>
+    <summary>
+            The tone.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -19,6 +19,7 @@
     <summary>
             A factory that builds Azure.AI.FormRecognizer model types used for mocking.
             </summary>
+    <summary> Model factory for read-only models. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -23,6 +23,10 @@
             
             should be specified when combining multiple detection conditions
             </summary>
+    <summary>
+            The operator to be applied between conditions in the same <see cref="T:Azure.AI.MetricsAdvisor.Models.MetricWholeSeriesDetectionCondition" />
+            instance.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

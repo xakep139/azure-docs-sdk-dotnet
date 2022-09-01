@@ -15,6 +15,11 @@
   <Interfaces />
   <Docs>
     <summary> The EmailHookInfo. </summary>
+    <summary>
+            An email hook is the channel for anomaly alerts to be sent to e-mail addresses. In order to be notified when
+            an alert is fired, you must create an <see cref="T:Azure.AI.MetricsAdvisor.Administration.EmailNotificationHook" /> and pass its ID to an
+            <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyAlertConfiguration" />.
+            </summary>
     <remarks>
             In order to create an e-mail hook, you must add at least one e-mail address to <see cref="P:Azure.AI.MetricsAdvisor.Administration.EmailNotificationHook.EmailsToAlert" />,
             and pass this instance to the method <see cref="M:Azure.AI.MetricsAdvisor.Administration.MetricsAdvisorAdministrationClient.CreateHookAsync(Azure.AI.MetricsAdvisor.Administration.NotificationHook,System.Threading.CancellationToken)" />.

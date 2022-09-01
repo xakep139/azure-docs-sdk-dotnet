@@ -42,6 +42,9 @@
         <summary>
             Gets Checks storage account can be accessed from applications running on azure.
             </summary>
+        <summary>
+            Gets true if storage can be accessed from application running on azure, false otherwise.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -66,6 +69,9 @@
         <summary>
             Gets Checks storage log entries can be read from any network.
             </summary>
+        <summary>
+            Gets true if storage log entries can be read from any network, false otherwise.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -89,6 +95,9 @@
       <Docs>
         <summary>
             Gets Checks storage metrics can be read from any network.
+            </summary>
+        <summary>
+            Gets true if storage metrics can be read from any network, false otherwise.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

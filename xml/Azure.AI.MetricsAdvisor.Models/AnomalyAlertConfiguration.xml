@@ -15,6 +15,12 @@
   <Interfaces />
   <Docs>
     <summary> The AnomalyAlertingConfiguration. </summary>
+    <summary>
+            Detected anomalies won't trigger alerts by default, so an <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyAlertConfiguration" /> must be
+            created if you want to be notified when an anomaly is detected. This configuration is applied to every set
+            of anomalies detected after a <see cref="T:Azure.AI.MetricsAdvisor.Models.DataFeed" /> ingestion, applying rules that select which of them
+            to include in the final alert.
+            </summary>
     <remarks>
             In order to create an anomaly alert configuration, you must set up the property <see cref="P:Azure.AI.MetricsAdvisor.Models.AnomalyAlertConfiguration.Name" /> and
             have at least one element in <see cref="P:Azure.AI.MetricsAdvisor.Models.AnomalyAlertConfiguration.MetricAlertConfigurations" />, and pass this instance to the method

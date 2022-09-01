@@ -25,6 +25,10 @@
   <Interfaces />
   <Docs>
     <summary> The BlockList. </summary>
+    <summary>
+            A block blob's <see cref="T:Azure.Storage.Blobs.Models.BlockList" /> returned from
+            <see cref="M:Azure.Storage.Blobs.Specialized.BlockBlobClient.GetBlockListAsync(Azure.Storage.Blobs.Models.BlockListTypes,System.String,Azure.Storage.Blobs.Models.BlobRequestConditions,System.Threading.CancellationToken)" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

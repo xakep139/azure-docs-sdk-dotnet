@@ -18,6 +18,7 @@
     <summary>
             Represents an asset conversion configuration.
             </summary>
+    <summary> Represents an ingestion configuration. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

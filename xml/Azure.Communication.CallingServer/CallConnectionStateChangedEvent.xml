@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> The call connection state changed event. </summary>
+    <summary>
+            The call connection state change event.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

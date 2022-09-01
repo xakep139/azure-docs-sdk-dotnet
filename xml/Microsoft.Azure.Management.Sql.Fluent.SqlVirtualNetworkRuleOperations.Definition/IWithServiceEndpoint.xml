@@ -54,6 +54,9 @@
             Virtual Machines in the subnet will not be able to connect to the SQL server until Microsoft.Sql
             service endpoint is added to the subnet.
             </summary>
+        <summary>
+            Gets The next stage of the definition.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

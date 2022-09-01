@@ -22,6 +22,7 @@
             and, if a model was trained with training-time labels, an estimated accuracy for recognition
             of the field.
             </summary>
+    <summary> Report for a custom model training field. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

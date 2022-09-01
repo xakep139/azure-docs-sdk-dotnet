@@ -18,6 +18,7 @@
             Filters the result of the <see cref="M:Azure.AI.MetricsAdvisor.MetricsAdvisorClient.GetAllFeedback(System.String,Azure.AI.MetricsAdvisor.GetAllFeedbackOptions,System.Threading.CancellationToken)" /> and
             <see cref="M:Azure.AI.MetricsAdvisor.MetricsAdvisorClient.GetAllFeedbackAsync(System.String,Azure.AI.MetricsAdvisor.GetAllFeedbackOptions,System.Threading.CancellationToken)" /> operations.
             </summary>
+    <summary> The FeedbackDimensionFilter. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

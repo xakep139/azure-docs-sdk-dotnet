@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> A collection of live pipelines. </summary>
+    <summary>
+            Extensions methods to LivePipelineCollection to add serialization and deserialization.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

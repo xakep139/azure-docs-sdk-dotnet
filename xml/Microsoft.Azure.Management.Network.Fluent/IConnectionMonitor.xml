@@ -55,6 +55,9 @@
             Gets Determines if the connection monitor will start automatically once
             created.
             </summary>
+        <summary>
+            Gets true if the connection monitor will start automatically once created, false otherwise.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

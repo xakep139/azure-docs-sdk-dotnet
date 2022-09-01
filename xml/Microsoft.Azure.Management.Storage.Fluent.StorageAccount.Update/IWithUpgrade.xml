@@ -41,6 +41,9 @@
         <summary>
             Gets Specifies that the storage account should be upgraded to V2 kind.
             </summary>
+        <summary>
+            Gets the next stage of storage account update.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

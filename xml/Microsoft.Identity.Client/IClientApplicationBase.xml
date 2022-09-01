@@ -40,6 +40,10 @@
             Abstract class containing common API methods and properties. Both <see cref="T:PublicClientApplication" /> and <see cref="T:ConfidentialClientApplication" />
             extend this class. For details see https://aka.ms/msal-net-client-applications.
             </summary>
+    <summary>
+            Interface defining common API methods and properties. Both <see cref="T:PublicClientApplication" /> and <see cref="T:ConfidentialClientApplication" />
+            extend this class. For details see https://aka.ms/msal-net-client-applications
+            </summary>
     <remarks>To be added.</remarks>
     <Summary>
             Abstract class containing common API methods and properties. Both <see cref="T:PublicClientApplication" /> and <see cref="T:ConfidentialClientApplication" />

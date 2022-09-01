@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> A listed Azure Storage handle item. </summary>
+    <summary>
+            ShareFileHandle.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

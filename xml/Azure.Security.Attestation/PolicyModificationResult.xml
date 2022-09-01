@@ -20,6 +20,9 @@
   </Attributes>
   <Docs>
     <summary> The result of a policy certificate modification. </summary>
+    <summary>
+            Represents a Policy Get or Set or Reset result.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

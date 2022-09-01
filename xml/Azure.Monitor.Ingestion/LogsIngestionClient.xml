@@ -14,6 +14,7 @@
   <Interfaces />
   <Docs>
     <summary> The LogsIngestion service client. </summary>
+    <summary> The IngestionUsingDataCollectionRules service client. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -22,6 +22,12 @@
   </Interfaces>
   <Docs>
     <summary> The DimensionGroupIdentity. </summary>
+    <summary>
+            Maps dimension names of a <see cref="T:Azure.AI.MetricsAdvisor.Models.DataFeed" /> to values. If values are assigned
+            to all possible dimension names, this <see cref="T:Azure.AI.MetricsAdvisor.Models.DimensionKey" /> uniquely identifies a time
+            series within a metric. However, if only a subset of dimension names is assigned, this instance
+            uniquely identifies a group of time series instead.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

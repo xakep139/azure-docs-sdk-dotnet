@@ -15,6 +15,10 @@
   <Interfaces />
   <Docs>
     <summary> The AlertSnoozeCondition. </summary>
+    <summary>
+            Used to avoid alert spamming. After an anomaly is added to an alert, temporarily prevents new anomalies to
+            be alerted for a specified period.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

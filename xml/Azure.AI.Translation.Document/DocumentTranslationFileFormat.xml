@@ -16,6 +16,7 @@
     <summary>
             Possible file formats supported by the Document Translation service.
             </summary>
+    <summary> The FileFormat. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

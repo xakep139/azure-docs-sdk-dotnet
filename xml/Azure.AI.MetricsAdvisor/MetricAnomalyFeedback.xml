@@ -15,6 +15,9 @@
   <Interfaces />
   <Docs>
     <summary> The AnomalyFeedback. </summary>
+    <summary>
+            Feedback indicating that a data point was incorrectly labeled by the service.
+            You can specify whether a point should or shouldn't be an anomaly with <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyValue" /></summary>
     <remarks>
             In order to create anomaly feedback, you must pass this instance to the method
             <see cref="M:Azure.AI.MetricsAdvisor.MetricsAdvisorClient.AddFeedbackAsync(Azure.AI.MetricsAdvisor.MetricFeedback,System.Threading.CancellationToken)" />.

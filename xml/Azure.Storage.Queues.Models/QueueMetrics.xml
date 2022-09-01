@@ -22,6 +22,9 @@
   <Interfaces />
   <Docs>
     <summary> a summary of request statistics grouped by API in hour or minute aggregates for queues. </summary>
+    <summary>
+            QueueMetrics.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -20,6 +20,7 @@
   </Interfaces>
   <Docs>
     <summary> The status of the conversion. Terminal states are 'Cancelled', 'Failed', 'Succeeded'. </summary>
+    <summary> The status of the conversion. Terminal states are 'Cancelled', 'Failed', and 'Succeeded'. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

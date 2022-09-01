@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> Translation job status response. </summary>
+    <summary>
+            Status information about the translation operation.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

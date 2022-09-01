@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> The retention policy. </summary>
+    <summary>
+            ShareRetentionPolicy.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

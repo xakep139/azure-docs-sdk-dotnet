@@ -23,6 +23,9 @@
             
             only return for alerting incident result
             </summary>
+    <summary>
+            The current status of a detected <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyIncident" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

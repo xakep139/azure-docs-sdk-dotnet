@@ -24,6 +24,7 @@
             The user should be able to serialize or deserialize CommunicationIceServer
             for better experience.
             </summary>
+    <summary> An instance of a STUN/TURN server with credentials to be used for ICE negotiation. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

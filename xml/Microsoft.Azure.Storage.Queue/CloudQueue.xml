@@ -16,6 +16,9 @@
     <summary>
             This class represents a queue in the Microsoft Azure Queue service.
             </summary>
+    <summary>
+            Represents a queue in the Microsoft Azure Queue service.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

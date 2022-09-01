@@ -45,6 +45,10 @@
             It can however respond with a 200 OK message or a 302 Redirect, which can be configured here.
             For more details see https://aka.ms/msal-net-os-browser
             </summary>
+    <summary>
+            Use Microsoft Edge to navigate to the given URI. On non-windows platforms it uses 
+            whatever browser is the default.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

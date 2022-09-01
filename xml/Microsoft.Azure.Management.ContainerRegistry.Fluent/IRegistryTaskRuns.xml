@@ -242,6 +242,9 @@
         <summary>
             Gets The function that begins the steps to schedule a run.
             </summary>
+        <summary>
+            Gets the next step in the execution of a run.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

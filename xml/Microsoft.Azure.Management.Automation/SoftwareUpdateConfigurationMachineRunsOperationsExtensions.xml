@@ -16,6 +16,9 @@
     <summary>
             Extension methods for SoftwareUpdateConfigurationRunsOperations.
             </summary>
+    <summary>
+            Extension methods for SoftwareUpdateConfigurationMachineRunsOperations.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

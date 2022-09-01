@@ -19,6 +19,10 @@
   </Interfaces>
   <Docs>
     <summary> snooze scope. </summary>
+    <summary>
+            Defines the set of time series to which a <see cref="T:Azure.AI.MetricsAdvisor.Models.MetricAnomalyAlertSnoozeCondition" />
+            applies. Anomalies detected out of the specified scope can be added to alerts normally.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

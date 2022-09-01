@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> the retention policy which determines how long the associated data should persist. </summary>
+    <summary>
+            BlobRetentionPolicy.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

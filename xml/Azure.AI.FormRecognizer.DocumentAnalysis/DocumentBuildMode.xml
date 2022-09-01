@@ -21,6 +21,7 @@
             The technique to use to build a custom model. For more information see
             <see href="https://aka.ms/azsdk/formrecognizer/buildmode">here</see>.
             </summary>
+    <summary> Custom model build mode. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

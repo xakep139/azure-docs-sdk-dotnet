@@ -16,6 +16,7 @@
     <summary>
             Status information about a particular document within a translation operation.
             </summary>
+    <summary> Document Status Response. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

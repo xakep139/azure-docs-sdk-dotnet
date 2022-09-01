@@ -15,6 +15,12 @@
   <Interfaces />
   <Docs>
     <summary> The WebhookHookInfo. </summary>
+    <summary>
+            A web hook is a notification channel that uses an endpoint provided by the customer. In order to be
+            notified when an alert is fired, you must create a <see cref="T:Azure.AI.MetricsAdvisor.Administration.WebNotificationHook" /> and pass its
+            ID to an <see cref="T:Azure.AI.MetricsAdvisor.Models.AnomalyAlertConfiguration" />. Check the <see href="https://aka.ms/metricsadvisor/webhook">
+            documentation</see> for more details about the alerts sent.
+            </summary>
     <remarks>
             In order to create a web hook, you must pass this instance to the method
             <see cref="M:Azure.AI.MetricsAdvisor.Administration.MetricsAdvisorAdministrationClient.CreateHookAsync(Azure.AI.MetricsAdvisor.Administration.NotificationHook,System.Threading.CancellationToken)" />. When a web hook is created or modified,

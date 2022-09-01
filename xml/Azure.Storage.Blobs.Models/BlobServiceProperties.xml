@@ -25,6 +25,9 @@
   <Interfaces />
   <Docs>
     <summary> Storage Service Properties. </summary>
+    <summary>
+            Storage Service Properties.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

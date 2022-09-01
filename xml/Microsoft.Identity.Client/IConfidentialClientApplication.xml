@@ -43,6 +43,9 @@
     <summary>
             Component to be used with confidential client applications like web apps/API.
             </summary>
+    <summary>
+            Component to be used with confidential client applications like web apps/APIs.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

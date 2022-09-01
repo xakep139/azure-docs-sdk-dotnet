@@ -17,6 +17,11 @@
   <Interfaces />
   <Docs>
     <summary> Parameters for filtering, sorting, fuzzy matching, and other suggestions query behaviors. </summary>
+    <summary>
+            Options for <see cref="M:Azure.Search.Documents.SearchClient.SuggestAsync``1(System.String,System.String,Azure.Search.Documents.SuggestOptions,System.Threading.CancellationToken)" /> that
+            allow specifying filtering, sorting, and other suggestions query
+            behaviors.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

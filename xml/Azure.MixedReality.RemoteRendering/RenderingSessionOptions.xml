@@ -16,6 +16,7 @@
   <Interfaces />
   <Docs>
     <summary> The Options requested when starting a session. </summary>
+    <summary> Settings of the session to be created. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -43,6 +43,9 @@
     <summary>
             AzureFunction activity.
             </summary>
+    <summary>
+            Azure Function activity.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

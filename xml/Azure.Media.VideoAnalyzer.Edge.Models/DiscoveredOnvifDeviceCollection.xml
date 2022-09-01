@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> A list of ONVIF devices that were discovered in the same subnet as the IoT Edge device. </summary>
+    <summary>
+            Extensions methods to DiscoveredOnvifDeviceCollection to add serialization and deserialization.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

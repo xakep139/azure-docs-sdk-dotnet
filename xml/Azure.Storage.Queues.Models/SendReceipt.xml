@@ -22,6 +22,9 @@
   <Interfaces />
   <Docs>
     <summary> The object returned in the QueueMessageList array when calling Put Message on a Queue. </summary>
+    <summary>
+            SendReceipt.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

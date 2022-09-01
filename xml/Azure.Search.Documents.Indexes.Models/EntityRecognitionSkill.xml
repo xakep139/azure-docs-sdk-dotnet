@@ -17,6 +17,9 @@
   <Interfaces />
   <Docs>
     <summary> Text analytics entity recognition. </summary>
+    <summary>
+            Extracts entities of different types from text using the Text Analytics API.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

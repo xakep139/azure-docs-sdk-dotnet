@@ -71,6 +71,9 @@
             The sku type can be used for  AvailabilitySet.DefinitionStages.WithSku.withSku(AvailabilitySetSkuTypes)
             and  AvailabilitySet.UpdateStages.WithSku.withSku(AvailabilitySetSkuTypes).
             </summary>
+        <summary>
+            Gets the availability set sku type.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -170,6 +173,9 @@
             Disk.UpdateStages.WithSku.withSku(DiskSkuTypes),
             Snapshot.DefinitionStages.WithSku.withSku(DiskSkuTypes) and
             Snapshot.UpdateStages.WithSku.withSku(DiskSkuTypes).
+            </summary>
+        <summary>
+            Gets the managed disk or snapshot sku type.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -316,6 +322,9 @@
             Gets The virtual machine size type if the sku describes sku for virtual machine resource type.
             The size can be used for  VirtualMachine.DefinitionStages.WithVMSize.withSize(VirtualMachineSizeTypes)
             and  VirtualMachine.Update.withSize(VirtualMachineSizeTypes).
+            </summary>
+        <summary>
+            Gets the virtual machine size type.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

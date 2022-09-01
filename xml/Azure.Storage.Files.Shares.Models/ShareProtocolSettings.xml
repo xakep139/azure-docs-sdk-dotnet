@@ -21,6 +21,9 @@
   <Interfaces />
   <Docs>
     <summary> Protocol settings. </summary>
+    <summary>
+            Protocol settings.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

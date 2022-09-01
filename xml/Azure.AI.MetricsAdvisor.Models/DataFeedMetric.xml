@@ -15,6 +15,10 @@
   <Interfaces />
   <Docs>
     <summary> The Metric. </summary>
+    <summary>
+            A quantifiable measure used to monitor and assess the status of a specific business process. The service will monitor
+            how this value varies over time in search of any anomalous behavior.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

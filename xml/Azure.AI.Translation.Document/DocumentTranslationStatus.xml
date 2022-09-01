@@ -21,6 +21,7 @@
             List of possible statuses for a translation operation
             or for a document.
             </summary>
+    <summary> List of possible statuses for job or document. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

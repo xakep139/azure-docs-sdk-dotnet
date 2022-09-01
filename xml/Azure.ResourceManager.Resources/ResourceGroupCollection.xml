@@ -31,6 +31,11 @@
   </Interfaces>
   <Docs>
     <summary> A class representing collection of ResourceGroupResource and their operations over its parent. </summary>
+    <summary>
+            A class representing a collection of <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> and their operations.
+            Each <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> in the collection will belong to the same instance of <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" />.
+            To get a <see cref="T:Azure.ResourceManager.Resources.ResourceGroupCollection" /> instance call the GetResourceGroups method from an instance of <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

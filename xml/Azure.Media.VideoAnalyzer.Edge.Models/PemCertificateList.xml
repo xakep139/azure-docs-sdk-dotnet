@@ -14,6 +14,9 @@
   <Interfaces />
   <Docs>
     <summary> A list of PEM formatted certificates. </summary>
+    <summary>
+            Initializes a new instance of the PemCertificateList class.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

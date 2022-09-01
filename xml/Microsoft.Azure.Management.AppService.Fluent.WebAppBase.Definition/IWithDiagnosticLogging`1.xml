@@ -47,6 +47,9 @@
         <summary>
             Gets Specifies the definition of a new diagnostic logs configuration.
             </summary>
+        <summary>
+            Gets the first stage of an diagnostic logs definition.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
