@@ -38,10 +38,10 @@
       </Docs>
     </Member>
     <Member MemberName="DefaultCompoundClaimDelimiter">
-      <MemberSignature Language="C#" Value="public const char DefaultCompoundClaimDelimiter;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char DefaultCompoundClaimDelimiter" />
+      <MemberSignature Language="C#" Value="public const char DefaultCompoundClaimDelimiter = ,;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char DefaultCompoundClaimDelimiter = (,)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.ServiceBus.TokenConstants.DefaultCompoundClaimDelimiter" />
-      <MemberSignature Language="VB.NET" Value="Public Const DefaultCompoundClaimDelimiter As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const DefaultCompoundClaimDelimiter As Char  = ," />
       <MemberSignature Language="F#" Value="val mutable DefaultCompoundClaimDelimiter : char" Usage="Microsoft.ServiceBus.TokenConstants.DefaultCompoundClaimDelimiter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -51,6 +51,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>,</MemberValue>
       <Docs>
         <summary>The character used to delimit the list of values for a compound token.</summary>
         <remarks>To be added.</remarks>
@@ -76,10 +77,10 @@
       </Docs>
     </Member>
     <Member MemberName="HttpAuthParameterSeparator">
-      <MemberSignature Language="C#" Value="public const char HttpAuthParameterSeparator;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char HttpAuthParameterSeparator" />
+      <MemberSignature Language="C#" Value="public const char HttpAuthParameterSeparator = ,;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char HttpAuthParameterSeparator = (,)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.ServiceBus.TokenConstants.HttpAuthParameterSeparator" />
-      <MemberSignature Language="VB.NET" Value="Public Const HttpAuthParameterSeparator As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const HttpAuthParameterSeparator As Char  = ," />
       <MemberSignature Language="F#" Value="val mutable HttpAuthParameterSeparator : char" Usage="Microsoft.ServiceBus.TokenConstants.HttpAuthParameterSeparator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -89,6 +90,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>,</MemberValue>
       <Docs>
         <summary>The character used to separate parameters sent in HTTP authentication requests.</summary>
         <remarks>To be added.</remarks>
@@ -190,10 +192,10 @@
       </Docs>
     </Member>
     <Member MemberName="KeyValueSeparator">
-      <MemberSignature Language="C#" Value="public const char KeyValueSeparator;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char KeyValueSeparator" />
+      <MemberSignature Language="C#" Value="public const char KeyValueSeparator = =;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char KeyValueSeparator = (=)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.ServiceBus.TokenConstants.KeyValueSeparator" />
-      <MemberSignature Language="VB.NET" Value="Public Const KeyValueSeparator As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const KeyValueSeparator As Char  = =" />
       <MemberSignature Language="F#" Value="val mutable KeyValueSeparator : char" Usage="Microsoft.ServiceBus.TokenConstants.KeyValueSeparator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -203,6 +205,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>=</MemberValue>
       <Docs>
         <summary>A character designating the separation between a key and a value.</summary>
         <remarks>To be added.</remarks>
@@ -420,10 +423,10 @@
       </Docs>
     </Member>
     <Member MemberName="UrlParameterSeparator">
-      <MemberSignature Language="C#" Value="public const char UrlParameterSeparator;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char UrlParameterSeparator" />
+      <MemberSignature Language="C#" Value="public const char UrlParameterSeparator = &amp;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char UrlParameterSeparator = (&amp;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.ServiceBus.TokenConstants.UrlParameterSeparator" />
-      <MemberSignature Language="VB.NET" Value="Public Const UrlParameterSeparator As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const UrlParameterSeparator As Char  = &amp;" />
       <MemberSignature Language="F#" Value="val mutable UrlParameterSeparator : char" Usage="Microsoft.ServiceBus.TokenConstants.UrlParameterSeparator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -433,6 +436,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&amp;</MemberValue>
       <Docs>
         <summary>The character used to separate parameters in a token request.</summary>
         <remarks>To be added.</remarks>

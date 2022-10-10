@@ -125,10 +125,10 @@
       </Docs>
     </Member>
     <Member MemberName="ComponentLevelCommandSeparator">
-      <MemberSignature Language="C#" Value="public const char ComponentLevelCommandSeparator;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char ComponentLevelCommandSeparator" />
+      <MemberSignature Language="C#" Value="public const char ComponentLevelCommandSeparator = *;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char ComponentLevelCommandSeparator = (*)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Shared.ConventionBasedConstants.ComponentLevelCommandSeparator" />
-      <MemberSignature Language="VB.NET" Value="Public Const ComponentLevelCommandSeparator As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const ComponentLevelCommandSeparator As Char  = *" />
       <MemberSignature Language="F#" Value="val mutable ComponentLevelCommandSeparator : char" Usage="Microsoft.Azure.Devices.Shared.ConventionBasedConstants.ComponentLevelCommandSeparator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -138,6 +138,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>*</MemberValue>
       <Docs>
         <summary>
             Separator for a component-level command name.
