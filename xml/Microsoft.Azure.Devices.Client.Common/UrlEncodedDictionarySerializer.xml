@@ -117,10 +117,10 @@
       </Docs>
     </Member>
     <Member MemberName="KeyValueSeparator">
-      <MemberSignature Language="C#" Value="public const char KeyValueSeparator;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char KeyValueSeparator" />
+      <MemberSignature Language="C#" Value="public const char KeyValueSeparator = =;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char KeyValueSeparator = (=)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Common.UrlEncodedDictionarySerializer.KeyValueSeparator" />
-      <MemberSignature Language="VB.NET" Value="Public Const KeyValueSeparator As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const KeyValueSeparator As Char  = =" />
       <MemberSignature Language="F#" Value="val mutable KeyValueSeparator : char" Usage="Microsoft.Azure.Devices.Client.Common.UrlEncodedDictionarySerializer.KeyValueSeparator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -143,6 +143,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>=</MemberValue>
       <Docs>
         <summary>
             The character that separates the name and value of a property.
@@ -151,10 +152,10 @@
       </Docs>
     </Member>
     <Member MemberName="NotAllowedCharacter">
-      <MemberSignature Language="C#" Value="public const char NotAllowedCharacter;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char NotAllowedCharacter" />
+      <MemberSignature Language="C#" Value="public const char NotAllowedCharacter = /;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char NotAllowedCharacter = (/)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Common.UrlEncodedDictionarySerializer.NotAllowedCharacter" />
-      <MemberSignature Language="VB.NET" Value="Public Const NotAllowedCharacter As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const NotAllowedCharacter As Char  = /" />
       <MemberSignature Language="F#" Value="val mutable NotAllowedCharacter : char" Usage="Microsoft.Azure.Devices.Client.Common.UrlEncodedDictionarySerializer.NotAllowedCharacter" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -165,16 +166,17 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>/</MemberValue>
       <Docs>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertySeparator">
-      <MemberSignature Language="C#" Value="public const char PropertySeparator;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char PropertySeparator" />
+      <MemberSignature Language="C#" Value="public const char PropertySeparator = &amp;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char PropertySeparator = (&amp;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Devices.Client.Common.UrlEncodedDictionarySerializer.PropertySeparator" />
-      <MemberSignature Language="VB.NET" Value="Public Const PropertySeparator As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const PropertySeparator As Char  = &amp;" />
       <MemberSignature Language="F#" Value="val mutable PropertySeparator : char" Usage="Microsoft.Azure.Devices.Client.Common.UrlEncodedDictionarySerializer.PropertySeparator" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
@@ -197,6 +199,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&amp;</MemberValue>
       <Docs>
         <summary>
             The character that separates different properties.
