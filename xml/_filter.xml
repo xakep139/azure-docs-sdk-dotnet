@@ -7,6 +7,9 @@
     <namespaceFilter name="Azure.ResourceManager.DeviceProvisioningServices">
       <typeFilter name="*" expose="false" />
     </namespaceFilter>
+    <namespaceFilter name="Azure.ResourceManager.PostgreSql.FlexibleServers">
+      <typeFilter name="*" expose="false" />
+    </namespaceFilter>
     <namespaceFilter name="Microsoft.Azure.Management.DataBoxEdge">
       <typeFilter name="ActivationKeyComponents" expose="false" />
     </namespaceFilter>
