@@ -1,6 +1,16 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Language.TextAnalytics",
-  "Version": "4.1.0-preview.2",
+  "Version": "4.1.0-alpha.20230403.1",
+  "DevVersion": "4.1.0-alpha.20230403.1",
+  "DirectoryPath": "sdk/cognitiveservices/Language.TextAnalytics",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "sdk/cognitiveservices/Language.TextAnalytics/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "data",
+  "IsNewSdk": false,
+  "ArtifactName": "Microsoft.Azure.CognitiveServices.Language.TextAnalytics",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Microsoft.Azure.CognitiveServices.Language.TextAnalytics",
     "Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models"
