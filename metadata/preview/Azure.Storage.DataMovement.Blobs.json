@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Storage.DataMovement.Blobs",
-  "Version": "12.0.0-beta.1",
-  "DevVersion": null,
+  "Version": "12.0.0-alpha.20230403.2",
+  "DevVersion": "12.0.0-alpha.20230403.2",
   "DirectoryPath": "sdk/storage/Azure.Storage.DataMovement.Blobs",
   "ServiceDirectory": "storage",
   "ReadMePath": "sdk/storage/Azure.Storage.DataMovement.Blobs/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Storage.DataMovement.Blobs",
-  "ReleaseStatus": "2022-12-15",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Azure.Storage.DataMovement.Blobs"
   ],
