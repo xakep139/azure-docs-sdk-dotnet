@@ -1,0 +1,18 @@
+{
+  "Name": "Azure.ResourceManager.HybridContainerService",
+  "Version": "1.0.0-alpha.20230404.1",
+  "DevVersion": "1.0.0-alpha.20230404.1",
+  "DirectoryPath": "sdk/hybridaks/Azure.ResourceManager.HybridContainerService",
+  "ServiceDirectory": "hybridaks",
+  "ReadMePath": "sdk/hybridaks/Azure.ResourceManager.HybridContainerService/README.md",
+  "ChangeLogPath": "sdk/hybridaks/Azure.ResourceManager.HybridContainerService/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.HybridContainerService",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.ResourceManager.HybridContainerService",
+    "Azure.ResourceManager.HybridContainerService.Models"
+  ]
+}
