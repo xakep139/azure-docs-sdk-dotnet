@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Messaging.EventGrid",
-  "Version": "4.11.0-beta.2",
-  "DevVersion": null,
+  "Version": "4.15.0-alpha.20230404.1",
+  "DevVersion": "4.15.0-alpha.20230404.1",
   "DirectoryPath": "sdk/eventgrid/Azure.Messaging.EventGrid",
   "ServiceDirectory": "eventgrid",
   "ReadMePath": "sdk/eventgrid/Azure.Messaging.EventGrid/README.md",
@@ -10,7 +10,13 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Messaging.EventGrid",
-  "ReleaseStatus": "2022-05-10",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Messaging.EventGrid",
+    "Azure.Messaging.EventGrid.Models",
+    "Azure.Messaging.EventGrid.SystemEvents",
+    "Microsoft.Extensions.Azure"
+  ],
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }
