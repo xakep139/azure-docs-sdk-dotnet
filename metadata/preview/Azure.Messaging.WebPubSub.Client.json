@@ -11,9 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Messaging.WebPubSub.Client",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Messaging.WebPubSub.Clients"
-  ],
+  "Namespaces": "Azure.Messaging.WebPubSub.Clients",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }

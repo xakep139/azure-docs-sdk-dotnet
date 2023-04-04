@@ -1,6 +1,7 @@
 | Reference | Package | Source |
 |---|---|---|
 |[IoT Models Repository](iot.modelsrepository-readme.md)|[Azure.IoT.ModelsRepository](https://www.nuget.org/packages/Azure.IoT.ModelsRepository)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/modelsrepository/Azure.IoT.ModelsRepository)|
+|[Time Series Insights](iot.timeseriesinsights-readme.md)|[Azure.IoT.TimeSeriesInsights](https://www.nuget.org/packages/Azure.IoT.TimeSeriesInsights)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/timeseriesinsights/Azure.IoT.TimeSeriesInsights)|
 |Resource Management - Device Update|[Microsoft.Azure.Management.DeviceUpdate](https://www.nuget.org/packages/Microsoft.Azure.Management.DeviceUpdate)|[GitHub](https://github.com/Azure/azure-sdk-for-net)|
 |[Digital Twins - Core](digitaltwins.core-readme.md)|[Azure.DigitalTwins.Core](https://www.nuget.org/packages/Azure.DigitalTwins.Core)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/digitaltwins/Azure.DigitalTwins.Core)|
 |[Device Update](iot.deviceupdate-readme.md)|[Azure.IoT.DeviceUpdate](https://www.nuget.org/packages/Azure.IoT.DeviceUpdate)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate)|

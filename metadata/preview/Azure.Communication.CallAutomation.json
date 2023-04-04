@@ -11,10 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Communication.CallAutomation",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Communication.CallAutomation",
-    "Azure.Communication.CallAutomation.Models"
-  ],
+  "Namespaces": "Azure.Communication.CallAutomation",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }
