@@ -1,0 +1,18 @@
+{
+  "Name": "Azure.ResourceManager.Qumulo",
+  "Version": "1.0.0-alpha.20230404.1",
+  "DevVersion": "1.0.0-alpha.20230404.1",
+  "DirectoryPath": "sdk/qumulo/Azure.ResourceManager.Qumulo",
+  "ServiceDirectory": "qumulo",
+  "ReadMePath": "sdk/qumulo/Azure.ResourceManager.Qumulo/README.md",
+  "ChangeLogPath": "sdk/qumulo/Azure.ResourceManager.Qumulo/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.Qumulo",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.ResourceManager.Qumulo",
+    "Azure.ResourceManager.Qumulo.Models"
+  ]
+}
