@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Graph.RBAC.Models.ApplicationBase</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="displayName" Type="System.String" />
@@ -83,7 +86,6 @@
         <Parameter Name="identifierUris" Type="System.Collections.Generic.IList&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="optionalClaims">To be added.</param>
         <param name="displayName">The display name of the
             application.</param>
         <param name="allowGuestsSignIn">A property on the application to
@@ -135,6 +137,7 @@
             only GET requests will be allowed.</param>
         <param name="orgRestrictions">A list of tenants allowed to access
             application.</param>
+        <param name="optionalClaims">To be added.</param>
         <param name="passwordCredentials">A collection of
             PasswordCredential objects</param>
         <param name="preAuthorizedApplications">list of pre-authorized
@@ -176,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -204,6 +208,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -232,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

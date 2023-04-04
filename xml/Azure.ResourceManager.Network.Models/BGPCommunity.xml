@@ -1,15 +1,16 @@
-<Type Name="BGPCommunity" FullName="Azure.ResourceManager.Network.Models.BGPCommunity">
-  <TypeSignature Language="C#" Value="public class BGPCommunity" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BGPCommunity extends System.Object" />
-  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Network.Models.BGPCommunity" />
-  <TypeSignature Language="VB.NET" Value="Public Class BGPCommunity" />
-  <TypeSignature Language="F#" Value="type BGPCommunity = class" />
+<Type Name="BgpCommunity" FullName="Azure.ResourceManager.Network.Models.BgpCommunity">
+  <TypeSignature Language="C#" Value="public class BgpCommunity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BgpCommunity extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Network.Models.BgpCommunity" />
+  <TypeSignature Language="VB.NET" Value="Public Class BgpCommunity" />
+  <TypeSignature Language="F#" Value="type BgpCommunity = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -21,9 +22,9 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public BGPCommunity ();" />
+      <MemberSignature Language="C#" Value="public BgpCommunity ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.BGPCommunity.#ctor" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Network.Models.BgpCommunity.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -32,6 +33,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -42,9 +44,9 @@
     <Member MemberName="CommunityName">
       <MemberSignature Language="C#" Value="public string CommunityName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CommunityName" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BGPCommunity.CommunityName" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BgpCommunity.CommunityName" />
       <MemberSignature Language="VB.NET" Value="Public Property CommunityName As String" />
-      <MemberSignature Language="F#" Value="member this.CommunityName : string with get, set" Usage="Azure.ResourceManager.Network.Models.BGPCommunity.CommunityName" />
+      <MemberSignature Language="F#" Value="member this.CommunityName : string with get, set" Usage="Azure.ResourceManager.Network.Models.BgpCommunity.CommunityName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -52,6 +54,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -65,9 +68,9 @@
     <Member MemberName="CommunityPrefixes">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; CommunityPrefixes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; CommunityPrefixes" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BGPCommunity.CommunityPrefixes" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BgpCommunity.CommunityPrefixes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CommunityPrefixes As IList(Of String)" />
-      <MemberSignature Language="F#" Value="member this.CommunityPrefixes : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.ResourceManager.Network.Models.BGPCommunity.CommunityPrefixes" />
+      <MemberSignature Language="F#" Value="member this.CommunityPrefixes : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.ResourceManager.Network.Models.BgpCommunity.CommunityPrefixes" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -75,6 +78,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -88,9 +92,9 @@
     <Member MemberName="CommunityValue">
       <MemberSignature Language="C#" Value="public string CommunityValue { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CommunityValue" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BGPCommunity.CommunityValue" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BgpCommunity.CommunityValue" />
       <MemberSignature Language="VB.NET" Value="Public Property CommunityValue As String" />
-      <MemberSignature Language="F#" Value="member this.CommunityValue : string with get, set" Usage="Azure.ResourceManager.Network.Models.BGPCommunity.CommunityValue" />
+      <MemberSignature Language="F#" Value="member this.CommunityValue : string with get, set" Usage="Azure.ResourceManager.Network.Models.BgpCommunity.CommunityValue" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -98,6 +102,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -111,9 +116,9 @@
     <Member MemberName="IsAuthorizedToUse">
       <MemberSignature Language="C#" Value="public bool? IsAuthorizedToUse { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsAuthorizedToUse" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BGPCommunity.IsAuthorizedToUse" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BgpCommunity.IsAuthorizedToUse" />
       <MemberSignature Language="VB.NET" Value="Public Property IsAuthorizedToUse As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.IsAuthorizedToUse : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.Network.Models.BGPCommunity.IsAuthorizedToUse" />
+      <MemberSignature Language="F#" Value="member this.IsAuthorizedToUse : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.Network.Models.BgpCommunity.IsAuthorizedToUse" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -121,6 +126,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -134,9 +140,9 @@
     <Member MemberName="ServiceGroup">
       <MemberSignature Language="C#" Value="public string ServiceGroup { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ServiceGroup" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BGPCommunity.ServiceGroup" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BgpCommunity.ServiceGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property ServiceGroup As String" />
-      <MemberSignature Language="F#" Value="member this.ServiceGroup : string with get, set" Usage="Azure.ResourceManager.Network.Models.BGPCommunity.ServiceGroup" />
+      <MemberSignature Language="F#" Value="member this.ServiceGroup : string with get, set" Usage="Azure.ResourceManager.Network.Models.BgpCommunity.ServiceGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -144,6 +150,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -157,9 +164,9 @@
     <Member MemberName="ServiceSupportedRegion">
       <MemberSignature Language="C#" Value="public string ServiceSupportedRegion { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ServiceSupportedRegion" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BGPCommunity.ServiceSupportedRegion" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.BgpCommunity.ServiceSupportedRegion" />
       <MemberSignature Language="VB.NET" Value="Public Property ServiceSupportedRegion As String" />
-      <MemberSignature Language="F#" Value="member this.ServiceSupportedRegion : string with get, set" Usage="Azure.ResourceManager.Network.Models.BGPCommunity.ServiceSupportedRegion" />
+      <MemberSignature Language="F#" Value="member this.ServiceSupportedRegion : string with get, set" Usage="Azure.ResourceManager.Network.Models.BgpCommunity.ServiceSupportedRegion" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -167,6 +174,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

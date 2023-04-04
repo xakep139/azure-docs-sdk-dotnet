@@ -692,8 +692,7 @@ var client = new ConversationAnalysisClient(endpoint, credential);
 
 var operation = client.CancelAnalyzeConversationJob(WaitUntil.Completed, Guid.NewGuid());
 
-var response = operation.WaitForCompletionResponse();
-Console.WriteLine(response.Status)
+Console.WriteLine(operation.GetRawResponse().Status)
 ]]></code></example>
       </Docs>
     </Member>
@@ -736,8 +735,7 @@ var client = new ConversationAnalysisClient(endpoint, credential);
 
 var operation = await client.CancelAnalyzeConversationJobAsync(WaitUntil.Completed, Guid.NewGuid());
 
-var response = await operation.WaitForCompletionResponseAsync();
-Console.WriteLine(response.Status)
+Console.WriteLine(operation.GetRawResponse().Status)
 ]]></code></example>
       </Docs>
     </Member>

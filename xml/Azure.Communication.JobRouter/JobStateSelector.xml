@@ -1,0 +1,191 @@
+<Type Name="JobStateSelector" FullName="Azure.Communication.JobRouter.JobStateSelector">
+  <TypeSignature Language="C#" Value="public enum JobStateSelector" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed JobStateSelector extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.JobStateSelector" />
+  <TypeSignature Language="VB.NET" Value="Public Enum JobStateSelector" />
+  <TypeSignature Language="F#" Value="type JobStateSelector = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary> The JobStateSelector. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector Active = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="F#" Value="Active = 8" Usage="Azure.Communication.JobRouter.JobStateSelector.Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary> active. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector All = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="F#" Value="All = 0" Usage="Azure.Communication.JobRouter.JobStateSelector.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary> all. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Assigned">
+      <MemberSignature Language="C#" Value="Assigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector Assigned = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.Assigned" />
+      <MemberSignature Language="VB.NET" Value="Assigned" />
+      <MemberSignature Language="F#" Value="Assigned = 3" Usage="Azure.Communication.JobRouter.JobStateSelector.Assigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary> assigned. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancelled">
+      <MemberSignature Language="C#" Value="Cancelled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector Cancelled = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.Cancelled" />
+      <MemberSignature Language="VB.NET" Value="Cancelled" />
+      <MemberSignature Language="F#" Value="Cancelled = 6" Usage="Azure.Communication.JobRouter.JobStateSelector.Cancelled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary> cancelled. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClassificationFailed">
+      <MemberSignature Language="C#" Value="ClassificationFailed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector ClassificationFailed = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.ClassificationFailed" />
+      <MemberSignature Language="VB.NET" Value="ClassificationFailed" />
+      <MemberSignature Language="F#" Value="ClassificationFailed = 7" Usage="Azure.Communication.JobRouter.JobStateSelector.ClassificationFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary> classificationFailed. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="Closed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector Closed = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.Closed" />
+      <MemberSignature Language="VB.NET" Value="Closed" />
+      <MemberSignature Language="F#" Value="Closed = 5" Usage="Azure.Communication.JobRouter.JobStateSelector.Closed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary> closed. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Completed">
+      <MemberSignature Language="C#" Value="Completed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector Completed = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.Completed" />
+      <MemberSignature Language="VB.NET" Value="Completed" />
+      <MemberSignature Language="F#" Value="Completed = 4" Usage="Azure.Communication.JobRouter.JobStateSelector.Completed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary> completed. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingClassification">
+      <MemberSignature Language="C#" Value="PendingClassification" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector PendingClassification = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.PendingClassification" />
+      <MemberSignature Language="VB.NET" Value="PendingClassification" />
+      <MemberSignature Language="F#" Value="PendingClassification = 1" Usage="Azure.Communication.JobRouter.JobStateSelector.PendingClassification" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary> pendingClassification. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Queued">
+      <MemberSignature Language="C#" Value="Queued" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.JobStateSelector Queued = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.JobStateSelector.Queued" />
+      <MemberSignature Language="VB.NET" Value="Queued" />
+      <MemberSignature Language="F#" Value="Queued = 2" Usage="Azure.Communication.JobRouter.JobStateSelector.Queued" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary> queued. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

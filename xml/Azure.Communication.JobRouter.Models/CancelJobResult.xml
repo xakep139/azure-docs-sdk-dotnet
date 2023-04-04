@@ -1,0 +1,22 @@
+<Type Name="CancelJobResult" FullName="Azure.Communication.JobRouter.Models.CancelJobResult">
+  <TypeSignature Language="C#" Value="public class CancelJobResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CancelJobResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.Models.CancelJobResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class CancelJobResult" />
+  <TypeSignature Language="F#" Value="type CancelJobResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Response received after successful job cancellation.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

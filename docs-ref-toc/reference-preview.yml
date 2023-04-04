@@ -141,6 +141,11 @@
       - Microsoft.Azure.ApplicationInsights
       - Microsoft.Azure.ApplicationInsights.Models
       landingPageType: Service
+    - name: Application Insights - Query (deprecated)
+      children:
+      - Microsoft.Azure.ApplicationInsights.Query
+      - Microsoft.Azure.ApplicationInsights.Query.Models
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Application Insights
@@ -224,28 +229,28 @@
         children:
         - Azure.ResourceManager.Avs
         - Azure.ResourceManager.Avs.Models
-  - name: Backup
-    href: ~/api/overview/azure/preview/backup.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - Backup
-        href: ~/api/overview/azure/preview/resourcemanager.recoveryservicesbackup-readme.md
-        children:
-        - Azure.ResourceManager.RecoveryServicesBackup
-        - Azure.ResourceManager.RecoveryServicesBackup.Models
-      - name: Management - Backup
-        children:
-        - Microsoft.Azure.Management.RecoveryServices.Backup
-        - Microsoft.Azure.Management.RecoveryServices.Backup.CrossRegionRestore
-        - Microsoft.Azure.Management.RecoveryServices.Backup.CrossRegionRestore.Models
-        - Microsoft.Azure.Management.RecoveryServices.Backup.Models
-        landingPageType: Service
   - name: Batch
     href: ~/api/overview/azure/preview/batch.md
     landingPageType: Service
     items:
+    - name: Batch
+      href: ~/api/overview/azure/preview/microsoft.azure.batch-readme.md
+      children:
+      - Microsoft.Azure.Batch
+      - Microsoft.Azure.Batch.Auth
+      - Microsoft.Azure.Batch.Common
+      - Microsoft.Azure.Batch.FileStaging
+      - Microsoft.Azure.Batch.Protocol
+      - Microsoft.Azure.Batch.Protocol.BatchRequests
+      - Microsoft.Azure.Batch.Protocol.Models
+    - name: Batch - Conventions Files
+      href: ~/api/overview/azure/preview/microsoft.azure.batch.conventions.files-readme.md
+      children:
+      - Microsoft.Azure.Batch.Conventions.Files
+    - name: Batch - File Staging
+      children:
+      - Microsoft.Azure.Batch.FileStaging
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Batch
@@ -372,6 +377,11 @@
       href: ~/api/overview/azure/preview/ai.translation.document-readme.md
       children:
       - Azure.AI.Translation.Document
+    - name: Anomaly Detector
+      children:
+      - Microsoft.Azure.CognitiveServices.AnomalyDetector
+      - Microsoft.Azure.CognitiveServices.AnomalyDetector.Models
+      landingPageType: Service
     - name: Form Recognizer (deprecated)
       children:
       - Microsoft.Azure.CognitiveServices.FormRecognizer
@@ -401,6 +411,21 @@
       children:
       - Microsoft.Azure.CognitiveServices.Language.TextAnalytics
       - Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models
+      landingPageType: Service
+    - name: Personalizer
+      children:
+      - Microsoft.Azure.CognitiveServices.Personalizer
+      - Microsoft.Azure.CognitiveServices.Personalizer.Models
+      landingPageType: Service
+    - name: Computer Vision
+      children:
+      - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
+      - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
+      landingPageType: Service
+    - name: Custom Vision Prediction
+      children:
+      - Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction
+      - Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction.Models
       landingPageType: Service
     - name: Custom Vision Training
       children:
@@ -432,6 +457,10 @@
       href: ~/api/overview/azure/preview/communication.callautomation-readme.md
       children:
       - Azure.Communication.CallAutomation
+    - name: Communication Chat
+      href: ~/api/overview/azure/preview/communication.chat-readme.md
+      children:
+      - Azure.Communication.Chat
     - name: Communication Email
       href: ~/api/overview/azure/preview/communication.email-readme.md
       children:
@@ -454,6 +483,11 @@
       href: ~/api/overview/azure/preview/communication.rooms-readme.md
       children:
       - Azure.Communication.Rooms
+    - name: Communication SMS
+      href: ~/api/overview/azure/preview/communication.sms-readme.md
+      children:
+      - Azure.Communication.Sms
+      - Azure.Communication.Sms.Models
     - name: Management
       items:
       - name: Resource Management - Communication
@@ -844,6 +878,11 @@
       - Azure.Messaging.EventGrid.Models
       - Azure.Messaging.EventGrid.SystemEvents
       - Microsoft.Extensions.Azure
+    - name: Event Grid (deprecated)
+      children:
+      - Microsoft.Azure.EventGrid
+      - Microsoft.Azure.EventGrid.Models
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Event Grid
@@ -1024,6 +1063,17 @@
         children:
         - Azure.ResourceManager.HDInsight
         - Azure.ResourceManager.HDInsight.Models
+  - name: Health Bot
+    href: ~/api/overview/azure/preview/health-bot.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Health Bot
+        href: ~/api/overview/azure/preview/resourcemanager.healthbot-readme.md
+        children:
+        - Azure.ResourceManager.HealthBot
+        - Azure.ResourceManager.HealthBot.Models
   - name: Healthcare APIs
     href: ~/api/overview/azure/preview/healthcare-apis.md
     landingPageType: Service
@@ -1270,6 +1320,11 @@
     href: ~/api/overview/azure/preview/log-analytics.md
     landingPageType: Service
     items:
+    - name: Log Analytics - Query (deprecated)
+      children:
+      - Microsoft.Azure.OperationalInsights
+      - Microsoft.Azure.OperationalInsights.Models
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Operational Insights
@@ -1479,14 +1534,32 @@
       - Microsoft.Azure.Media.LiveVideoAnalytics.Edge
       - Microsoft.Azure.Media.LiveVideoAnalytics.Edge.Models
       landingPageType: Service
+  - name: Metrics Advisor
+    href: ~/api/overview/azure/preview/metrics-advisor.md
+    landingPageType: Service
+    items:
+    - name: Metrics Advisor
+      href: ~/api/overview/azure/preview/ai.metricsadvisor-readme.md
+      children:
+      - Azure.AI.MetricsAdvisor
+      - Azure.AI.MetricsAdvisor.Administration
+      - Azure.AI.MetricsAdvisor.Models
   - name: Mixed Reality
     href: ~/api/overview/azure/preview/mixed-reality.md
     landingPageType: Service
     items:
+    - name: Mixed Reality Authentication
+      href: ~/api/overview/azure/preview/mixedreality.authentication-readme.md
+      children:
+      - Azure.MixedReality.Authentication
     - name: Azure Object Anchors Conversion
       href: ~/api/overview/azure/preview/mixedreality.objectanchors.conversion-readme.md
       children:
       - Azure.MixedReality.ObjectAnchors.Conversion
+    - name: Azure Remote Rendering
+      href: ~/api/overview/azure/preview/mixedreality.remoterendering-readme.md
+      children:
+      - Azure.MixedReality.RemoteRendering
     - name: Management
       items:
       - name: Resource Management - Mixed Reality
@@ -1518,6 +1591,11 @@
       href: ~/api/overview/azure/preview/monitor.opentelemetry.exporter-readme.md
       children:
       - Azure.Monitor.OpenTelemetry.Exporter
+    - name: Monitor Query
+      href: ~/api/overview/azure/preview/monitor.query-readme.md
+      children:
+      - Azure.Monitor.Query
+      - Azure.Monitor.Query.Models
     - name: OpenTelemetry Exporter (deprecated)
       href: ~/api/overview/azure/preview/microsoft.opentelemetry.exporter.azuremonitor-readme.md
       children:
@@ -1771,10 +1849,27 @@
         children:
         - Azure.ResourceManager.RecoveryServices
         - Azure.ResourceManager.RecoveryServices.Models
+      - name: Resource Management - Backup
+        href: ~/api/overview/azure/preview/resourcemanager.recoveryservicesbackup-readme.md
+        children:
+        - Azure.ResourceManager.RecoveryServicesBackup
+        - Azure.ResourceManager.RecoveryServicesBackup.Models
+      - name: Resource Management - Site Recovery
+        href: ~/api/overview/azure/preview/resourcemanager.recoveryservicessiterecovery-readme.md
+        children:
+        - Azure.ResourceManager.RecoveryServicesSiteRecovery
+        - Azure.ResourceManager.RecoveryServicesSiteRecovery.Models
       - name: Management - Recovery Services
         children:
         - Microsoft.Azure.Management.RecoveryServices
         - Microsoft.Azure.Management.RecoveryServices.Models
+        landingPageType: Service
+      - name: Management - Backup
+        children:
+        - Microsoft.Azure.Management.RecoveryServices.Backup
+        - Microsoft.Azure.Management.RecoveryServices.Backup.CrossRegionRestore
+        - Microsoft.Azure.Management.RecoveryServices.Backup.CrossRegionRestore.Models
+        - Microsoft.Azure.Management.RecoveryServices.Backup.Models
         landingPageType: Service
   - name: Redis
     href: ~/api/overview/azure/preview/redis.md
@@ -1967,6 +2062,15 @@
       - Azure.Messaging.ServiceBus
       - Azure.Messaging.ServiceBus.Administration
       - Microsoft.Extensions.Azure
+    - name: Service Bus
+      href: ~/api/overview/azure/preview/microsoft.azure.servicebus-readme.md
+      children:
+      - Microsoft.Azure.ServiceBus
+      - Microsoft.Azure.ServiceBus.Core
+      - Microsoft.Azure.ServiceBus.Diagnostics
+      - Microsoft.Azure.ServiceBus.InteropExtensions
+      - Microsoft.Azure.ServiceBus.Management
+      - Microsoft.Azure.ServiceBus.Primitives
     - name: Management
       items:
       - name: Resource Management - Service Bus
@@ -2033,17 +2137,6 @@
         children:
         - Azure.ResourceManager.SignalR
         - Azure.ResourceManager.SignalR.Models
-  - name: Site Recovery
-    href: ~/api/overview/azure/preview/site-recovery.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - Site Recovery
-        href: ~/api/overview/azure/preview/resourcemanager.recoveryservicessiterecovery-readme.md
-        children:
-        - Azure.ResourceManager.RecoveryServicesSiteRecovery
-        - Azure.ResourceManager.RecoveryServicesSiteRecovery.Models
   - name: Spring Cloud
     href: ~/api/overview/azure/preview/spring-cloud.md
     landingPageType: Service
@@ -2400,6 +2493,28 @@
   - name: Other
     landingPageType: Service
     items:
+    - name: Core
+      landingPageType: Service
+      items:
+      - name: Client
+        landingPageType: Service
+        items:
+        - name: AMQP
+          href: ~/api/overview/azure/preview/core.amqp-readme.md
+          children:
+          - Azure.Core.Amqp
+        - name: Core
+          href: ~/api/overview/azure/preview/core-readme.md
+          children:
+          - Azure
+          - Azure.Core
+          - Azure.Core.Cryptography
+          - Azure.Core.Diagnostics
+          - Azure.Core.Extensions
+          - Azure.Core.GeoJson
+          - Azure.Core.Pipeline
+          - Azure.Core.Serialization
+          - Azure.Messaging
     - name: Resource Management
       landingPageType: Service
       items:

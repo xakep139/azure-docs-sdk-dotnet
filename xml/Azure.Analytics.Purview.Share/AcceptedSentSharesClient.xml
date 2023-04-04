@@ -109,52 +109,52 @@
         <summary> Get an accepted share with acceptedSentShareName to a particular sent share. </summary>
         <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
         <remarks>
-            Get an accepted sent share
-            
-            Below is the JSON schema for the response payload.
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Get an accepted sent share
+
+Below is the JSON schema for the response payload.
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAcceptedSentShare with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            Response response = client.GetAcceptedSentShare("<sentShareName>", "<acceptedSentShareName>");
-            
-            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call GetAcceptedSentShare with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+Response response = client.GetAcceptedSentShare("<sentShareName>", "<acceptedSentShareName>");
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetAcceptedSentShareAsync">
@@ -183,52 +183,52 @@
         <summary> Get an accepted share with acceptedSentShareName to a particular sent share. </summary>
         <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
         <remarks>
-            Get an accepted sent share
-            
-            Below is the JSON schema for the response payload.
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Get an accepted sent share
+
+Below is the JSON schema for the response payload.
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAcceptedSentShareAsync with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            Response response = await client.GetAcceptedSentShareAsync("<sentShareName>", "<acceptedSentShareName>");
-            
-            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call GetAcceptedSentShareAsync with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+Response response = await client.GetAcceptedSentShareAsync("<sentShareName>", "<acceptedSentShareName>");
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetAcceptedSentShares">
@@ -257,51 +257,52 @@
         <summary> List of accepted shares for the current sent share. </summary>
         <returns> The <see cref="T:Azure.Pageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
         <remarks>
-            Get list of accepted sent shares
-            
-            Below is the JSON schema for one item in the pageable response.
-            
-            Response Body:
-            
-            Schema for <c>AcceptedSentShareListValue</c>:
-            <code>{
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              shareKind: "InPlace", # Required. Defines the supported types for share.
-            }
-            </code></remarks>
+Get list of accepted sent shares
+
+Below is the JSON schema for one item in the pageable response.
+
+Response Body:
+
+Schema for <c>AcceptedSentShareListValue</c>:
+<code>{
+  shareKind: "InPlace", # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAcceptedSentShares with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            foreach (var data in client.GetAcceptedSentShares("<sentShareName>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.ToString());
-            }
-            ]]></code>
-            This sample shows how to call GetAcceptedSentShares with all parameters, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            foreach (var data in client.GetAcceptedSentShares("<sentShareName>", "<skipToken>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.GetProperty("id").ToString());
-                Console.WriteLine(result.GetProperty("name").ToString());
-                Console.WriteLine(result.GetProperty("type").ToString());
-                Console.WriteLine(result.GetProperty("shareKind").ToString());
-            }
-            ]]></code></example>
+This sample shows how to call GetAcceptedSentShares with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+foreach (var data in client.GetAcceptedSentShares("<sentShareName>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("shareKind").ToString());
+    Console.WriteLine(result.ToString());
+}
+]]></code>
+This sample shows how to call GetAcceptedSentShares with all parameters, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+foreach (var data in client.GetAcceptedSentShares("<sentShareName>", "<skipToken>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("shareKind").ToString());
+    Console.WriteLine(result.GetProperty("id").ToString());
+    Console.WriteLine(result.GetProperty("name").ToString());
+    Console.WriteLine(result.GetProperty("type").ToString());
+}
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetAcceptedSentSharesAsync">
@@ -330,51 +331,52 @@
         <summary> List of accepted shares for the current sent share. </summary>
         <returns> The <see cref="T:Azure.AsyncPageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
         <remarks>
-            Get list of accepted sent shares
-            
-            Below is the JSON schema for one item in the pageable response.
-            
-            Response Body:
-            
-            Schema for <c>AcceptedSentShareListValue</c>:
-            <code>{
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              shareKind: "InPlace", # Required. Defines the supported types for share.
-            }
-            </code></remarks>
+Get list of accepted sent shares
+
+Below is the JSON schema for one item in the pageable response.
+
+Response Body:
+
+Schema for <c>AcceptedSentShareListValue</c>:
+<code>{
+  shareKind: "InPlace", # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAcceptedSentSharesAsync with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            await foreach (var data in client.GetAcceptedSentSharesAsync("<sentShareName>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.ToString());
-            }
-            ]]></code>
-            This sample shows how to call GetAcceptedSentSharesAsync with all parameters, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            await foreach (var data in client.GetAcceptedSentSharesAsync("<sentShareName>", "<skipToken>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.GetProperty("id").ToString());
-                Console.WriteLine(result.GetProperty("name").ToString());
-                Console.WriteLine(result.GetProperty("type").ToString());
-                Console.WriteLine(result.GetProperty("shareKind").ToString());
-            }
-            ]]></code></example>
+This sample shows how to call GetAcceptedSentSharesAsync with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+await foreach (var data in client.GetAcceptedSentSharesAsync("<sentShareName>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("shareKind").ToString());
+    Console.WriteLine(result.ToString());
+}
+]]></code>
+This sample shows how to call GetAcceptedSentSharesAsync with all parameters, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+await foreach (var data in client.GetAcceptedSentSharesAsync("<sentShareName>", "<skipToken>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("shareKind").ToString());
+    Console.WriteLine(result.GetProperty("id").ToString());
+    Console.WriteLine(result.GetProperty("name").ToString());
+    Console.WriteLine(result.GetProperty("type").ToString());
+}
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="Pipeline">
@@ -430,100 +432,101 @@
         <summary> Reinstate a revoked accepted sent share. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Reinstate a revoked accepted sent share
-            
-            Below is the JSON schema for the request and response payloads.
-            
-            Request Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details>
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Reinstate a revoked accepted sent share
+
+Below is the JSON schema for the request and response payloads.
+
+Request Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details>
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" />, <paramref name="acceptedSentShareName" /> or <paramref name="content" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call Reinstate with required parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {},
-            };
-            
-            var operation = client.Reinstate(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
-            
-            BinaryData data = operation.WaitForCompletion();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.ToString());
-            ]]></code>
-            This sample shows how to call Reinstate with all parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {
-                    expirationDate = "<2022-05-10T14:57:31.2311892-04:00>",
-                },
-            };
-            
-            var operation = client.Reinstate(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
-            
-            BinaryData data = operation.WaitForCompletion();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call Reinstate with required parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {},
+    shareKind = "InPlace",
+};
+
+var operation = client.Reinstate(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call Reinstate with all parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {
+        expirationDate = "2022-05-10T18:57:31.2311892Z",
+    },
+    shareKind = "InPlace",
+};
+
+var operation = client.Reinstate(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="ReinstateAsync">
@@ -559,100 +562,101 @@
         <summary> Reinstate a revoked accepted sent share. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Reinstate a revoked accepted sent share
-            
-            Below is the JSON schema for the request and response payloads.
-            
-            Request Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details>
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Reinstate a revoked accepted sent share
+
+Below is the JSON schema for the request and response payloads.
+
+Request Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details>
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" />, <paramref name="acceptedSentShareName" /> or <paramref name="content" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call ReinstateAsync with required parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {},
-            };
-            
-            var operation = await client.ReinstateAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
-            
-            BinaryData data = await operation.WaitForCompletionAsync();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.ToString());
-            ]]></code>
-            This sample shows how to call ReinstateAsync with all parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {
-                    expirationDate = "<2022-05-10T14:57:31.2311892-04:00>",
-                },
-            };
-            
-            var operation = await client.ReinstateAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
-            
-            BinaryData data = await operation.WaitForCompletionAsync();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call ReinstateAsync with required parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {},
+    shareKind = "InPlace",
+};
+
+var operation = await client.ReinstateAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call ReinstateAsync with all parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {
+        expirationDate = "2022-05-10T18:57:31.2311892Z",
+    },
+    shareKind = "InPlace",
+};
+
+var operation = await client.ReinstateAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="Revoke">
@@ -686,64 +690,65 @@
         <summary> Revoke an accepted sent share's access. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Revoke an accepted sent share
-            
-            Below is the JSON schema for the response payload.
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Revoke an accepted sent share
+
+Below is the JSON schema for the response payload.
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call Revoke with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var operation = client.Revoke(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>");
-            
-            BinaryData data = operation.WaitForCompletion();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.ToString());
-            ]]></code>
-            This sample shows how to call Revoke with all parameters, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var operation = client.Revoke(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", "<repeatabilityRequestId>");
-            
-            BinaryData data = operation.WaitForCompletion();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call Revoke with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var operation = client.Revoke(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call Revoke with all parameters, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var operation = client.Revoke(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", "<repeatabilityRequestId>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="RevokeAsync">
@@ -777,64 +782,65 @@
         <summary> Revoke an accepted sent share's access. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Revoke an accepted sent share
-            
-            Below is the JSON schema for the response payload.
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Revoke an accepted sent share
+
+Below is the JSON schema for the response payload.
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call RevokeAsync with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var operation = await client.RevokeAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>");
-            
-            BinaryData data = await operation.WaitForCompletionAsync();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.ToString());
-            ]]></code>
-            This sample shows how to call RevokeAsync with all parameters, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var operation = await client.RevokeAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", "<repeatabilityRequestId>");
-            
-            BinaryData data = await operation.WaitForCompletionAsync();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call RevokeAsync with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var operation = await client.RevokeAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call RevokeAsync with all parameters, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var operation = await client.RevokeAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", "<repeatabilityRequestId>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="UpdateExpiration">
@@ -870,100 +876,101 @@
         <summary> Update the expiration date of an active accepted sent share. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Update the expiration date of an accepted sent share
-            
-            Below is the JSON schema for the request and response payloads.
-            
-            Request Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details>
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Update the expiration date of an accepted sent share
+
+Below is the JSON schema for the request and response payloads.
+
+Request Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details>
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" />, <paramref name="acceptedSentShareName" /> or <paramref name="content" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call UpdateExpiration with required parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {},
-            };
-            
-            var operation = client.UpdateExpiration(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
-            
-            BinaryData data = operation.WaitForCompletion();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.ToString());
-            ]]></code>
-            This sample shows how to call UpdateExpiration with all parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {
-                    expirationDate = "<2022-05-10T14:57:31.2311892-04:00>",
-                },
-            };
-            
-            var operation = client.UpdateExpiration(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
-            
-            BinaryData data = operation.WaitForCompletion();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call UpdateExpiration with required parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {},
+    shareKind = "InPlace",
+};
+
+var operation = client.UpdateExpiration(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call UpdateExpiration with all parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {
+        expirationDate = "2022-05-10T18:57:31.2311892Z",
+    },
+    shareKind = "InPlace",
+};
+
+var operation = client.UpdateExpiration(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="UpdateExpirationAsync">
@@ -999,100 +1006,101 @@
         <summary> Update the expiration date of an active accepted sent share. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Update the expiration date of an accepted sent share
-            
-            Below is the JSON schema for the request and response payloads.
-            
-            Request Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details>
-            
-            Response Body:
-            
-            <details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
-            <code>{
-              shareKind: InPlace, # Required. Defines the supported types for share.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                createdAt: string (ISO 8601 Format), # Optional. created at
-                expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
-                receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
-                receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
-                receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
-                receiverTargetObjectId: string, # Optional. Receiver's target object id
-                receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
-                senderEmail: string, # Optional. Email of the sender who created the sent share invitation
-                senderName: string, # Optional. Name of the sender who created the sent share invitation
-                senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
-                sharedAt: string (ISO 8601 Format), # Optional. Shared at
-              }, # Required. Properties of in place accepted sent share.
-            }
-            </code></details></remarks>
+Update the expiration date of an accepted sent share
+
+Below is the JSON schema for the request and response payloads.
+
+Request Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details>
+
+Response Body:
+
+<details><summary>InPlaceAcceptedSentShare</summary>Schema for <c>InPlaceAcceptedSentShare</c>:
+<code>{
+  properties: {
+    createdAt: string (ISO 8601 Format), # Optional. created at
+    expirationDate: string (ISO 8601 Format), # Optional. Expiration date of the received share in UTC format
+    receivedShareStatus: "Active" | "Reinstating" | "Revoked" | "Revoking" | "RevokeFailed" | "ReinstateFailed" | "SourceDeleted", # Optional. received share status
+    receiverEmail: string, # Optional. Email of the user/receiver who received the sent share invitation and created the received share
+    receiverName: string, # Optional. Name of the user/receiver who received the sent share invitation and created the received share
+    receiverTargetObjectId: string, # Optional. Receiver's target object id
+    receiverTenantName: string, # Optional. Tenant name of the user/receiver who received the sent share invitation and created the received share
+    senderEmail: string, # Optional. Email of the sender who created the sent share invitation
+    senderName: string, # Optional. Name of the sender who created the sent share invitation
+    senderTenantName: string, # Optional. Tenant name of the sender who created the sent share invitation
+    sharedAt: string (ISO 8601 Format), # Optional. Shared at
+  }, # Required. Properties of in place accepted sent share.
+  shareKind: InPlace, # Required. Defines the supported types for share.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" />, <paramref name="acceptedSentShareName" /> or <paramref name="content" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="acceptedSentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call UpdateExpirationAsync with required parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {},
-            };
-            
-            var operation = await client.UpdateExpirationAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
-            
-            BinaryData data = await operation.WaitForCompletionAsync();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.ToString());
-            ]]></code>
-            This sample shows how to call UpdateExpirationAsync with all parameters and request content, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                shareKind = "InPlace",
-                properties = new {
-                    expirationDate = "<2022-05-10T14:57:31.2311892-04:00>",
-                },
-            };
-            
-            var operation = await client.UpdateExpirationAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
-            
-            BinaryData data = await operation.WaitForCompletionAsync();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("shareKind").ToString());
-            ]]></code></example>
+This sample shows how to call UpdateExpirationAsync with required parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {},
+    shareKind = "InPlace",
+};
+
+var operation = await client.UpdateExpirationAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data));
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.ToString());
+]]></code>
+This sample shows how to call UpdateExpirationAsync with all parameters and request content, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AcceptedSentSharesClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {
+        expirationDate = "2022-05-10T18:57:31.2311892Z",
+    },
+    shareKind = "InPlace",
+};
+
+var operation = await client.UpdateExpirationAsync(WaitUntil.Completed, "<sentShareName>", "<acceptedSentShareName>", RequestContent.Create(data), "<repeatabilityRequestId>");
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("shareKind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
   </Members>

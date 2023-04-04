@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the DevCenter data model. </summary>
+    <summary>
+            A class representing the DevCenter data model.
+            Represents a devcenter resource.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

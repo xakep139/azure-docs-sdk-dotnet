@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the FactoryVirtualNetwork data model. </summary>
+    <summary>
+            A class representing the FactoryVirtualNetwork data model.
+            Managed Virtual Network resource type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -1,0 +1,83 @@
+<Type Name="ResourceTypeSkuInfo" FullName="Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo">
+  <TypeSignature Language="C#" Value="public class ResourceTypeSkuInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceTypeSkuInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResourceTypeSkuInfo" />
+  <TypeSignature Language="F#" Value="type ResourceTypeSkuInfo = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The ResourceTypeSkuInfo. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResourceTypeSkuInfo (System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt; skuSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt; skuSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo.#ctor(System.Collections.Generic.IEnumerable{Azure.ResourceManager.ProviderHub.Models.SkuSetting})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (skuSettings As IEnumerable(Of SkuSetting))" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo : seq&lt;Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt; -&gt; Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo" Usage="new Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo skuSettings" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="skuSettings" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="skuSettings" />
+        <summary> Initializes a new instance of ResourceTypeSkuInfo. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="skuSettings" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvisioningState">
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.ProviderHub.Models.ProvisioningState? ProvisioningState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ProviderHub.Models.ProvisioningState&gt; ProvisioningState" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo.ProvisioningState" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvisioningState As Nullable(Of ProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProvisioningState&gt; with get, set" Usage="Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo.ProvisioningState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.ProvisioningState&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The provisioned state of the resource. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkuSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt; SkuSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt; SkuSettings" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo.SkuSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SkuSettings As IList(Of SkuSetting)" />
+      <MemberSignature Language="F#" Value="member this.SkuSettings : System.Collections.Generic.IList&lt;Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt;" Usage="Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo.SkuSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.ProviderHub.Models.SkuSetting&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets the sku settings. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -21,6 +21,10 @@
   </Interfaces>
   <Attributes>
     <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{DebuggerDisplay,nq}")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
       <AttributeName Language="C#">[System.Text.Json.Serialization.JsonConverter(typeof(Azure.Core.Dynamic.DynamicJson+JsonConverter))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonConverter(typeof(Azure.Core.Dynamic.DynamicJson+JsonConverter))&gt;]</AttributeName>
     </Attribute>

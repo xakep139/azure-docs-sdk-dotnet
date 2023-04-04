@@ -19,6 +19,27 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="InvalidCognitiveServiceHttpsUriMessage">
+      <MemberSignature Language="C#" Value="public const string InvalidCognitiveServiceHttpsUriMessage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidCognitiveServiceHttpsUriMessage" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.CallAutomation.CallAutomationErrorMessages.InvalidCognitiveServiceHttpsUriMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidCognitiveServiceHttpsUriMessage As String " />
+      <MemberSignature Language="F#" Value="val mutable InvalidCognitiveServiceHttpsUriMessage : string" Usage="Azure.Communication.CallAutomation.CallAutomationErrorMessages.InvalidCognitiveServiceHttpsUriMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Invalid Custom Cognitive service Https Uri message.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="InvalidHttpsUriMessage">
       <MemberSignature Language="C#" Value="public const string InvalidHttpsUriMessage;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidHttpsUriMessage" />
@@ -35,7 +56,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Invalid Https Uri message.
+            Invalid Callback Https Uri message.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -99,6 +120,27 @@
       <Docs>
         <summary>
             OperationContext exceeds max length message.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserToUserInformationExceedsMaxLength">
+      <MemberSignature Language="C#" Value="public const string UserToUserInformationExceedsMaxLength;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string UserToUserInformationExceedsMaxLength" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.CallAutomation.CallAutomationErrorMessages.UserToUserInformationExceedsMaxLength" />
+      <MemberSignature Language="VB.NET" Value="Public Const UserToUserInformationExceedsMaxLength As String " />
+      <MemberSignature Language="F#" Value="val mutable UserToUserInformationExceedsMaxLength : string" Usage="Azure.Communication.CallAutomation.CallAutomationErrorMessages.UserToUserInformationExceedsMaxLength" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            UserToUserInformation exceeds max length message.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>

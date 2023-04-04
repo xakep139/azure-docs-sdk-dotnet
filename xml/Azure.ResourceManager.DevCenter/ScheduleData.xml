@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the Schedule data model. </summary>
+    <summary>
+            A class representing the Schedule data model.
+            Represents a Schedule to execute a task.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

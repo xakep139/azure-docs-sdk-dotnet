@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the ProjectEnvironmentType data model. </summary>
+    <summary>
+            A class representing the ProjectEnvironmentType data model.
+            Represents an environment type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

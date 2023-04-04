@@ -44,9 +44,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a factory's repo information.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo
-            Operation Id: Factories_ConfigureFactoryRepo
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo</description></item><item><term>Operation Id</term><description>Factories_ConfigureFactoryRepo</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -80,9 +78,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a factory's repo information.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo
-            Operation Id: Factories_ConfigureFactoryRepo
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/configureFactoryRepo</description></item><item><term>Operation Id</term><description>Factories_ConfigureFactoryRepo</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -136,9 +132,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists factories under the specified subscription.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories
-            Operation Id: Factories_List
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories</description></item><item><term>Operation Id</term><description>Factories_List</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -166,9 +160,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists factories under the specified subscription.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories
-            Operation Id: Factories_List
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/factories</description></item><item><term>Operation Id</term><description>Factories_List</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.DataFactoryResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -200,9 +192,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -238,9 +228,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -595,9 +583,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get exposure control feature for specific location.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue
-            Operation Id: ExposureControl_GetFeatureValue
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValue</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -631,9 +617,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get exposure control feature for specific location.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue
-            Operation Id: ExposureControl_GetFeatureValue
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DataFactory/locations/{locationId}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValue</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

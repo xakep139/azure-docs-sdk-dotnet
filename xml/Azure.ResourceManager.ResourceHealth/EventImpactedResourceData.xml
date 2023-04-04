@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the EventImpactedResource data model. </summary>
+    <summary>
+            A class representing the EventImpactedResource data model.
+            Impacted resource for an event.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

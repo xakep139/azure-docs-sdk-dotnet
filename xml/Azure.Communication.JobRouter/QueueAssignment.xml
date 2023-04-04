@@ -1,0 +1,66 @@
+<Type Name="QueueAssignment" FullName="Azure.Communication.JobRouter.QueueAssignment">
+  <TypeSignature Language="C#" Value="public class QueueAssignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit QueueAssignment extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.QueueAssignment" />
+  <TypeSignature Language="VB.NET" Value="Public Class QueueAssignment" />
+  <TypeSignature Language="F#" Value="type QueueAssignment = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An assignment of a worker to a queue.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public QueueAssignment ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.QueueAssignment.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Public constructor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="public void Write (System.Text.Json.Utf8JsonWriter writer);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Write(class System.Text.Json.Utf8JsonWriter writer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.QueueAssignment.Write(System.Text.Json.Utf8JsonWriter)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Write (writer As Utf8JsonWriter)" />
+      <MemberSignature Language="F#" Value="abstract member Write : System.Text.Json.Utf8JsonWriter -&gt; unit&#xA;override this.Write : System.Text.Json.Utf8JsonWriter -&gt; unit" Usage="queueAssignment.Write writer" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+      </Parameters>
+      <Docs>
+        <param name="writer" />
+        <summary>
+            Write empty object.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

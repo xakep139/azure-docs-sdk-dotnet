@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the CommunicationsGateway data model. </summary>
+    <summary>
+            A class representing the CommunicationsGateway data model.
+            A CommunicationsGateway resource
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

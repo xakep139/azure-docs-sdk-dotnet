@@ -1,0 +1,61 @@
+<Type Name="ClassificationPolicyItem" FullName="Azure.Communication.JobRouter.Models.ClassificationPolicyItem">
+  <TypeSignature Language="C#" Value="public class ClassificationPolicyItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClassificationPolicyItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.Models.ClassificationPolicyItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClassificationPolicyItem" />
+  <TypeSignature Language="F#" Value="type ClassificationPolicyItem = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Paged instance of ClassificationPolicy. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClassificationPolicy">
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.Models.ClassificationPolicy ClassificationPolicy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.JobRouter.Models.ClassificationPolicy ClassificationPolicy" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.ClassificationPolicyItem.ClassificationPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClassificationPolicy As ClassificationPolicy" />
+      <MemberSignature Language="F#" Value="member this.ClassificationPolicy : Azure.Communication.JobRouter.Models.ClassificationPolicy" Usage="Azure.Communication.JobRouter.Models.ClassificationPolicyItem.ClassificationPolicy" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.Models.ClassificationPolicy</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> A container for the rules that govern how jobs are classified. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Etag">
+      <MemberSignature Language="C#" Value="public string Etag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.ClassificationPolicyItem.Etag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Etag As String" />
+      <MemberSignature Language="F#" Value="member this.Etag : string" Usage="Azure.Communication.JobRouter.Models.ClassificationPolicyItem.Etag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> (Optional) The Concurrency Token. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
