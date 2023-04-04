@@ -3,12 +3,12 @@ title: Azure Core Expressions DataFactory shared client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Core.Expressions.DataFactory, core
 author: JoshLove-msft
 ms.author: jolov
-ms.date: 12/08/2022
+ms.date: 04/04/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: core
 ---
-# Azure Core Expressions DataFactory shared client library for .NET - version 1.0.0-beta.1 
+# Azure Core Expressions DataFactory shared client library for .NET - version 1.0.0-alpha.20230404.1 
 
 
 Azure.Core.Expressions.DataFactory provides shared classes that represent [Expression](https://learn.microsoft.com/azure/data-factory/control-flow-expression-language-functions#expressions). 
@@ -68,7 +68,7 @@ In each case the library will be able to serialize and deserialize both scenario
 
 ## Troubleshooting
 
-Three main ways of troubleshooting failures are [inspecting exceptions](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core.Expressions.DataFactory_1.0.0-beta.1/sdk/core/Azure.Core/samples/Response.md#handling-exceptions), enabling [logging](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core.Expressions.DataFactory_1.0.0-beta.1/sdk/core/Azure.Core/samples/Diagnostics.md#Logging), and [distributed tracing](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core.Expressions.DataFactory_1.0.0-beta.1/sdk/core/Azure.Core/samples/Diagnostics.md#Distributed-tracing)
+Three main ways of troubleshooting failures are [inspecting exceptions](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Response.md#handling-exceptions), enabling [logging](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md#Logging), and [distributed tracing](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md#Distributed-tracing)
 
 ## Next steps
 
@@ -84,7 +84,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-net%2Fsdk%2Fcore%2FAzure.Core%2FREADME.png)
 
-[source]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.Core.Expressions.DataFactory_1.0.0-beta.1/sdk/core/Azure.Core/src
+[source]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/core/Azure.Core/src
 [package]: https://www.nuget.org/packages/Azure.Core/
 [docs]: /dotnet/api/azure.core
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct
