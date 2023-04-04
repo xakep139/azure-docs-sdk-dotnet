@@ -3,12 +3,12 @@ title: Azure Communication Rooms client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Communication.Rooms, communication
 author: acsdevx-msft
 ms.author: acsdevx-msft
-ms.date: 08/10/2022
+ms.date: 04/04/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication Rooms client library for .NET - version 1.0.0-beta.1 
+# Azure Communication Rooms client library for .NET - version 1.0.0-alpha.20230404.1 
 
 
 This package contains a C# SDK for the Rooms Service of Azure Communication Services.
