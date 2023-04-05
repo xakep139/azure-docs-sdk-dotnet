@@ -1,0 +1,22 @@
+<Type Name="DeclineJobOfferResult" FullName="Azure.Communication.JobRouter.Models.DeclineJobOfferResult">
+  <TypeSignature Language="C#" Value="public class DeclineJobOfferResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeclineJobOfferResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.Models.DeclineJobOfferResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeclineJobOfferResult" />
+  <TypeSignature Language="F#" Value="type DeclineJobOfferResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Response received after declining job offer.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

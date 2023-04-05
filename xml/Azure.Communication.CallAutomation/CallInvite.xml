@@ -1,0 +1,203 @@
+<Type Name="CallInvite" FullName="Azure.Communication.CallAutomation.CallInvite">
+  <TypeSignature Language="C#" Value="public class CallInvite" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CallInvite extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.CallInvite" />
+  <TypeSignature Language="VB.NET" Value="Public Class CallInvite" />
+  <TypeSignature Language="F#" Value="type CallInvite = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Call invitee details.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CallInvite (Azure.Communication.CommunicationUserIdentifier targetIdentity, System.Collections.Generic.IDictionary&lt;string,string&gt; voipHeaders = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.CommunicationUserIdentifier targetIdentity, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; voipHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallInvite.#ctor(Azure.Communication.CommunicationUserIdentifier,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetIdentity As CommunicationUserIdentifier, Optional voipHeaders As IDictionary(Of String, String) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.CallInvite : Azure.Communication.CommunicationUserIdentifier * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.Communication.CallAutomation.CallInvite" Usage="new Azure.Communication.CallAutomation.CallInvite (targetIdentity, voipHeaders)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetIdentity" Type="Azure.Communication.CommunicationUserIdentifier" />
+        <Parameter Name="voipHeaders" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="targetIdentity" />
+        <param name="voipHeaders" />
+        <summary>
+            Creates a new CallInvite object.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CallInvite (Azure.Communication.MicrosoftTeamsUserIdentifier targetIdentity, System.Collections.Generic.IDictionary&lt;string,string&gt; voipHeaders = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.MicrosoftTeamsUserIdentifier targetIdentity, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; voipHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallInvite.#ctor(Azure.Communication.MicrosoftTeamsUserIdentifier,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetIdentity As MicrosoftTeamsUserIdentifier, Optional voipHeaders As IDictionary(Of String, String) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.CallInvite : Azure.Communication.MicrosoftTeamsUserIdentifier * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.Communication.CallAutomation.CallInvite" Usage="new Azure.Communication.CallAutomation.CallInvite (targetIdentity, voipHeaders)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetIdentity" Type="Azure.Communication.MicrosoftTeamsUserIdentifier" />
+        <Parameter Name="voipHeaders" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="targetIdentity" />
+        <param name="voipHeaders" />
+        <summary>
+            Creates a new CallInvite object.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CallInvite (Azure.Communication.PhoneNumberIdentifier targetPhoneNumberIdentity, Azure.Communication.PhoneNumberIdentifier callerIdNumber, System.Collections.Generic.IDictionary&lt;string,string&gt; sipHeaders = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.PhoneNumberIdentifier targetPhoneNumberIdentity, class Azure.Communication.PhoneNumberIdentifier callerIdNumber, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; sipHeaders) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallInvite.#ctor(Azure.Communication.PhoneNumberIdentifier,Azure.Communication.PhoneNumberIdentifier,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetPhoneNumberIdentity As PhoneNumberIdentifier, callerIdNumber As PhoneNumberIdentifier, Optional sipHeaders As IDictionary(Of String, String) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.CallInvite : Azure.Communication.PhoneNumberIdentifier * Azure.Communication.PhoneNumberIdentifier * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.Communication.CallAutomation.CallInvite" Usage="new Azure.Communication.CallAutomation.CallInvite (targetPhoneNumberIdentity, callerIdNumber, sipHeaders)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetPhoneNumberIdentity" Type="Azure.Communication.PhoneNumberIdentifier" />
+        <Parameter Name="callerIdNumber" Type="Azure.Communication.PhoneNumberIdentifier" />
+        <Parameter Name="sipHeaders" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="targetPhoneNumberIdentity" />
+        <param name="callerIdNumber" />
+        <param name="sipHeaders" />
+        <summary>
+            Creates a new CallInvite object.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SipHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; SipHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; SipHeaders" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallInvite.SipHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SipHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.SipHeaders : System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="Azure.Communication.CallAutomation.CallInvite.SipHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Dictionary of SIP headers. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceCallerIdNumber">
+      <MemberSignature Language="C#" Value="public Azure.Communication.PhoneNumberIdentifier SourceCallerIdNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.PhoneNumberIdentifier SourceCallerIdNumber" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallInvite.SourceCallerIdNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceCallerIdNumber As PhoneNumberIdentifier" />
+      <MemberSignature Language="F#" Value="member this.SourceCallerIdNumber : Azure.Communication.PhoneNumberIdentifier" Usage="Azure.Communication.CallAutomation.CallInvite.SourceCallerIdNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.PhoneNumberIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The caller ID number to appear on target PSTN callee.
+            </summary>
+        <value />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceDisplayName">
+      <MemberSignature Language="C#" Value="public string SourceDisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallInvite.SourceDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.SourceDisplayName : string with get, set" Usage="Azure.Communication.CallAutomation.CallInvite.SourceDisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The display name to appear on target callee.
+            </summary>
+        <value />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Target">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CommunicationIdentifier Target { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CommunicationIdentifier Target" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallInvite.Target" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Target As CommunicationIdentifier" />
+      <MemberSignature Language="F#" Value="member this.Target : Azure.Communication.CommunicationIdentifier" Usage="Azure.Communication.CallAutomation.CallInvite.Target" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CommunicationIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The target callee.
+            </summary>
+        <value />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VoipHeaders">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; VoipHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; VoipHeaders" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallInvite.VoipHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VoipHeaders As IDictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.VoipHeaders : System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="Azure.Communication.CallAutomation.CallInvite.VoipHeaders" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Dictionary of VOIP headers. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

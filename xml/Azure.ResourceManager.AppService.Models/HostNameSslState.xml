@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,47 +38,23 @@
       </Docs>
     </Member>
     <Member MemberName="HostType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.AppServiceHostType? HostType { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.AppServiceHostType&gt; HostType" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.AppServiceHostType? HostType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.AppServiceHostType&gt; HostType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.HostNameSslState.HostType" />
-      <MemberSignature Language="VB.NET" Value="Public Property HostType As Nullable(Of AppServiceHostType)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.HostType : Nullable&lt;Azure.ResourceManager.AppService.Models.AppServiceHostType&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.HostType" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.HostType? HostType { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.HostType&gt; HostType" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property HostType As Nullable(Of HostType)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.HostType : Nullable&lt;Azure.ResourceManager.AppService.Models.HostType&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.HostType" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property HostType As Nullable(Of AppServiceHostType)" />
+      <MemberSignature Language="F#" Value="member this.HostType : Nullable&lt;Azure.ResourceManager.AppService.Models.AppServiceHostType&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.HostType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.AppService.Models.AppServiceHostType&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.AppService.Models.HostType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppService.Models.AppServiceHostType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Indicates whether the hostname is a standard or repository hostname. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IsToUpdate">
-      <MemberSignature Language="C#" Value="public bool? IsToUpdate { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsToUpdate" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.HostNameSslState.IsToUpdate" />
-      <MemberSignature Language="VB.NET" Value="Public Property IsToUpdate As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.IsToUpdate : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.IsToUpdate" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Set to &lt;code&gt;true&lt;/code&gt; to update existing hostname. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -92,6 +70,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,24 +82,20 @@
       </Docs>
     </Member>
     <Member MemberName="SslState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.HostNameBindingSslState? SslState { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.HostNameBindingSslState&gt; SslState" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.HostNameBindingSslState? SslState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.HostNameBindingSslState&gt; SslState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.HostNameSslState.SslState" />
-      <MemberSignature Language="VB.NET" Value="Public Property SslState As Nullable(Of HostNameBindingSslState)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.SslState : Nullable&lt;Azure.ResourceManager.AppService.Models.HostNameBindingSslState&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.SslState" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppService.Models.SslState? SslState { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.AppService.Models.SslState&gt; SslState" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property SslState As Nullable(Of SslState)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.SslState : Nullable&lt;Azure.ResourceManager.AppService.Models.SslState&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.SslState" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property SslState As Nullable(Of HostNameBindingSslState)" />
+      <MemberSignature Language="F#" Value="member this.SslState : Nullable&lt;Azure.ResourceManager.AppService.Models.HostNameBindingSslState&gt; with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.SslState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.AppService.Models.HostNameBindingSslState&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.AppService.Models.SslState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppService.Models.HostNameBindingSslState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> SSL type. </summary>
@@ -129,24 +104,20 @@
       </Docs>
     </Member>
     <Member MemberName="Thumbprint">
-      <MemberSignature Language="C#" Value="public BinaryData Thumbprint { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.BinaryData Thumbprint" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public BinaryData Thumbprint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.BinaryData Thumbprint" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.HostNameSslState.Thumbprint" />
-      <MemberSignature Language="VB.NET" Value="Public Property Thumbprint As BinaryData" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Thumbprint : BinaryData with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.Thumbprint" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string Thumbprint { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Thumbprint" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property Thumbprint As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Thumbprint : string with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.Thumbprint" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Thumbprint As BinaryData" />
+      <MemberSignature Language="F#" Value="member this.Thumbprint : BinaryData with get, set" Usage="Azure.ResourceManager.AppService.Models.HostNameSslState.Thumbprint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.BinaryData</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>System.BinaryData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -173,6 +144,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -194,6 +166,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

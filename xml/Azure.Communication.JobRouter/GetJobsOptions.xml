@@ -1,0 +1,105 @@
+<Type Name="GetJobsOptions" FullName="Azure.Communication.JobRouter.GetJobsOptions">
+  <TypeSignature Language="C#" Value="public class GetJobsOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GetJobsOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.GetJobsOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetJobsOptions" />
+  <TypeSignature Language="F#" Value="type GetJobsOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Options for filter while retrieving jobs.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetJobsOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.GetJobsOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChannelId">
+      <MemberSignature Language="C#" Value="public string ChannelId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChannelId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.GetJobsOptions.ChannelId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChannelId As String" />
+      <MemberSignature Language="F#" Value="member this.ChannelId : string with get, set" Usage="Azure.Communication.JobRouter.GetJobsOptions.ChannelId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If specified, filter jobs by channel.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueueId">
+      <MemberSignature Language="C#" Value="public string QueueId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string QueueId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.GetJobsOptions.QueueId" />
+      <MemberSignature Language="VB.NET" Value="Public Property QueueId As String" />
+      <MemberSignature Language="F#" Value="member this.QueueId : string with get, set" Usage="Azure.Communication.JobRouter.GetJobsOptions.QueueId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If specified, filter jobs by queue.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.JobStateSelector Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Communication.JobRouter.JobStateSelector Status" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.GetJobsOptions.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As JobStateSelector" />
+      <MemberSignature Language="F#" Value="member this.Status : Azure.Communication.JobRouter.JobStateSelector with get, set" Usage="Azure.Communication.JobRouter.GetJobsOptions.Status" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.JobStateSelector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If specified, filter jobs by status.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

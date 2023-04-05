@@ -1,0 +1,58 @@
+<Type Name="ScoringRuleParameterSelector" FullName="Azure.Communication.JobRouter.ScoringRuleParameterSelector">
+  <TypeSignature Language="C#" Value="public enum ScoringRuleParameterSelector" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ScoringRuleParameterSelector extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.ScoringRuleParameterSelector" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ScoringRuleParameterSelector" />
+  <TypeSignature Language="F#" Value="type ScoringRuleParameterSelector = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary> Supported parameters for scoring workers. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="JobLabels">
+      <MemberSignature Language="C#" Value="JobLabels" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.ScoringRuleParameterSelector JobLabels = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.ScoringRuleParameterSelector.JobLabels" />
+      <MemberSignature Language="VB.NET" Value="JobLabels" />
+      <MemberSignature Language="F#" Value="JobLabels = 0" Usage="Azure.Communication.JobRouter.ScoringRuleParameterSelector.JobLabels" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.ScoringRuleParameterSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary> jobLabels. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkerSelectors">
+      <MemberSignature Language="C#" Value="WorkerSelectors" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.ScoringRuleParameterSelector WorkerSelectors = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.ScoringRuleParameterSelector.WorkerSelectors" />
+      <MemberSignature Language="VB.NET" Value="WorkerSelectors" />
+      <MemberSignature Language="F#" Value="WorkerSelectors = 1" Usage="Azure.Communication.JobRouter.ScoringRuleParameterSelector.WorkerSelectors" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.ScoringRuleParameterSelector</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary> workerSelectors. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

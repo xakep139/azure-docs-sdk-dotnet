@@ -1,0 +1,63 @@
+<Type Name="StaticWorkerSelectorAttachment" FullName="Azure.Communication.JobRouter.StaticWorkerSelectorAttachment">
+  <TypeSignature Language="C#" Value="public class StaticWorkerSelectorAttachment : Azure.Communication.JobRouter.WorkerSelectorAttachment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StaticWorkerSelectorAttachment extends Azure.Communication.JobRouter.WorkerSelectorAttachment" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.StaticWorkerSelectorAttachment" />
+  <TypeSignature Language="VB.NET" Value="Public Class StaticWorkerSelectorAttachment&#xA;Inherits WorkerSelectorAttachment" />
+  <TypeSignature Language="F#" Value="type StaticWorkerSelectorAttachment = class&#xA;    inherit WorkerSelectorAttachment" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Communication.JobRouter.WorkerSelectorAttachment</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Describes a label selector that will always be attached. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StaticWorkerSelectorAttachment (Azure.Communication.JobRouter.WorkerSelector labelSelector);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.JobRouter.WorkerSelector labelSelector) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.StaticWorkerSelectorAttachment.#ctor(Azure.Communication.JobRouter.WorkerSelector)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (labelSelector As WorkerSelector)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.StaticWorkerSelectorAttachment : Azure.Communication.JobRouter.WorkerSelector -&gt; Azure.Communication.JobRouter.StaticWorkerSelectorAttachment" Usage="new Azure.Communication.JobRouter.StaticWorkerSelectorAttachment labelSelector" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="labelSelector" Type="Azure.Communication.JobRouter.WorkerSelector" />
+      </Parameters>
+      <Docs>
+        <param name="labelSelector"> Describes a condition that must be met against a set of labels for worker selection. </param>
+        <summary> Initializes a new instance of StaticWorkerSelectorAttachment. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="labelSelector" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelSelector">
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.WorkerSelector LabelSelector { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.JobRouter.WorkerSelector LabelSelector" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.StaticWorkerSelectorAttachment.LabelSelector" />
+      <MemberSignature Language="VB.NET" Value="Public Property LabelSelector As WorkerSelector" />
+      <MemberSignature Language="F#" Value="member this.LabelSelector : Azure.Communication.JobRouter.WorkerSelector with get, set" Usage="Azure.Communication.JobRouter.StaticWorkerSelectorAttachment.LabelSelector" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.WorkerSelector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Describes a condition that must be met against a set of labels for worker selection. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

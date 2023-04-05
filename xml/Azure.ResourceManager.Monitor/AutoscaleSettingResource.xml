@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -51,6 +53,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;</ReturnType>
@@ -84,6 +87,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;&gt;</ReturnType>
@@ -117,6 +121,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -146,6 +151,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.AutoscaleSettingData</ReturnType>
@@ -168,6 +174,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -198,6 +205,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -228,6 +236,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;</ReturnType>
@@ -255,6 +264,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;&gt;</ReturnType>
@@ -272,24 +282,20 @@
       </Docs>
     </Member>
     <Member MemberName="GetPredictiveMetric">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt; GetPredictiveMetric (string timespan, TimeSpan interval, string metricNamespace, string metricName, string aggregation, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt; GetPredictiveMetric(string timespan, valuetype System.TimeSpan interval, string metricNamespace, string metricName, string aggregation, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt; GetPredictiveMetric (string timespan, TimeSpan interval, string metricNamespace, string metricName, string aggregation, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt; GetPredictiveMetric(string timespan, valuetype System.TimeSpan interval, string metricNamespace, string metricName, string aggregation, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Monitor.AutoscaleSettingResource.GetPredictiveMetric(System.String,System.TimeSpan,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPredictiveMetric (timespan As String, interval As TimeSpan, metricNamespace As String, metricName As String, aggregation As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AutoscaleSettingPredicativeResult)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member GetPredictiveMetric : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&#xA;override this.GetPredictiveMetric : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;" Usage="autoscaleSettingResource.GetPredictiveMetric (timespan, interval, metricNamespace, metricName, aggregation, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt; GetPredictiveMetric (string timespan, TimeSpan interval, string metricNamespace, string metricName, string aggregation, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt; GetPredictiveMetric(string timespan, valuetype System.TimeSpan interval, string metricNamespace, string metricName, string aggregation, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPredictiveMetric (timespan As String, interval As TimeSpan, metricNamespace As String, metricName As String, aggregation As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of PredictiveResponse)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member GetPredictiveMetric : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;&#xA;override this.GetPredictiveMetric : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;" Usage="autoscaleSettingResource.GetPredictiveMetric (timespan, interval, metricNamespace, metricName, aggregation, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPredictiveMetric (timespan As String, interval As TimeSpan, metricNamespace As String, metricName As String, aggregation As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AutoscaleSettingPredicativeResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetPredictiveMetric : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&#xA;override this.GetPredictiveMetric : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;" Usage="autoscaleSettingResource.GetPredictiveMetric (timespan, interval, metricNamespace, metricName, aggregation, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="timespan" Type="System.String" />
@@ -316,24 +322,20 @@
       </Docs>
     </Member>
     <Member MemberName="GetPredictiveMetricAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt; GetPredictiveMetricAsync (string timespan, TimeSpan interval, string metricNamespace, string metricName, string aggregation, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt; GetPredictiveMetricAsync(string timespan, valuetype System.TimeSpan interval, string metricNamespace, string metricName, string aggregation, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt; GetPredictiveMetricAsync (string timespan, TimeSpan interval, string metricNamespace, string metricName, string aggregation, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt; GetPredictiveMetricAsync(string timespan, valuetype System.TimeSpan interval, string metricNamespace, string metricName, string aggregation, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Monitor.AutoscaleSettingResource.GetPredictiveMetricAsync(System.String,System.TimeSpan,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPredictiveMetricAsync (timespan As String, interval As TimeSpan, metricNamespace As String, metricName As String, aggregation As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AutoscaleSettingPredicativeResult))" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member GetPredictiveMetricAsync : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt;&#xA;override this.GetPredictiveMetricAsync : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt;" Usage="autoscaleSettingResource.GetPredictiveMetricAsync (timespan, interval, metricNamespace, metricName, aggregation, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;&gt; GetPredictiveMetricAsync (string timespan, TimeSpan interval, string metricNamespace, string metricName, string aggregation, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;&gt; GetPredictiveMetricAsync(string timespan, valuetype System.TimeSpan interval, string metricNamespace, string metricName, string aggregation, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPredictiveMetricAsync (timespan As String, interval As TimeSpan, metricNamespace As String, metricName As String, aggregation As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of PredictiveResponse))" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member GetPredictiveMetricAsync : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;&gt;&#xA;override this.GetPredictiveMetricAsync : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;&gt;" Usage="autoscaleSettingResource.GetPredictiveMetricAsync (timespan, interval, metricNamespace, metricName, aggregation, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetPredictiveMetricAsync (timespan As String, interval As TimeSpan, metricNamespace As String, metricName As String, aggregation As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AutoscaleSettingPredicativeResult))" />
+      <MemberSignature Language="F#" Value="abstract member GetPredictiveMetricAsync : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt;&#xA;override this.GetPredictiveMetricAsync : string * TimeSpan * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt;" Usage="autoscaleSettingResource.GetPredictiveMetricAsync (timespan, interval, metricNamespace, metricName, aggregation, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.PredictiveResponse&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.AutoscaleSettingPredicativeResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="timespan" Type="System.String" />
@@ -370,6 +372,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -391,6 +394,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;</ReturnType>
@@ -422,6 +426,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;&gt;</ReturnType>
@@ -453,6 +458,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -473,6 +479,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;</ReturnType>
@@ -504,6 +511,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;&gt;</ReturnType>
@@ -535,6 +543,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;</ReturnType>
@@ -566,6 +575,7 @@
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;&gt;</ReturnType>

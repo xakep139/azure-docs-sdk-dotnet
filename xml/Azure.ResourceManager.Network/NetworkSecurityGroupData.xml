@@ -1,27 +1,26 @@
 <Type Name="NetworkSecurityGroupData" FullName="Azure.ResourceManager.Network.NetworkSecurityGroupData">
-  <TypeSignature Language="C#" Value="public class NetworkSecurityGroupData : Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkSecurityGroupData extends Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="C#" Value="public class NetworkSecurityGroupData : Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkSecurityGroupData extends Azure.ResourceManager.Network.Models.NetworkTrackedResourceData" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Network.NetworkSecurityGroupData" />
-  <TypeSignature Language="VB.NET" Value="Public Class NetworkSecurityGroupData&#xA;Inherits NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="F#" Value="type NetworkSecurityGroupData = class&#xA;    inherit NetworkTrackedResourceData" FrameworkAlternate="azure-dotnet" />
-  <TypeSignature Language="C#" Value="public class NetworkSecurityGroupData : Azure.ResourceManager.Network.Models.NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkSecurityGroupData extends Azure.ResourceManager.Network.Models.NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="VB.NET" Value="Public Class NetworkSecurityGroupData&#xA;Inherits NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
-  <TypeSignature Language="F#" Value="type NetworkSecurityGroupData = class&#xA;    inherit NetworkResourceData" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class NetworkSecurityGroupData&#xA;Inherits NetworkTrackedResourceData" />
+  <TypeSignature Language="F#" Value="type NetworkSecurityGroupData = class&#xA;    inherit NetworkTrackedResourceData" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Network.Models.NetworkTrackedResourceData</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Network.Models.NetworkResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the NetworkSecurityGroup data model. </summary>
+    <summary>
+            A class representing the NetworkSecurityGroup data model.
+            NetworkSecurityGroup resource.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -37,6 +36,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -57,32 +57,13 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Network.SecurityRuleData&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The default security rules of network security group. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Etag">
-      <MemberSignature Language="C#" Value="public string Etag { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.NetworkSecurityGroupData.Etag" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Etag As String" />
-      <MemberSignature Language="F#" Value="member this.Etag : string" Usage="Azure.ResourceManager.Network.NetworkSecurityGroupData.Etag" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> A unique read-only string that changes whenever the resource is updated. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,6 +81,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
@@ -123,6 +105,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Network.FlowLogData&gt;</ReturnType>
@@ -146,6 +129,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Network.NetworkInterfaceData&gt;</ReturnType>
@@ -157,15 +141,11 @@
       </Docs>
     </Member>
     <Member MemberName="ProvisioningState">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkProvisioningState? ProvisioningState { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt; ProvisioningState" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.NetworkProvisioningState? ProvisioningState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt; ProvisioningState" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.NetworkSecurityGroupData.ProvisioningState" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of NetworkProvisioningState)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;" Usage="Azure.ResourceManager.Network.NetworkSecurityGroupData.ProvisioningState" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Network.Models.ProvisioningState? ProvisioningState { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Network.Models.ProvisioningState&gt; ProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of ProvisioningState)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;" Usage="Azure.ResourceManager.Network.NetworkSecurityGroupData.ProvisioningState" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProvisioningState As Nullable(Of NetworkProvisioningState)" />
+      <MemberSignature Language="F#" Value="member this.ProvisioningState : Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;" Usage="Azure.ResourceManager.Network.NetworkSecurityGroupData.ProvisioningState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -173,10 +153,10 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Network.Models.ProvisioningState&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Network.Models.NetworkProvisioningState&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The provisioning state of the network security group resource. </summary>
@@ -185,15 +165,11 @@
       </Docs>
     </Member>
     <Member MemberName="ResourceGuid">
-      <MemberSignature Language="C#" Value="public Guid? ResourceGuid { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; ResourceGuid" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Guid? ResourceGuid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; ResourceGuid" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.NetworkSecurityGroupData.ResourceGuid" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As Nullable(Of Guid)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.ResourceGuid : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Network.NetworkSecurityGroupData.ResourceGuid" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string ResourceGuid { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ResourceGuid" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.ResourceGuid : string" Usage="Azure.ResourceManager.Network.NetworkSecurityGroupData.ResourceGuid" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceGuid As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.ResourceGuid : Nullable&lt;Guid&gt;" Usage="Azure.ResourceManager.Network.NetworkSecurityGroupData.ResourceGuid" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
@@ -201,10 +177,10 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;System.Guid&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resource GUID property of the network security group resource. </summary>
@@ -225,6 +201,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.Network.SecurityRuleData&gt;</ReturnType>
@@ -248,6 +225,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.Network.SubnetData&gt;</ReturnType>

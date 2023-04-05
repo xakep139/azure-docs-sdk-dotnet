@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the AttachedNetworkConnection data model. </summary>
+    <summary>
+            A class representing the AttachedNetworkConnection data model.
+            Represents an attached NetworkConnection.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

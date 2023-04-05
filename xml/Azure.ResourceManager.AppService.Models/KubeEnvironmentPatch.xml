@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.ResourceData</BaseTypeName>
@@ -28,6 +29,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,24 +38,20 @@
       </Docs>
     </Member>
     <Member MemberName="AksResourceId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier AksResourceId { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier AksResourceId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier AksResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier AksResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.KubeEnvironmentPatch.AksResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property AksResourceId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.AksResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.AppService.Models.KubeEnvironmentPatch.AksResourceId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string AksResourceId { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string AksResourceId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property AksResourceId As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.AksResourceId : string with get, set" Usage="Azure.ResourceManager.AppService.Models.KubeEnvironmentPatch.AksResourceId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property AksResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.AksResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.AppService.Models.KubeEnvironmentPatch.AksResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets or sets the aks resource id. </summary>
@@ -72,6 +70,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppService.Models.AppLogsConfiguration</ReturnType>
@@ -97,6 +96,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppService.Models.ArcConfiguration</ReturnType>
@@ -122,6 +122,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -143,6 +144,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -164,6 +166,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -185,6 +188,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -206,6 +210,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppService.Models.KubeEnvironmentProvisioningState&gt;</ReturnType>
@@ -227,6 +232,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

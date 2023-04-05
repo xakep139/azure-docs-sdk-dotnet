@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,6 +48,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
@@ -67,6 +70,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -88,6 +92,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -109,6 +114,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -130,6 +136,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.AppService.Models.DetectorType&gt;</ReturnType>
@@ -151,6 +158,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -172,6 +180,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -193,6 +202,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Single&gt;</ReturnType>
@@ -204,24 +214,20 @@
       </Docs>
     </Member>
     <Member MemberName="SupportTopicList">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt; SupportTopicList { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt; SupportTopicList" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt; SupportTopicList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt; SupportTopicList" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.DetectorInfo.SupportTopicList" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportTopicList As IReadOnlyList(Of DetectorSupportTopic)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.SupportTopicList : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt;" Usage="Azure.ResourceManager.AppService.Models.DetectorInfo.SupportTopicList" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.SupportTopic&gt; SupportTopicList { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.ResourceManager.AppService.Models.SupportTopic&gt; SupportTopicList" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportTopicList As IReadOnlyList(Of SupportTopic)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.SupportTopicList : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.SupportTopic&gt;" Usage="Azure.ResourceManager.AppService.Models.DetectorInfo.SupportTopicList" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportTopicList As IReadOnlyList(Of DetectorSupportTopic)" />
+      <MemberSignature Language="F#" Value="member this.SupportTopicList : System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt;" Usage="Azure.ResourceManager.AppService.Models.DetectorInfo.SupportTopicList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.SupportTopic&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.AppService.Models.DetectorSupportTopic&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> List of Support Topics for which this detector is enabled. </summary>

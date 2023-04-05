@@ -10,6 +10,7 @@
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -37,6 +38,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -65,6 +67,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -94,6 +97,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -129,6 +133,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -160,6 +165,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -189,6 +195,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -216,6 +223,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -245,26 +253,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHEDSSWith3DESEDECBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWith3DESEDECBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWith3DESEDECBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWith3DESEDECBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHEDSSWith3DESEDECBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHEDSSWith3DESEDECBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWith3DESEDECBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -288,26 +277,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_DSS_WITH_AES_128_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHEDSSWithAES128CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES128CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES128CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES128CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHEDSSWithAES128CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHEDSSWithAES128CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES128CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -331,26 +301,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_DSS_WITH_AES_128_CBC_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHEDSSWithAES128CBCSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES128CBCSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES128CBCSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES128CBCSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHEDSSWithAES128CBCSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHEDSSWithAES128CBCSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES128CBCSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -374,26 +325,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_DSS_WITH_AES_256_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHEDSSWithAES256CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES256CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES256CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES256CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHEDSSWithAES256CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHEDSSWithAES256CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES256CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -417,26 +349,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_DSS_WITH_AES_256_CBC_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHEDSSWithAES256CBCSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES256CBCSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHEDSSWithAES256CBCSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES256CBCSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHEDSSWithAES256CBCSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHEDSSWithAES256CBCSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHEDSSWithAES256CBCSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -460,26 +373,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_RSA_WITH_AES_128_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHERSAWithAES128CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES128CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES128CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES128CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHERSAWithAES128CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHERSAWithAES128CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES128CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -503,26 +397,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_RSA_WITH_AES_128_GCM_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHERSAWithAES128GCMSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES128GCMSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES128GCMSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES128GCMSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHERSAWithAES128GCMSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHERSAWithAES128GCMSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES128GCMSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -546,26 +421,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_RSA_WITH_AES_256_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHERSAWithAES256CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES256CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES256CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES256CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHERSAWithAES256CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHERSAWithAES256CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES256CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -589,272 +445,13 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> TLS_DHE_RSA_WITH_AES_256_GCM_SHA384. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSDHERSAWithAES256GCMSHA384">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES256GCMSHA384 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSDHERSAWithAES256GCMSHA384" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES256GCMSHA384" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSDHERSAWithAES256GCMSHA384 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSDHERSAWithAES256GCMSHA384 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSDHERSAWithAES256GCMSHA384" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_DHE_RSA_WITH_AES_256_GCM_SHA384. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheEcdsaWithAES128CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES128CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES128CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES128CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheEcdsaWithAES128CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheEcdsaWithAES128CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES128CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheEcdsaWithAES128CBCSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES128CBCSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES128CBCSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES128CBCSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheEcdsaWithAES128CBCSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheEcdsaWithAES128CBCSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES128CBCSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheEcdsaWithAES128GCMSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES128GCMSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES128GCMSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES128GCMSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheEcdsaWithAES128GCMSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheEcdsaWithAES128GCMSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES128GCMSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheEcdsaWithAES256CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES256CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES256CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES256CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheEcdsaWithAES256CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheEcdsaWithAES256CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES256CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheEcdsaWithAES256CBCSHA384">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES256CBCSHA384 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES256CBCSHA384" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES256CBCSHA384" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheEcdsaWithAES256CBCSHA384 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheEcdsaWithAES256CBCSHA384 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES256CBCSHA384" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheEcdsaWithAES256GCMSHA384">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES256GCMSHA384 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheEcdsaWithAES256GCMSHA384" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES256GCMSHA384" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheEcdsaWithAES256GCMSHA384 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheEcdsaWithAES256GCMSHA384 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheEcdsaWithAES256GCMSHA384" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheRSAWithAES128CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES128CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES128CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES128CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheRSAWithAES128CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheRSAWithAES128CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES128CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheRSAWithAES128CBCSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES128CBCSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES128CBCSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES128CBCSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheRSAWithAES128CBCSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheRSAWithAES128CBCSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES128CBCSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheRSAWithAES128GCMSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES128GCMSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES128GCMSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES128GCMSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheRSAWithAES128GCMSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheRSAWithAES128GCMSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES128GCMSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheRSAWithAES256CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES256CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES256CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES256CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheRSAWithAES256CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheRSAWithAES256CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES256CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheRSAWithAES256CBCSHA384">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES256CBCSHA384 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES256CBCSHA384" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES256CBCSHA384" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheRSAWithAES256CBCSHA384 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheRSAWithAES256CBCSHA384 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES256CBCSHA384" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSEcdheRSAWithAES256GCMSHA384">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES256GCMSHA384 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSEcdheRSAWithAES256GCMSHA384" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES256GCMSHA384" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSEcdheRSAWithAES256GCMSHA384 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSEcdheRSAWithAES256GCMSHA384 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSEcdheRSAWithAES256GCMSHA384" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -872,6 +469,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -895,6 +493,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -918,6 +517,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -941,6 +541,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -964,6 +565,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -987,6 +589,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1010,6 +613,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1033,6 +637,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1056,6 +661,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1079,6 +685,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1102,6 +709,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1125,6 +733,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1148,26 +757,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_RSA_WITH_3DES_EDE_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSRSAWith3DESEDECBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWith3DESEDECBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWith3DESEDECBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWith3DESEDECBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSRSAWith3DESEDECBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSRSAWith3DESEDECBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWith3DESEDECBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1191,26 +781,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_RSA_WITH_AES_128_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSRSAWithAES128CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES128CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES128CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES128CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSRSAWithAES128CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSRSAWithAES128CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES128CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1234,26 +805,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_RSA_WITH_AES_128_CBC_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSRSAWithAES128CBCSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES128CBCSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES128CBCSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES128CBCSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSRSAWithAES128CBCSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSRSAWithAES128CBCSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES128CBCSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1277,26 +829,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_RSA_WITH_AES_128_GCM_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSRSAWithAES128GCMSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES128GCMSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES128GCMSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES128GCMSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSRSAWithAES128GCMSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSRSAWithAES128GCMSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES128GCMSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1320,26 +853,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_RSA_WITH_AES_256_CBC_SHA. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSRSAWithAES256CBCSHA">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES256CBCSHA { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES256CBCSHA" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES256CBCSHA" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSRSAWithAES256CBCSHA As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSRSAWithAES256CBCSHA : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES256CBCSHA" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1363,26 +877,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_RSA_WITH_AES_256_CBC_SHA256. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSRSAWithAES256CBCSHA256">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES256CBCSHA256 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES256CBCSHA256" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES256CBCSHA256" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSRSAWithAES256CBCSHA256 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSRSAWithAES256CBCSHA256 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES256CBCSHA256" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1406,26 +901,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> TLS_RSA_WITH_AES_256_GCM_SHA384. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="TLSRSAWithAES256GCMSHA384">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES256GCMSHA384 { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite TLSRSAWithAES256GCMSHA384" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES256GCMSHA384" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property TLSRSAWithAES256GCMSHA384 As ApplicationGatewaySslCipherSuite" />
-      <MemberSignature Language="F#" Value="static member TLSRSAWithAES256GCMSHA384 : Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite" Usage="Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite.TLSRSAWithAES256GCMSHA384" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.Models.ApplicationGatewaySslCipherSuite</ReturnType>
@@ -1449,6 +925,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

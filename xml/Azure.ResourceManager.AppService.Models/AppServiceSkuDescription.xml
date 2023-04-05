@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,24 +38,20 @@
       </Docs>
     </Member>
     <Member MemberName="Capabilities">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt; Capabilities { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt; Capabilities" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt; Capabilities { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt; Capabilities" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Capabilities" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As IList(Of AppServiceSkuCapability)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Capabilities : System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt;" Usage="Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Capabilities" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.Capability&gt; Capabilities { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.AppService.Models.Capability&gt; Capabilities" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As IList(Of Capability)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Capabilities : System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.Capability&gt;" Usage="Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Capabilities" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Capabilities As IList(Of AppServiceSkuCapability)" />
+      <MemberSignature Language="F#" Value="member this.Capabilities : System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt;" Usage="Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Capabilities" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.Capability&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.AppService.Models.AppServiceSkuCapability&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Capabilities of the SKU, e.g., is traffic manager enabled?. </summary>
@@ -72,6 +70,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -93,6 +92,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -104,24 +104,20 @@
       </Docs>
     </Member>
     <Member MemberName="Locations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt; Locations { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Azure.Core.AzureLocation&gt; Locations" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt; Locations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype Azure.Core.AzureLocation&gt; Locations" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Locations" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locations As IList(Of AzureLocation)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Locations : System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt;" Usage="Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Locations" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; Locations { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; Locations" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locations As IList(Of String)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Locations : System.Collections.Generic.IList&lt;string&gt;" Usage="Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Locations" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locations As IList(Of AzureLocation)" />
+      <MemberSignature Language="F#" Value="member this.Locations : System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt;" Usage="Azure.ResourceManager.AppService.Models.AppServiceSkuDescription.Locations" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;Azure.Core.AzureLocation&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Locations of the SKU. </summary>
@@ -140,6 +136,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -161,6 +158,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -182,6 +180,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppService.Models.AppServiceSkuCapacity</ReturnType>
@@ -203,6 +202,7 @@
         <AssemblyName>Azure.ResourceManager.AppService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

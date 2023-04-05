@@ -1,0 +1,55 @@
+<Type Name="RoundRobinMode" FullName="Azure.Communication.JobRouter.RoundRobinMode">
+  <TypeSignature Language="C#" Value="public class RoundRobinMode : Azure.Communication.JobRouter.DistributionMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RoundRobinMode extends Azure.Communication.JobRouter.DistributionMode" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.RoundRobinMode" />
+  <TypeSignature Language="VB.NET" Value="Public Class RoundRobinMode&#xA;Inherits DistributionMode" />
+  <TypeSignature Language="F#" Value="type RoundRobinMode = class&#xA;    inherit DistributionMode" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Communication.JobRouter.DistributionMode</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Jobs are distributed in order to workers, starting with the worker that is after the last worker to receive a job. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RoundRobinMode (int minConcurrentOffers = 1, int maxConcurrentOffers = 1, bool? bypassSelectors = False);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 minConcurrentOffers, int32 maxConcurrentOffers, valuetype System.Nullable`1&lt;bool&gt; bypassSelectors) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RoundRobinMode.#ctor(System.Int32,System.Int32,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional minConcurrentOffers As Integer = 1, Optional maxConcurrentOffers As Integer = 1, Optional bypassSelectors As Nullable(Of Boolean) = False)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.RoundRobinMode : int * int * Nullable&lt;bool&gt; -&gt; Azure.Communication.JobRouter.RoundRobinMode" Usage="new Azure.Communication.JobRouter.RoundRobinMode (minConcurrentOffers, maxConcurrentOffers, bypassSelectors)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="minConcurrentOffers" Type="System.Int32" />
+        <Parameter Name="maxConcurrentOffers" Type="System.Int32" />
+        <Parameter Name="bypassSelectors" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="minConcurrentOffers"> (Optional) Governs the minimum desired number of active concurrent offers a job can have. By default, set to 1. </param>
+        <param name="maxConcurrentOffers"> (Optional) Governs the maximum number of active concurrent offers a job can have. By default, set to 1. </param>
+        <param name="bypassSelectors">
+             (Optional)
+            
+             If set to true, then router will match workers to jobs even if they don't match label selectors.
+            
+             Warning: You may get workers that are not qualified for the job they are matched with if you set this
+            
+             variable to true. This flag is intended more for temporary usage.
+            
+             By default, set to false.
+             </param>
+        <summary> Initializes a new instance of RoundRobinModePolicy. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

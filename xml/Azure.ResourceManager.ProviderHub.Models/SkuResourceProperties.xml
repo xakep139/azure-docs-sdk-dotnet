@@ -1,15 +1,15 @@
 <Type Name="SkuResourceProperties" FullName="Azure.ResourceManager.ProviderHub.Models.SkuResourceProperties">
-  <TypeSignature Language="C#" Value="public class SkuResourceProperties : Azure.ResourceManager.ProviderHub.Models.ResourceTypeSku" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkuResourceProperties extends Azure.ResourceManager.ProviderHub.Models.ResourceTypeSku" />
+  <TypeSignature Language="C#" Value="public class SkuResourceProperties : Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SkuResourceProperties extends Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ProviderHub.Models.SkuResourceProperties" />
-  <TypeSignature Language="VB.NET" Value="Public Class SkuResourceProperties&#xA;Inherits ResourceTypeSku" />
-  <TypeSignature Language="F#" Value="type SkuResourceProperties = class&#xA;    inherit ResourceTypeSku" />
+  <TypeSignature Language="VB.NET" Value="Public Class SkuResourceProperties&#xA;Inherits ResourceTypeSkuInfo" />
+  <TypeSignature Language="F#" Value="type SkuResourceProperties = class&#xA;    inherit ResourceTypeSkuInfo" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.ProviderHub.Models.ResourceTypeSku</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.ProviderHub.Models.ResourceTypeSkuInfo</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>

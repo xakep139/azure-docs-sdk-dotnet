@@ -151,6 +151,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetReasonCodeValue">
+      <MemberSignature Language="C#" Value="public int GetReasonCodeValue ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 GetReasonCodeValue() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.ReasonCode.GetReasonCodeValue" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetReasonCodeValue () As Integer" />
+      <MemberSignature Language="F#" Value="member this.GetReasonCodeValue : unit -&gt; int" Usage="reasonCode.GetReasonCodeValue " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Retrieves the integer value associated with the specified ReasonCode.
+            </summary>
+        <returns>The integer value corresponding to the provided ReasonCode.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.Exception" />
+      </Docs>
+    </Member>
     <Member MemberName="op_Equality">
       <MemberSignature Language="C#" Value="public static bool operator == (Azure.Communication.CallAutomation.ReasonCode left, Azure.Communication.CallAutomation.ReasonCode right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.Communication.CallAutomation.ReasonCode left, valuetype Azure.Communication.CallAutomation.ReasonCode right) cil managed" />
@@ -227,6 +251,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="PlayCognitiveServicesPlayError">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode PlayCognitiveServicesPlayError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode PlayCognitiveServicesPlayError" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.ReasonCode.PlayCognitiveServicesPlayError" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PlayCognitiveServicesPlayError As ReasonCode" />
+      <MemberSignature Language="F#" Value="static member PlayCognitiveServicesPlayError : Azure.Communication.CallAutomation.ReasonCode" Usage="Azure.Communication.CallAutomation.ReasonCode.PlayCognitiveServicesPlayError" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Action failed, cognitive service error. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="PlayDownloadFailed">
       <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode PlayDownloadFailed { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode PlayDownloadFailed" />
@@ -263,6 +307,46 @@
       </ReturnValue>
       <Docs>
         <summary> Action failed, file could not be downloaded. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeDtmfOptionMatched">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode RecognizeDtmfOptionMatched { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode RecognizeDtmfOptionMatched" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.ReasonCode.RecognizeDtmfOptionMatched" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RecognizeDtmfOptionMatched As ReasonCode" />
+      <MemberSignature Language="F#" Value="static member RecognizeDtmfOptionMatched : Azure.Communication.CallAutomation.ReasonCode" Usage="Azure.Communication.CallAutomation.ReasonCode.RecognizeDtmfOptionMatched" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Action failed, play source not working. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeIncorrectToneDetected">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode RecognizeIncorrectToneDetected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode RecognizeIncorrectToneDetected" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.ReasonCode.RecognizeIncorrectToneDetected" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RecognizeIncorrectToneDetected As ReasonCode" />
+      <MemberSignature Language="F#" Value="static member RecognizeIncorrectToneDetected : Azure.Communication.CallAutomation.ReasonCode" Usage="Azure.Communication.CallAutomation.ReasonCode.RecognizeIncorrectToneDetected" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Recognize with Choice that incorrect tone detected. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -343,6 +427,86 @@
       </ReturnValue>
       <Docs>
         <summary> Action failed, encountered failure while trying to play the prompt. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeSpeechNotRecognized">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechNotRecognized { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechNotRecognized" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechNotRecognized" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RecognizeSpeechNotRecognized As ReasonCode" />
+      <MemberSignature Language="F#" Value="static member RecognizeSpeechNotRecognized : Azure.Communication.CallAutomation.ReasonCode" Usage="Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechNotRecognized" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Speech not recognized. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeSpeechOptionMatched">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechOptionMatched { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechOptionMatched" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechOptionMatched" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RecognizeSpeechOptionMatched As ReasonCode" />
+      <MemberSignature Language="F#" Value="static member RecognizeSpeechOptionMatched : Azure.Communication.CallAutomation.ReasonCode" Usage="Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechOptionMatched" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Speech option matched. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeSpeechOptionNotMatched">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechOptionNotMatched { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechOptionNotMatched" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechOptionNotMatched" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RecognizeSpeechOptionNotMatched As ReasonCode" />
+      <MemberSignature Language="F#" Value="static member RecognizeSpeechOptionNotMatched : Azure.Communication.CallAutomation.ReasonCode" Usage="Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechOptionNotMatched" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Speech option  not matched. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecognizeSpeechServiceConnectionError">
+      <MemberSignature Language="C#" Value="public static Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechServiceConnectionError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Communication.CallAutomation.ReasonCode RecognizeSpeechServiceConnectionError" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechServiceConnectionError" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property RecognizeSpeechServiceConnectionError As ReasonCode" />
+      <MemberSignature Language="F#" Value="static member RecognizeSpeechServiceConnectionError : Azure.Communication.CallAutomation.ReasonCode" Usage="Azure.Communication.CallAutomation.ReasonCode.RecognizeSpeechServiceConnectionError" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.ReasonCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Speech service connection error. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

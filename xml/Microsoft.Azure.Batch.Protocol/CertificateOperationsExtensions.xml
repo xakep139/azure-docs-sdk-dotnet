@@ -11,6 +11,7 @@
     <AssemblyVersion>15.1.0.0</AssemblyVersion>
     <AssemblyVersion>15.3.0.0</AssemblyVersion>
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
+    <AssemblyVersion>15.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,6 +38,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.CertificateAddHeaders</ReturnType>
@@ -77,6 +79,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.CertificateAddHeaders&gt;</ReturnType>
@@ -121,6 +124,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.CertificateCancelDeletionHeaders</ReturnType>
@@ -173,6 +177,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.CertificateCancelDeletionHeaders&gt;</ReturnType>
@@ -229,6 +234,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.CertificateDeleteHeaders</ReturnType>
@@ -284,6 +290,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.CertificateDeleteHeaders&gt;</ReturnType>
@@ -343,6 +350,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.Certificate</ReturnType>
@@ -387,6 +395,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.Certificate&gt;</ReturnType>
@@ -435,6 +444,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.Certificate&gt;</ReturnType>
@@ -472,6 +482,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.Certificate&gt;&gt;</ReturnType>
@@ -513,6 +524,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.Certificate&gt;</ReturnType>
@@ -554,6 +566,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.Certificate&gt;&gt;</ReturnType>

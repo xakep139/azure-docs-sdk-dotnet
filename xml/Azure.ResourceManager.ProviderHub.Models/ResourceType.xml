@@ -300,7 +300,7 @@
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.OptInHeaderType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Gets or sets the opt in headers. </summary>
+        <summary> Gets the opt in headers. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -340,7 +340,7 @@
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.ProviderHub.Models.FeaturesPolicy&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Gets or sets the required features policy. </summary>
+        <summary> Gets the required features policy. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,0 +1,88 @@
+<Type Name="StartRecognizingEventResult" FullName="Azure.Communication.CallAutomation.StartRecognizingEventResult">
+  <TypeSignature Language="C#" Value="public class StartRecognizingEventResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StartRecognizingEventResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.StartRecognizingEventResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class StartRecognizingEventResult" />
+  <TypeSignature Language="F#" Value="type StartRecognizingEventResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <see cref="T:Azure.Communication.CallAutomation.StartRecognizingEventResult" /> is returned from WaitForEvent of <see cref="T:Azure.Communication.CallAutomation.StartRecognizingResult" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FailureEvent">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.RecognizeFailed FailureEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.RecognizeFailed FailureEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecognizingEventResult.FailureEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailureEvent As RecognizeFailed" />
+      <MemberSignature Language="F#" Value="member this.FailureEvent : Azure.Communication.CallAutomation.RecognizeFailed" Usage="Azure.Communication.CallAutomation.StartRecognizingEventResult.FailureEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.RecognizeFailed</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Azure.Communication.CallAutomation.RecognizeFailed" /> event will be returned once the recognize is completed unsuccessfully.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSuccessEvent">
+      <MemberSignature Language="C#" Value="public bool IsSuccessEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSuccessEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecognizingEventResult.IsSuccessEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSuccessEvent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSuccessEvent : bool" Usage="Azure.Communication.CallAutomation.StartRecognizingEventResult.IsSuccessEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether the returned event is considered successful or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuccessEvent">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.RecognizeCompleted SuccessEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.RecognizeCompleted SuccessEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecognizingEventResult.SuccessEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SuccessEvent As RecognizeCompleted" />
+      <MemberSignature Language="F#" Value="member this.SuccessEvent : Azure.Communication.CallAutomation.RecognizeCompleted" Usage="Azure.Communication.CallAutomation.StartRecognizingEventResult.SuccessEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.RecognizeCompleted</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Azure.Communication.CallAutomation.RecognizeCompleted" /> event will be returned once the recognize is completed successfully.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

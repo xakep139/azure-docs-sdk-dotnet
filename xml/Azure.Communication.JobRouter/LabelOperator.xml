@@ -1,0 +1,134 @@
+<Type Name="LabelOperator" FullName="Azure.Communication.JobRouter.LabelOperator">
+  <TypeSignature Language="C#" Value="public enum LabelOperator" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LabelOperator extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.LabelOperator" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LabelOperator" />
+  <TypeSignature Language="F#" Value="type LabelOperator = " />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary> Describes how the value of the label is compared to the value pass through. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Equal">
+      <MemberSignature Language="C#" Value="Equal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.LabelOperator Equal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.LabelOperator.Equal" />
+      <MemberSignature Language="VB.NET" Value="Equal" />
+      <MemberSignature Language="F#" Value="Equal = 0" Usage="Azure.Communication.JobRouter.LabelOperator.Equal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.LabelOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary> equal. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GreaterThan">
+      <MemberSignature Language="C#" Value="GreaterThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.LabelOperator GreaterThan = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.LabelOperator.GreaterThan" />
+      <MemberSignature Language="VB.NET" Value="GreaterThan" />
+      <MemberSignature Language="F#" Value="GreaterThan = 4" Usage="Azure.Communication.JobRouter.LabelOperator.GreaterThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.LabelOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary> greaterThan. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GreaterThanEqual">
+      <MemberSignature Language="C#" Value="GreaterThanEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.LabelOperator GreaterThanEqual = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.LabelOperator.GreaterThanEqual" />
+      <MemberSignature Language="VB.NET" Value="GreaterThanEqual" />
+      <MemberSignature Language="F#" Value="GreaterThanEqual = 5" Usage="Azure.Communication.JobRouter.LabelOperator.GreaterThanEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.LabelOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary> greaterThanEqual. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LessThan">
+      <MemberSignature Language="C#" Value="LessThan" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.LabelOperator LessThan = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.LabelOperator.LessThan" />
+      <MemberSignature Language="VB.NET" Value="LessThan" />
+      <MemberSignature Language="F#" Value="LessThan = 2" Usage="Azure.Communication.JobRouter.LabelOperator.LessThan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.LabelOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary> lessThan. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LessThanEqual">
+      <MemberSignature Language="C#" Value="LessThanEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.LabelOperator LessThanEqual = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.LabelOperator.LessThanEqual" />
+      <MemberSignature Language="VB.NET" Value="LessThanEqual" />
+      <MemberSignature Language="F#" Value="LessThanEqual = 3" Usage="Azure.Communication.JobRouter.LabelOperator.LessThanEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.LabelOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary> lessThanEqual. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NotEqual">
+      <MemberSignature Language="C#" Value="NotEqual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.JobRouter.LabelOperator NotEqual = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.JobRouter.LabelOperator.NotEqual" />
+      <MemberSignature Language="VB.NET" Value="NotEqual" />
+      <MemberSignature Language="F#" Value="NotEqual = 1" Usage="Azure.Communication.JobRouter.LabelOperator.NotEqual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.LabelOperator</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary> notEqual. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

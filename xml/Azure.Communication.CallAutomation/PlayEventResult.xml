@@ -1,0 +1,88 @@
+<Type Name="PlayEventResult" FullName="Azure.Communication.CallAutomation.PlayEventResult">
+  <TypeSignature Language="C#" Value="public class PlayEventResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PlayEventResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.PlayEventResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class PlayEventResult" />
+  <TypeSignature Language="F#" Value="type PlayEventResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <see cref="T:Azure.Communication.CallAutomation.PlayEventResult" /> is returned from WaitForEvent of <see cref="T:Azure.Communication.CallAutomation.PlayResult" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FailureEvent">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.PlayFailed FailureEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.PlayFailed FailureEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.PlayEventResult.FailureEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailureEvent As PlayFailed" />
+      <MemberSignature Language="F#" Value="member this.FailureEvent : Azure.Communication.CallAutomation.PlayFailed" Usage="Azure.Communication.CallAutomation.PlayEventResult.FailureEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.PlayFailed</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Azure.Communication.CallAutomation.PlayFailed" /> event will be returned once the play failed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSuccessEvent">
+      <MemberSignature Language="C#" Value="public bool IsSuccessEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSuccessEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.PlayEventResult.IsSuccessEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSuccessEvent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSuccessEvent : bool" Usage="Azure.Communication.CallAutomation.PlayEventResult.IsSuccessEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether the returned event is considered successful or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuccessEvent">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.PlayCompleted SuccessEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.PlayCompleted SuccessEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.PlayEventResult.SuccessEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SuccessEvent As PlayCompleted" />
+      <MemberSignature Language="F#" Value="member this.SuccessEvent : Azure.Communication.CallAutomation.PlayCompleted" Usage="Azure.Communication.CallAutomation.PlayEventResult.SuccessEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.PlayCompleted</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Azure.Communication.CallAutomation.PlayCompleted" /> event will be returned once the play is completed successfully.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -61,9 +61,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checkin the manifest.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest
-            Operation Id: CheckinManifest
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest</description></item><item><term>Operation Id</term><description>CheckinManifest</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -93,9 +91,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checkin the manifest.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest
-            Operation Id: CheckinManifest
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest</description></item><item><term>Operation Id</term><description>CheckinManifest</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -173,9 +169,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a provider registration.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}
-            Operation Id: ProviderRegistrations_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,9 +198,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a provider registration.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}
-            Operation Id: ProviderRegistrations_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,9 +231,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes resources.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourceActions/{resourceActionName}/deleteResources
-            Operation Id: ResourceActions_DeleteResources
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourceActions/{resourceActionName}/deleteResources</description></item><item><term>Operation Id</term><description>ResourceActions_DeleteResources</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -278,9 +268,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes resources.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourceActions/{resourceActionName}/deleteResources
-            Operation Id: ResourceActions_DeleteResources
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourceActions/{resourceActionName}/deleteResources</description></item><item><term>Operation Id</term><description>ResourceActions_DeleteResources</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -310,9 +298,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates the manifest for the given provider.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest
-            Operation Id: GenerateManifest
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest</description></item><item><term>Operation Id</term><description>GenerateManifest</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -338,9 +324,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates the manifest for the given provider.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest
-            Operation Id: GenerateManifest
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest</description></item><item><term>Operation Id</term><description>GenerateManifest</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -366,9 +350,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates the operations api for the given provider.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateOperations
-            Operation Id: ProviderRegistrations_GenerateOperations
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateOperations</description></item><item><term>Operation Id</term><description>ProviderRegistrations_GenerateOperations</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.ProviderHub.Models.OperationsDefinition" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -394,9 +376,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates the operations api for the given provider.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateOperations
-            Operation Id: ProviderRegistrations_GenerateOperations
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateOperations</description></item><item><term>Operation Id</term><description>ProviderRegistrations_GenerateOperations</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.ProviderHub.Models.OperationsDefinition" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -422,9 +402,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the provider registration details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}
-            Operation Id: ProviderRegistrations_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -450,9 +428,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the provider registration details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}
-            Operation Id: ProviderRegistrations_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -480,9 +456,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the custom rollout details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}
-            Operation Id: CustomRollouts_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>CustomRollouts_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -514,9 +488,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the custom rollout details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}
-            Operation Id: CustomRollouts_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>CustomRollouts_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -569,9 +541,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the default rollout details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}
-            Operation Id: DefaultRollouts_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>DefaultRollouts_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -603,9 +573,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the default rollout details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}
-            Operation Id: DefaultRollouts_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>DefaultRollouts_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -658,9 +626,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the notification registration details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}
-            Operation Id: NotificationRegistrations_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}</description></item><item><term>Operation Id</term><description>NotificationRegistrations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -692,9 +658,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the notification registration details.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}
-            Operation Id: NotificationRegistrations_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}</description></item><item><term>Operation Id</term><description>NotificationRegistrations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -747,9 +711,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a resource type details in the given subscription and provider.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}
-            Operation Id: ResourceTypeRegistrations_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}</description></item><item><term>Operation Id</term><description>ResourceTypeRegistrations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -781,9 +743,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a resource type details in the given subscription and provider.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}
-            Operation Id: ResourceTypeRegistrations_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}</description></item><item><term>Operation Id</term><description>ResourceTypeRegistrations_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -878,9 +838,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates the provider registration.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}
-            Operation Id: ProviderRegistrations_CreateOrUpdate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_CreateOrUpdate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -913,9 +871,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates the provider registration.
-            Request Path: /subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}
-            Operation Id: ProviderRegistrations_CreateOrUpdate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_CreateOrUpdate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal</ReturnType>
@@ -61,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal&gt;</ReturnType>
@@ -97,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -128,6 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -164,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal</ReturnType>
@@ -197,6 +203,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal&gt;</ReturnType>
@@ -234,6 +241,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal&gt;</ReturnType>
@@ -266,6 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal&gt;&gt;</ReturnType>
@@ -302,6 +311,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt;</ReturnType>
@@ -334,6 +344,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Graph.RBAC.Models.KeyCredential&gt;&gt;</ReturnType>
@@ -370,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal&gt;</ReturnType>
@@ -402,6 +414,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.ServicePrincipal&gt;&gt;</ReturnType>
@@ -438,6 +451,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.DirectoryObject&gt;</ReturnType>
@@ -473,6 +487,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.DirectoryObject&gt;&gt;</ReturnType>
@@ -512,6 +527,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.DirectoryObject&gt;</ReturnType>
@@ -547,6 +563,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Graph.RBAC.Models.DirectoryObject&gt;&gt;</ReturnType>
@@ -586,6 +603,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt;</ReturnType>
@@ -618,6 +636,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Graph.RBAC.Models.PasswordCredential&gt;&gt;</ReturnType>
@@ -654,6 +673,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -689,6 +709,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -729,6 +750,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -764,6 +786,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -804,6 +827,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -840,6 +864,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
