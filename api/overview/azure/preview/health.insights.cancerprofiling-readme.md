@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: healthinsights
 ---
-# Azure Cognitive Services Health Insights Cancer Profiling client library for .NET - version 1.0.0-alpha.20230405.1 
+# Azure Cognitive Services Health Insights Cancer Profiling client library for .NET - version 1.0.0-alpha.20230406.1 
 
 
 [Health Insights](https://review.learn.microsoft.com/azure/azure-health-insights/?branch=release-azure-health-insights) is an Azure Applied AI Service built with the Azure Cognitive Services Framework, that leverages multiple Cognitive Services, Healthcare API services and other Azure resources.
