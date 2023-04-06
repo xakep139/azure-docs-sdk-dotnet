@@ -11,9 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Maps.Rendering",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Maps.Rendering"
-  ],
+  "Namespaces": "Azure.Maps.Rendering",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }
