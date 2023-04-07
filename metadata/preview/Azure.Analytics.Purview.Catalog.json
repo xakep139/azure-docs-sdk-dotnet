@@ -11,10 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Analytics.Purview.Catalog",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Analytics.Purview.Catalog",
-    "Microsoft.Extensions.Azure"
-  ],
+  "Namespaces": "Azure.Analytics.Purview.Catalog",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }
