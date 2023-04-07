@@ -1,6 +1,16 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training",
-  "Version": "2.1.0-preview",
+  "Version": "2.1.0-alpha.20230407.1",
+  "DevVersion": "2.1.0-alpha.20230407.1",
+  "DirectoryPath": "sdk/cognitiveservices/Vision.CustomVision.Training",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "sdk/cognitiveservices/Vision.CustomVision.Training/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "data",
+  "IsNewSdk": false,
+  "ArtifactName": "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training",
     "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training.Models"
