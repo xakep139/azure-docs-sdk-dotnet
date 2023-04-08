@@ -417,3 +417,4 @@ microsoftazuremanagementsearchfluent,[tfm=netstandard2.0]Microsoft.Azure.Managem
 microsoftfeaturemanagement,[tfm=netstandard2.0]Microsoft.FeatureManagement,2.5.1
 microsoftfeaturemanagementaspnetcore,[tfm=netstandard2.0]Microsoft.FeatureManagement.AspNetCore,2.5.1
 azurecommunicationemail,[tfm=netstandard2.0]Azure.Communication.Email,1.0.0
+azureresourcemanagerproviderhub,[tfm=netstandard2.0;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.ProviderHub,1.0.0

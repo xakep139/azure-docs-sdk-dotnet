@@ -239,6 +239,11 @@
       href: ~/api/overview/azure/{moniker}/security.attestation-readme.md
       children:
       - Azure.Security.Attestation
+    - name: Attestation
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.attestation-readme.md
+      children:
+      - Microsoft.Azure.Attestation
+      - Microsoft.Azure.Attestation.Models
     - name: Management
       items:
       - name: Resource Management - Attestation
@@ -268,6 +273,11 @@
     items:
     - name: Auto Suggest
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.autosuggest-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+    - name: Auto Suggest
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingautosuggest-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
@@ -587,6 +597,11 @@
       children:
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
+    - name: Vision Content Moderator
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.vision.contentmoderator-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
     - name: Custom Vision Prediction
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.vision.customvision.prediction-readme.md
       children:
@@ -1055,6 +1070,11 @@
     landingPageType: Service
     items:
     - name: Custom Image Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingcustomimagesearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+    - name: Custom Image Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.customimagesearch-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
@@ -1063,6 +1083,11 @@
     href: ~/api/overview/azure/{moniker}/custom-search.md
     landingPageType: Service
     items:
+    - name: Custom Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingcustomsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
     - name: Custom Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.customsearch-readme.md
       children:
@@ -1355,6 +1380,11 @@
     landingPageType: Service
     items:
     - name: Entity Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingentitysearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+    - name: Entity Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.entitysearch-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.EntitySearch
@@ -1626,6 +1656,17 @@
         - Microsoft.Azure.Management.Graph.RBAC.Fluent.RoleAssignment.Definition
         - Microsoft.Azure.Management.Graph.RBAC.Fluent.ServicePrincipal.Definition
         - Microsoft.Azure.Management.Graph.RBAC.Fluent.ServicePrincipal.Update
+  - name: Graphservices
+    href: ~/api/overview/azure/{moniker}/graphservices.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Graphservices
+        href: ~/api/overview/azure/{moniker}/resourcemanager.graphservices-readme.md
+        children:
+        - Azure.ResourceManager.GraphServices
+        - Azure.ResourceManager.GraphServices.Models
   - name: Guest Configuration
     href: ~/api/overview/azure/{moniker}/guest-configuration.md
     landingPageType: Service
@@ -1755,6 +1796,17 @@
         children:
         - Azure.ResourceManager.Kubernetes
         - Azure.ResourceManager.Kubernetes.Models
+  - name: Hybridcontainerservice
+    href: ~/api/overview/azure/{moniker}/hybridcontainerservice.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Hybridcontainerservice
+        href: ~/api/overview/azure/{moniker}/resourcemanager.hybridcontainerservice-readme.md
+        children:
+        - Azure.ResourceManager.HybridContainerService
+        - Azure.ResourceManager.HybridContainerService.Models
   - name: Identity
     href: ~/api/overview/azure/{moniker}/identity.md
     landingPageType: Service
@@ -1771,6 +1823,11 @@
     href: ~/api/overview/azure/{moniker}/image-search.md
     landingPageType: Service
     items:
+    - name: Image Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingimagesearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
     - name: Image Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.imagesearch-readme.md
       children:
@@ -2065,6 +2122,15 @@
         children:
         - Azure.ResourceManager.LoadTesting
         - Azure.ResourceManager.LoadTesting.Models
+  - name: Local Search
+    href: ~/api/overview/azure/{moniker}/local-search.md
+    landingPageType: Service
+    items:
+    - name: Local Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.binglocalsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.LocalSearch
+      - Microsoft.Azure.CognitiveServices.Search.LocalSearch.Models
   - name: Log Analytics
     href: ~/api/overview/azure/{moniker}/log-analytics.md
     landingPageType: Service
@@ -2429,6 +2495,10 @@
       children:
       - Azure.Monitor.Ingestion
       - Microsoft.Extensions.Azure
+    - name: OpenTelemetry AspNetCore
+      href: ~/api/overview/azure/{moniker}/monitor.opentelemetry.aspnetcore-readme.md
+      children:
+      - Azure.Monitor.OpenTelemetry.AspNetCore
     - name: OpenTelemetry Exporter
       href: ~/api/overview/azure/{moniker}/monitor.opentelemetry.exporter-readme.md
       children:
@@ -2711,6 +2781,11 @@
     landingPageType: Service
     items:
     - name: News Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingnewssearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+    - name: News Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.newssearch-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.NewsSearch
@@ -2919,6 +2994,17 @@
         children:
         - Azure.ResourceManager.Quantum
         - Azure.ResourceManager.Quantum.Models
+  - name: Qumulo
+    href: ~/api/overview/azure/{moniker}/qumulo.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Qumulo
+        href: ~/api/overview/azure/{moniker}/resourcemanager.qumulo-readme.md
+        children:
+        - Azure.ResourceManager.Qumulo
+        - Azure.ResourceManager.Qumulo.Models
   - name: Quota
     href: ~/api/overview/azure/{moniker}/quota.md
     landingPageType: Service
@@ -3074,17 +3160,6 @@
         children:
         - Microsoft.Azure.Management.ResourceGraph
         - Microsoft.Azure.Management.ResourceGraph.Models
-  - name: Resource Health
-    href: ~/api/overview/azure/{moniker}/resource-health.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - Resource Health
-        href: ~/api/overview/azure/{moniker}/resourcemanager.resourcehealth-readme.md
-        children:
-        - Azure.ResourceManager.ResourceHealth
-        - Azure.ResourceManager.ResourceHealth.Models
   - name: Resource Manager
     href: ~/api/overview/azure/{moniker}/resource-manager.md
     landingPageType: Service
@@ -3146,6 +3221,17 @@
         children:
         - Microsoft.Azure.Management.Migrate.ResourceMover
         - Microsoft.Azure.Management.Migrate.ResourceMover.Models
+  - name: Resourcehealth
+    href: ~/api/overview/azure/{moniker}/resourcehealth.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resourcehealth
+        href: ~/api/overview/azure/{moniker}/resourcemanager.resourcehealth-readme.md
+        children:
+        - Azure.ResourceManager.ResourceHealth
+        - Azure.ResourceManager.ResourceHealth.Models
   - name: Resources
     href: ~/api/overview/azure/{moniker}/resources.md
     landingPageType: Service
@@ -3967,6 +4053,11 @@
     landingPageType: Service
     items:
     - name: Video Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingvideosearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+    - name: Video Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.videosearch-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.VideoSearch
@@ -3975,6 +4066,11 @@
     href: ~/api/overview/azure/{moniker}/visual-search.md
     landingPageType: Service
     items:
+    - name: Visual Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingvisualsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
     - name: Visual Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.visualsearch-readme.md
       children:
@@ -4015,6 +4111,11 @@
     href: ~/api/overview/azure/{moniker}/web-search.md
     landingPageType: Service
     items:
+    - name: Web Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingwebsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
     - name: Web Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.websearch-readme.md
       children:

@@ -1,0 +1,8 @@
+{
+  "Name": "Azure.ResourceManager.ProviderHub",
+  "Version": "1.0.0",
+  "Namespaces": [
+    "Azure.ResourceManager.ProviderHub",
+    "Azure.ResourceManager.ProviderHub.Models"
+  ]
+}

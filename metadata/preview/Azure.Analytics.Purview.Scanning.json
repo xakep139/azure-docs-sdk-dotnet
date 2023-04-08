@@ -11,10 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Analytics.Purview.Scanning",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Analytics.Purview.Scanning",
-    "Microsoft.Extensions.Azure"
-  ],
+  "Namespaces": "Azure.Analytics.Purview.Scanning",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }
