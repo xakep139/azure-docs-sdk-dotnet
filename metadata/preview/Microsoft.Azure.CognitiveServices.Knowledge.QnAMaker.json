@@ -1,6 +1,16 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker",
-  "Version": "3.0.0-preview.1",
+  "Version": "3.0.0-alpha.20230410.1",
+  "DevVersion": "3.0.0-alpha.20230410.1",
+  "DirectoryPath": "sdk/cognitiveservices/Knowledge.QnAMaker",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "sdk/cognitiveservices/Knowledge.QnAMaker/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "data",
+  "IsNewSdk": false,
+  "ArtifactName": "Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker",
     "Microsoft.Azure.CognitiveServices.Knowledge.QnAMaker.Models"

@@ -1,6 +1,16 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Language.SpellCheck",
-  "Version": "4.1.0-preview.1",
+  "Version": "4.1.0-alpha.20230410.1",
+  "DevVersion": "4.1.0-alpha.20230410.1",
+  "DirectoryPath": "sdk/cognitiveservices/Language.SpellCheck",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "sdk/cognitiveservices/Language.SpellCheck/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "data",
+  "IsNewSdk": false,
+  "ArtifactName": "Microsoft.Azure.CognitiveServices.Language.SpellCheck",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Microsoft.Azure.CognitiveServices.Language.SpellCheck",
     "Microsoft.Azure.CognitiveServices.Language.SpellCheck.Models"
