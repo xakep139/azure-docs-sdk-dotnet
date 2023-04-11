@@ -1,6 +1,16 @@
 {
   "Name": "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime",
-  "Version": "3.1.0-preview.1",
+  "Version": "3.1.0-alpha.20230411.1",
+  "DevVersion": "3.1.0-alpha.20230411.1",
+  "DirectoryPath": "sdk/cognitiveservices/Language.LUIS.Runtime",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "",
+  "ChangeLogPath": "sdk/cognitiveservices/Language.LUIS.Runtime/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "data",
+  "IsNewSdk": false,
+  "ArtifactName": "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime",
     "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.Models"
