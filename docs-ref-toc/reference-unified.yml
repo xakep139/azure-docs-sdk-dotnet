@@ -239,6 +239,11 @@
       href: ~/api/overview/azure/{moniker}/security.attestation-readme.md
       children:
       - Azure.Security.Attestation
+    - name: Attestation
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.attestation-readme.md
+      children:
+      - Microsoft.Azure.Attestation
+      - Microsoft.Azure.Attestation.Models
     - name: Management
       items:
       - name: Resource Management - Attestation
