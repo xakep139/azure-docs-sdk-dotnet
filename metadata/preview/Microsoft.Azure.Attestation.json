@@ -1,0 +1,18 @@
+{
+  "Name": "Microsoft.Azure.Attestation",
+  "Version": "0.10.0-alpha.20230411.1",
+  "DevVersion": "0.10.0-alpha.20230411.1",
+  "DirectoryPath": "sdk/attestation/Microsoft.Azure.Attestation",
+  "ServiceDirectory": "attestation",
+  "ReadMePath": "",
+  "ChangeLogPath": "sdk/attestation/Microsoft.Azure.Attestation/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "data",
+  "IsNewSdk": false,
+  "ArtifactName": "Microsoft.Azure.Attestation",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Microsoft.Azure.Attestation",
+    "Microsoft.Azure.Attestation.Models"
+  ]
+}
