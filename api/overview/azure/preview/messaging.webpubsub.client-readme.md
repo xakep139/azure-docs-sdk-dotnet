@@ -3,12 +3,12 @@ title: Azure Web PubSub client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Messaging.WebPubSub.Client, webpubsub
 author: vicancy
 ms.author: lianwei
-ms.date: 02/06/2023
+ms.date: 04/12/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: webpubsub
 ---
-# Azure Web PubSub client library for .NET - version 1.0.0-beta.2 
+# Azure Web PubSub client library for .NET - version 1.0.0-alpha.20230412.2 
 
 
 [Web PubSub](https://aka.ms/awps/doc) is an Azure-managed service that helps developers easily build web applications with real-time features and publish-subscribe patterns. Any scenario that requires real-time publish-subscribe messaging between server and clients or among clients can use Web PubSub. Traditional real-time features that often require polling from the server or submitting HTTP requests can also use Web PubSub.
@@ -26,7 +26,7 @@ Use this library to:
 
 Details about the terms used here are described in [Key concepts](#key-concepts) section.
 
-[Source code](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Messaging.WebPubSub.Client_1.0.0-beta.2/sdk/webpubsub/Azure.Messaging.WebPubSub.Client/src) |
+[Source code](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Azure.Messaging.WebPubSub.Client/src) |
 [API reference documentation](https://aka.ms/awps/sdk/csharp) |
 [Product documentation](https://aka.ms/awps/doc) |
 
@@ -88,7 +88,7 @@ Features to differentiate `WebPubSubClient` and `WebPubSubServiceClient`.
 |Nuget Package Name|Azure.Messaging.WebPubSub.Client |Azure.Messaging.WebPubSub|
 |Features|Usually used on client side. Publish messages and subscribe to messages.|Usually used on server side. Generate Client Access Uri and manage clients|
 
-Find more details in [Azure.Messaging.WebPubSub](https://github.com/Azure/azure-sdk-for-net/tree/Azure.Messaging.WebPubSub.Client_1.0.0-beta.2/sdk/webpubsub/Azure.Messaging.WebPubSub)
+Find more details in [Azure.Messaging.WebPubSub](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/webpubsub/Azure.Messaging.WebPubSub)
 
 ## Key concepts
 
@@ -216,7 +216,7 @@ try
 }
 catch (SendMessageFailedException ex)
 {
-    if (ex.AckId == null)
+    if (ex.AckId != null)
     {
         await client.JoinGroupAsync("testGroup", ackId: ex.AckId);
     }
@@ -227,7 +227,7 @@ catch (SendMessageFailedException ex)
 
 ### Setting up console logging
 
-You can also [enable console logging](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Messaging.WebPubSub.Client_1.0.0-beta.2/sdk/core/Azure.Core/samples/Diagnostics.md#logging) if you want to dig deeper into the requests you're making against the service.
+You can also [enable console logging](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md#logging) if you want to dig deeper into the requests you're making against the service.
 
 ## Next steps
 
