@@ -61,9 +61,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create a linked integration runtime entry in a shared integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/linkedIntegrationRuntime
-            Operation Id: IntegrationRuntimes_CreateLinkedIntegrationRuntime
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/linkedIntegrationRuntime</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_CreateLinkedIntegrationRuntime</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -93,9 +91,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create a linked integration runtime entry in a shared integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/linkedIntegrationRuntime
-            Operation Id: IntegrationRuntimes_CreateLinkedIntegrationRuntime
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/linkedIntegrationRuntime</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_CreateLinkedIntegrationRuntime</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -177,9 +173,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,9 +202,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -238,9 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}
-            Operation Id: IntegrationRuntimeNodes_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -272,9 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}
-            Operation Id: IntegrationRuntimeNodes_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -306,9 +294,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -336,9 +322,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a SSIS integration runtime object metadata by specified path. The return is pageable metadata list.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getObjectMetadata
-            Operation Id: IntegrationRuntimeObjectMetadata_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getObjectMetadata</description></item><item><term>Operation Id</term><description>IntegrationRuntimeObjectMetadata_Get</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.SsisObjectMetadata" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -366,9 +350,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a SSIS integration runtime object metadata by specified path. The return is pageable metadata list.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getObjectMetadata
-            Operation Id: IntegrationRuntimeObjectMetadata_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getObjectMetadata</description></item><item><term>Operation Id</term><description>IntegrationRuntimeObjectMetadata_Get</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.SsisObjectMetadata" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -396,9 +378,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -424,9 +404,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves the authentication keys for an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/listAuthKeys
-            Operation Id: IntegrationRuntimes_ListAuthKeys
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/listAuthKeys</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_ListAuthKeys</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -452,9 +430,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves the authentication keys for an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/listAuthKeys
-            Operation Id: IntegrationRuntimes_ListAuthKeys
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/listAuthKeys</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_ListAuthKeys</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -480,9 +456,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the on-premises integration runtime connection information for encrypting the on-premises data source credentials.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getConnectionInfo
-            Operation Id: IntegrationRuntimes_GetConnectionInfo
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getConnectionInfo</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_GetConnectionInfo</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -508,9 +482,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the on-premises integration runtime connection information for encrypting the on-premises data source credentials.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getConnectionInfo
-            Operation Id: IntegrationRuntimes_GetConnectionInfo
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getConnectionInfo</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_GetConnectionInfo</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -538,9 +510,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}
-            Operation Id: IntegrationRuntimeNodes_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -572,9 +542,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}
-            Operation Id: IntegrationRuntimeNodes_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -606,9 +574,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the IP address of self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}/ipAddress
-            Operation Id: IntegrationRuntimeNodes_GetIpAddress
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}/ipAddress</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_GetIpAddress</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -640,9 +606,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the IP address of self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}/ipAddress
-            Operation Id: IntegrationRuntimeNodes_GetIpAddress
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}/ipAddress</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_GetIpAddress</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -672,9 +636,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the integration runtime monitoring data, which includes the monitor data for all the nodes under this integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/monitoringData
-            Operation Id: IntegrationRuntimes_GetMonitoringData
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/monitoringData</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_GetMonitoringData</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -700,9 +662,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the integration runtime monitoring data, which includes the monitor data for all the nodes under this integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/monitoringData
-            Operation Id: IntegrationRuntimes_GetMonitoringData
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/monitoringData</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_GetMonitoringData</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -728,9 +688,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of outbound network dependencies for a given Azure-SSIS integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/outboundNetworkDependenciesEndpoints
-            Operation Id: IntegrationRuntimes_ListOutboundNetworkDependenciesEndpoints
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_ListOutboundNetworkDependenciesEndpoints</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.IntegrationRuntimeOutboundNetworkDependenciesCategoryEndpoint" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -756,9 +714,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of outbound network dependencies for a given Azure-SSIS integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/outboundNetworkDependenciesEndpoints
-            Operation Id: IntegrationRuntimes_ListOutboundNetworkDependenciesEndpoints
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_ListOutboundNetworkDependenciesEndpoints</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.IntegrationRuntimeOutboundNetworkDependenciesCategoryEndpoint" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -784,9 +740,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets detailed status information for an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getStatus
-            Operation Id: IntegrationRuntimes_GetStatus
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getStatus</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_GetStatus</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -812,9 +766,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets detailed status information for an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getStatus
-            Operation Id: IntegrationRuntimes_GetStatus
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/getStatus</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_GetStatus</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -863,9 +815,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refresh a SSIS integration runtime object metadata.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/refreshObjectMetadata
-            Operation Id: IntegrationRuntimeObjectMetadata_Refresh
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/refreshObjectMetadata</description></item><item><term>Operation Id</term><description>IntegrationRuntimeObjectMetadata_Refresh</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -894,9 +844,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refresh a SSIS integration runtime object metadata.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/refreshObjectMetadata
-            Operation Id: IntegrationRuntimeObjectMetadata_Refresh
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/refreshObjectMetadata</description></item><item><term>Operation Id</term><description>IntegrationRuntimeObjectMetadata_Refresh</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -924,9 +872,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates the authentication key for an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/regenerateAuthKey
-            Operation Id: IntegrationRuntimes_RegenerateAuthKey
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/regenerateAuthKey</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_RegenerateAuthKey</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -956,9 +902,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates the authentication key for an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/regenerateAuthKey
-            Operation Id: IntegrationRuntimes_RegenerateAuthKey
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/regenerateAuthKey</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_RegenerateAuthKey</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -988,9 +932,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Remove all linked integration runtimes under specific data factory in a self-hosted integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/removeLinks
-            Operation Id: IntegrationRuntimes_RemoveLinks
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/removeLinks</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_RemoveLinks</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1020,9 +962,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Remove all linked integration runtimes under specific data factory in a self-hosted integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/removeLinks
-            Operation Id: IntegrationRuntimes_RemoveLinks
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/removeLinks</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_RemoveLinks</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1072,9 +1012,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Starts a ManagedReserved type integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/start
-            Operation Id: IntegrationRuntimes_Start
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/start</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Start</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1103,9 +1041,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Starts a ManagedReserved type integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/start
-            Operation Id: IntegrationRuntimes_Start
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/start</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Start</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1134,9 +1070,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stops a ManagedReserved type integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/stop
-            Operation Id: IntegrationRuntimes_Stop
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/stop</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Stop</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1165,9 +1099,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stops a ManagedReserved type integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/stop
-            Operation Id: IntegrationRuntimes_Stop
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/stop</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Stop</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1193,9 +1125,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Force the integration runtime to synchronize credentials across integration runtime nodes, and this will override the credentials across all worker nodes with those available on the dispatcher node. If you already have the latest credential backup file, you should manually import it (preferred) on any self-hosted integration runtime node than using this API directly.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/syncCredentials
-            Operation Id: IntegrationRuntimes_SyncCredentials
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/syncCredentials</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_SyncCredentials</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1221,9 +1151,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Force the integration runtime to synchronize credentials across integration runtime nodes, and this will override the credentials across all worker nodes with those available on the dispatcher node. If you already have the latest credential backup file, you should manually import it (preferred) on any self-hosted integration runtime node than using this API directly.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/syncCredentials
-            Operation Id: IntegrationRuntimes_SyncCredentials
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/syncCredentials</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_SyncCredentials</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1251,9 +1179,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1283,9 +1209,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1317,9 +1241,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}
-            Operation Id: IntegrationRuntimeNodes_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1353,9 +1275,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a self-hosted integration runtime node.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}
-            Operation Id: IntegrationRuntimeNodes_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/nodes/{nodeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimeNodes_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1385,9 +1305,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Upgrade self-hosted integration runtime to latest version if availability.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/upgrade
-            Operation Id: IntegrationRuntimes_Upgrade
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/upgrade</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Upgrade</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1413,9 +1331,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Upgrade self-hosted integration runtime to latest version if availability.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/upgrade
-            Operation Id: IntegrationRuntimes_Upgrade
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}/upgrade</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Upgrade</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

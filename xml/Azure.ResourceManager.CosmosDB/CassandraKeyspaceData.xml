@@ -11,13 +11,17 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the CassandraKeyspace data model. </summary>
+    <summary>
+            A class representing the CassandraKeyspace data model.
+            An Azure Cosmos DB Cassandra keyspace.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,6 +39,7 @@
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -46,15 +51,11 @@
       </Docs>
     </Member>
     <Member MemberName="Options">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig Options { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig Options" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig Options { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig Options" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Options" />
-      <MemberSignature Language="VB.NET" Value="Public Property Options As CassandraKeyspacePropertiesConfig" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Options : Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig with get, set" Usage="Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Options" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesOptions Options { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesOptions Options" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property Options As CassandraKeyspacePropertiesOptions" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Options : Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesOptions with get, set" Usage="Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Options" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Options As CassandraKeyspacePropertiesConfig" />
+      <MemberSignature Language="F#" Value="member this.Options : Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig with get, set" Usage="Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Options" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
@@ -63,10 +64,10 @@
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesOptions</ReturnType>
+        <ReturnType>Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesConfig</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets or sets the options. </summary>
@@ -75,15 +76,11 @@
       </Docs>
     </Member>
     <Member MemberName="Resource">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo Resource { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo Resource" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo Resource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo Resource" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Resource" />
-      <MemberSignature Language="VB.NET" Value="Public Property Resource As ExtendedCassandraKeyspaceResourceInfo" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Resource : Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo with get, set" Usage="Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Resource" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesResource Resource { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesResource Resource" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property Resource As CassandraKeyspacePropertiesResource" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Resource : Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesResource with get, set" Usage="Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Resource" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Resource As ExtendedCassandraKeyspaceResourceInfo" />
+      <MemberSignature Language="F#" Value="member this.Resource : Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo with get, set" Usage="Azure.ResourceManager.CosmosDB.CassandraKeyspaceData.Resource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
@@ -92,10 +89,10 @@
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.CosmosDB.Models.CassandraKeyspacePropertiesResource</ReturnType>
+        <ReturnType>Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets or sets the resource. </summary>

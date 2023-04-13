@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the FactoryGlobalParameter data model. </summary>
+    <summary>
+            A class representing the FactoryGlobalParameter data model.
+            Global parameters resource type.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

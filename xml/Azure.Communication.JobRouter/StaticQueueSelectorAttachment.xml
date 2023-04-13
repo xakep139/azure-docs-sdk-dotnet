@@ -1,0 +1,63 @@
+<Type Name="StaticQueueSelectorAttachment" FullName="Azure.Communication.JobRouter.StaticQueueSelectorAttachment">
+  <TypeSignature Language="C#" Value="public class StaticQueueSelectorAttachment : Azure.Communication.JobRouter.QueueSelectorAttachment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StaticQueueSelectorAttachment extends Azure.Communication.JobRouter.QueueSelectorAttachment" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.StaticQueueSelectorAttachment" />
+  <TypeSignature Language="VB.NET" Value="Public Class StaticQueueSelectorAttachment&#xA;Inherits QueueSelectorAttachment" />
+  <TypeSignature Language="F#" Value="type StaticQueueSelectorAttachment = class&#xA;    inherit QueueSelectorAttachment" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Communication.JobRouter.QueueSelectorAttachment</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Describes a label selector that will always be attached. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StaticQueueSelectorAttachment (Azure.Communication.JobRouter.QueueSelector labelSelector);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Communication.JobRouter.QueueSelector labelSelector) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.StaticQueueSelectorAttachment.#ctor(Azure.Communication.JobRouter.QueueSelector)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (labelSelector As QueueSelector)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.StaticQueueSelectorAttachment : Azure.Communication.JobRouter.QueueSelector -&gt; Azure.Communication.JobRouter.StaticQueueSelectorAttachment" Usage="new Azure.Communication.JobRouter.StaticQueueSelectorAttachment labelSelector" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="labelSelector" Type="Azure.Communication.JobRouter.QueueSelector" />
+      </Parameters>
+      <Docs>
+        <param name="labelSelector"> Describes a condition that must be met against a set of labels for queue selection. </param>
+        <summary> Initializes a new instance of StaticQueueSelectorAttachment. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="labelSelector" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelSelector">
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.QueueSelector LabelSelector { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.JobRouter.QueueSelector LabelSelector" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.StaticQueueSelectorAttachment.LabelSelector" />
+      <MemberSignature Language="VB.NET" Value="Public Property LabelSelector As QueueSelector" />
+      <MemberSignature Language="F#" Value="member this.LabelSelector : Azure.Communication.JobRouter.QueueSelector with get, set" Usage="Azure.Communication.JobRouter.StaticQueueSelectorAttachment.LabelSelector" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.QueueSelector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Describes a condition that must be met against a set of labels for queue selection. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

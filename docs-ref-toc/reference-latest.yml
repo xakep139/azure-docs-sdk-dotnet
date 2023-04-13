@@ -193,6 +193,11 @@
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
       landingPageType: Service
+    - name: Auto Suggest
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+      landingPageType: Service
   - name: Automanage
     href: ~/api/overview/azure/latest/automanage.md
     landingPageType: Service
@@ -451,6 +456,11 @@
       children:
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
+      landingPageType: Service
+    - name: Vision Content Moderator
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
       landingPageType: Service
     - name: Custom Vision Prediction
       children:
@@ -716,7 +726,6 @@
       href: ~/api/overview/azure/latest/containers.containerregistry-readme.md
       children:
       - Azure.Containers.ContainerRegistry
-      - Azure.Containers.ContainerRegistry.Specialized
     - name: Management
       items:
       - name: Resource Management - Container Registry
@@ -887,10 +896,20 @@
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
       landingPageType: Service
+    - name: Custom Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+      landingPageType: Service
   - name: Custom Search
     href: ~/api/overview/azure/latest/custom-search.md
     landingPageType: Service
     items:
+    - name: Custom Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
+      landingPageType: Service
     - name: Custom Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.CustomSearch
@@ -1080,6 +1099,11 @@
     href: ~/api/overview/azure/latest/entity-search.md
     landingPageType: Service
     items:
+    - name: Entity Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+      landingPageType: Service
     - name: Entity Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.EntitySearch
@@ -1375,7 +1399,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Hybrid Data
+      - name: Resource Management - Hybrid Data (deprecated)
         href: ~/api/overview/azure/latest/resourcemanager.hybriddata-readme.md
         children:
         - Azure.ResourceManager.HybridData
@@ -1392,6 +1416,11 @@
     href: ~/api/overview/azure/latest/image-search.md
     landingPageType: Service
     items:
+    - name: Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
+      landingPageType: Service
     - name: Image Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.ImageSearch
@@ -2154,6 +2183,11 @@
     href: ~/api/overview/azure/latest/news-search.md
     landingPageType: Service
     items:
+    - name: News Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+      landingPageType: Service
     - name: News Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.NewsSearch
@@ -3059,7 +3093,7 @@
     items:
     - name: Management
       items:
-      - name: Management - StorSimple Fluent
+      - name: Management - StorSimple Fluent (deprecated)
         children:
         - Microsoft.Azure.Management.StorSimple.Fluent
         - Microsoft.Azure.Management.StorSimple.Fluent.Models
@@ -3076,7 +3110,7 @@
     items:
     - name: Management
       items:
-      - name: Management - StorSimple 8000 series
+      - name: Management - StorSimple 8000 series (deprecated)
         children:
         - Microsoft.Azure.Management.StorSimple8000Series
         - Microsoft.Azure.Management.StorSimple8000Series.Models
@@ -3198,10 +3232,20 @@
       - Microsoft.Azure.CognitiveServices.Search.VideoSearch
       - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
       landingPageType: Service
+    - name: Video Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+      landingPageType: Service
   - name: Visual Search
     href: ~/api/overview/azure/latest/visual-search.md
     landingPageType: Service
     items:
+    - name: Visual Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
+      landingPageType: Service
     - name: Visual Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.VisualSearch
@@ -3227,6 +3271,11 @@
     href: ~/api/overview/azure/latest/web-search.md
     landingPageType: Service
     items:
+    - name: Web Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
+      landingPageType: Service
     - name: Web Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.WebSearch

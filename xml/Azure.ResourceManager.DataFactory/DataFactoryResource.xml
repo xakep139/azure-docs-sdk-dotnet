@@ -61,9 +61,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a data flow into debug session.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/addDataFlowToDebugSession
-            Operation Id: DataFlowDebugSession_AddDataFlow
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/addDataFlowToDebugSession</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_AddDataFlow</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -93,9 +91,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a data flow into debug session.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/addDataFlowToDebugSession
-            Operation Id: DataFlowDebugSession_AddDataFlow
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/addDataFlowToDebugSession</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_AddDataFlow</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -127,9 +123,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -161,9 +155,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -195,9 +187,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Cancel a pipeline run by its run ID.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/cancel
-            Operation Id: PipelineRuns_Cancel
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/cancel</description></item><item><term>Operation Id</term><description>PipelineRuns_Cancel</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -231,9 +221,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Cancel a pipeline run by its run ID.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/cancel
-            Operation Id: PipelineRuns_Cancel
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/cancel</description></item><item><term>Operation Id</term><description>PipelineRuns_Cancel</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -268,9 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a data flow debug session.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/createDataFlowDebugSession
-            Operation Id: DataFlowDebugSession_Create
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/createDataFlowDebugSession</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -303,9 +289,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a data flow debug session.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/createDataFlowDebugSession
-            Operation Id: DataFlowDebugSession_Create
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/createDataFlowDebugSession</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -385,9 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -416,9 +398,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -446,9 +426,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a data flow debug session.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/deleteDataFlowDebugSession
-            Operation Id: DataFlowDebugSession_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/deleteDataFlowDebugSession</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -478,9 +456,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a data flow debug session.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/deleteDataFlowDebugSession
-            Operation Id: DataFlowDebugSession_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/deleteDataFlowDebugSession</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -513,9 +489,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Execute a data flow debug command.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/executeDataFlowDebugCommand
-            Operation Id: DataFlowDebugSession_ExecuteCommand
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/executeDataFlowDebugCommand</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_ExecuteCommand</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -548,9 +522,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Execute a data flow debug command.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/executeDataFlowDebugCommand
-            Operation Id: DataFlowDebugSession_ExecuteCommand
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/executeDataFlowDebugCommand</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_ExecuteCommand</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -580,9 +552,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -612,9 +582,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query activity runs based on input filter conditions.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/queryActivityruns
-            Operation Id: ActivityRuns_QueryByPipelineRun
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/queryActivityruns</description></item><item><term>Operation Id</term><description>ActivityRuns_QueryByPipelineRun</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.ActivityRunInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -648,9 +616,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query activity runs based on input filter conditions.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/queryActivityruns
-            Operation Id: ActivityRuns_QueryByPipelineRun
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}/queryActivityruns</description></item><item><term>Operation Id</term><description>ActivityRuns_QueryByPipelineRun</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.ActivityRunInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -682,9 +648,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -710,9 +674,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query all active data flow debug sessions.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryDataFlowDebugSessions
-            Operation Id: DataFlowDebugSession_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryDataFlowDebugSessions</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_QueryByFactory</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.DataFlowDebugSessionInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -738,9 +700,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query all active data flow debug sessions.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryDataFlowDebugSessions
-            Operation Id: DataFlowDebugSession_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryDataFlowDebugSessions</description></item><item><term>Operation Id</term><description>DataFlowDebugSession_QueryByFactory</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.DataFlowDebugSessionInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -768,9 +728,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Data Plane access.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getDataPlaneAccess
-            Operation Id: Factories_GetDataPlaneAccess
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getDataPlaneAccess</description></item><item><term>Operation Id</term><description>Factories_GetDataPlaneAccess</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -800,9 +758,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Data Plane access.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getDataPlaneAccess
-            Operation Id: Factories_GetDataPlaneAccess
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getDataPlaneAccess</description></item><item><term>Operation Id</term><description>Factories_GetDataPlaneAccess</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -832,9 +788,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get exposure control feature for specific factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getFeatureValue
-            Operation Id: ExposureControl_GetFeatureValueByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValueByFactory</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -864,9 +818,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get exposure control feature for specific factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getFeatureValue
-            Operation Id: ExposureControl_GetFeatureValueByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getFeatureValue</description></item><item><term>Operation Id</term><description>ExposureControl_GetFeatureValueByFactory</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -896,9 +848,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get list of exposure control features for specific factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryFeaturesValue
-            Operation Id: ExposureControl_QueryFeatureValuesByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryFeaturesValue</description></item><item><term>Operation Id</term><description>ExposureControl_QueryFeatureValuesByFactory</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -928,9 +878,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get list of exposure control features for specific factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryFeaturesValue
-            Operation Id: ExposureControl_QueryFeatureValuesByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryFeaturesValue</description></item><item><term>Operation Id</term><description>ExposureControl_QueryFeatureValuesByFactory</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -962,9 +910,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a data flow.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/dataflows/{dataFlowName}
-            Operation Id: DataFlows_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/dataflows/{dataFlowName}</description></item><item><term>Operation Id</term><description>DataFlows_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -998,9 +944,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a data flow.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/dataflows/{dataFlowName}
-            Operation Id: DataFlows_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/dataflows/{dataFlowName}</description></item><item><term>Operation Id</term><description>DataFlows_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1055,9 +999,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a dataset.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/datasets/{datasetName}
-            Operation Id: Datasets_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/datasets/{datasetName}</description></item><item><term>Operation Id</term><description>Datasets_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1091,9 +1033,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a dataset.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/datasets/{datasetName}
-            Operation Id: Datasets_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/datasets/{datasetName}</description></item><item><term>Operation Id</term><description>Datasets_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1146,9 +1086,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Global parameter
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/globalParameters/{globalParameterName}
-            Operation Id: GlobalParameters_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/globalParameters/{globalParameterName}</description></item><item><term>Operation Id</term><description>GlobalParameters_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1180,9 +1118,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Global parameter
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/globalParameters/{globalParameterName}
-            Operation Id: GlobalParameters_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/globalParameters/{globalParameterName}</description></item><item><term>Operation Id</term><description>GlobalParameters_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1237,9 +1173,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1273,9 +1207,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an integration runtime.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}
-            Operation Id: IntegrationRuntimes_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/integrationRuntimes/{integrationRuntimeName}</description></item><item><term>Operation Id</term><description>IntegrationRuntimes_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1330,9 +1262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a linked service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/linkedservices/{linkedServiceName}
-            Operation Id: LinkedServices_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/linkedservices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1366,9 +1296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a linked service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/linkedservices/{linkedServiceName}
-            Operation Id: LinkedServices_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/linkedservices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1423,9 +1351,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a pipeline.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelines/{pipelineName}
-            Operation Id: Pipelines_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelines/{pipelineName}</description></item><item><term>Operation Id</term><description>Pipelines_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1459,9 +1385,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a pipeline.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelines/{pipelineName}
-            Operation Id: Pipelines_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelines/{pipelineName}</description></item><item><term>Operation Id</term><description>Pipelines_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1516,9 +1440,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private endpoint connection
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateEndpointConnections/{privateEndpointConnectionName}
-            Operation Id: PrivateEndpointConnection_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnection_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1552,9 +1474,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private endpoint connection
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateEndpointConnections/{privateEndpointConnectionName}
-            Operation Id: PrivateEndpointConnection_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnection_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1609,9 +1529,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a trigger.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/triggers/{triggerName}
-            Operation Id: Triggers_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>Triggers_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1645,9 +1563,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a trigger.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/triggers/{triggerName}
-            Operation Id: Triggers_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>Triggers_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1702,9 +1618,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a managed Virtual Network.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/managedVirtualNetworks/{managedVirtualNetworkName}
-            Operation Id: ManagedVirtualNetworks_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/managedVirtualNetworks/{managedVirtualNetworkName}</description></item><item><term>Operation Id</term><description>ManagedVirtualNetworks_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1738,9 +1652,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a managed Virtual Network.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/managedVirtualNetworks/{managedVirtualNetworkName}
-            Operation Id: ManagedVirtualNetworks_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/managedVirtualNetworks/{managedVirtualNetworkName}</description></item><item><term>Operation Id</term><description>ManagedVirtualNetworks_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1793,9 +1705,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get GitHub Access Token.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getGitHubAccessToken
-            Operation Id: Factories_GetGitHubAccessToken
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getGitHubAccessToken</description></item><item><term>Operation Id</term><description>Factories_GetGitHubAccessToken</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1825,9 +1735,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get GitHub Access Token.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getGitHubAccessToken
-            Operation Id: Factories_GetGitHubAccessToken
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/getGitHubAccessToken</description></item><item><term>Operation Id</term><description>Factories_GetGitHubAccessToken</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1857,9 +1765,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a pipeline run by its run ID.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}
-            Operation Id: PipelineRuns_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}</description></item><item><term>Operation Id</term><description>PipelineRuns_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1891,9 +1797,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a pipeline run by its run ID.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}
-            Operation Id: PipelineRuns_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/pipelineruns/{runId}</description></item><item><term>Operation Id</term><description>PipelineRuns_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1925,9 +1829,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query pipeline runs in the factory based on input filter conditions.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryPipelineRuns
-            Operation Id: PipelineRuns_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryPipelineRuns</description></item><item><term>Operation Id</term><description>PipelineRuns_QueryByFactory</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.FactoryPipelineRunInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1957,9 +1859,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query pipeline runs in the factory based on input filter conditions.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryPipelineRuns
-            Operation Id: PipelineRuns_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryPipelineRuns</description></item><item><term>Operation Id</term><description>PipelineRuns_QueryByFactory</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.FactoryPipelineRunInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1987,9 +1887,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the private link resources
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateLinkResources
-            Operation Id: privateLinkResources_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateLinkResources</description></item><item><term>Operation Id</term><description>privateLinkResources_Get</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.FactoryPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2015,9 +1913,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the private link resources
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateLinkResources
-            Operation Id: privateLinkResources_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/privateLinkResources</description></item><item><term>Operation Id</term><description>privateLinkResources_Get</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.FactoryPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2045,9 +1941,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query trigger runs.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryTriggerRuns
-            Operation Id: TriggerRuns_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryTriggerRuns</description></item><item><term>Operation Id</term><description>TriggerRuns_QueryByFactory</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.FactoryTriggerRun" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2077,9 +1971,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query trigger runs.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryTriggerRuns
-            Operation Id: TriggerRuns_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/queryTriggerRuns</description></item><item><term>Operation Id</term><description>TriggerRuns_QueryByFactory</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.Models.FactoryTriggerRun" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2109,9 +2001,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query triggers.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/querytriggers
-            Operation Id: Triggers_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/querytriggers</description></item><item><term>Operation Id</term><description>Triggers_QueryByFactory</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataFactory.FactoryTriggerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2141,9 +2031,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query triggers.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/querytriggers
-            Operation Id: Triggers_QueryByFactory
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}/querytriggers</description></item><item><term>Operation Id</term><description>Triggers_QueryByFactory</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataFactory.FactoryTriggerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2193,9 +2081,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2225,9 +2111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2276,9 +2160,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2308,9 +2190,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2340,9 +2220,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2372,9 +2250,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a factory.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}
-            Operation Id: Factories_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataFactory/factories/{factoryName}</description></item><item><term>Operation Id</term><description>Factories_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

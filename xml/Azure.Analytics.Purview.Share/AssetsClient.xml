@@ -114,134 +114,134 @@
         <summary> Adds a new asset to an existing share. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Create an asset on a sent share
-            
-            Below is the JSON schema for the request and response payloads.
-            
-            Request Body:
-            
-            This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
-            <details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
-            <code>{
-              kind: AdlsGen2Account, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the adls gen2 storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of adls gen2 storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
-              }, # Required. Adls gen 2 account asset properties
-            }
-            </code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
-            <code>{
-              kind: BlobAccount, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the blob storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of blob storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the blob storage account.
-              }, # Required. Blob storage account asset properties
-            }
-            </code></details></details>
-            
-            Response Body:
-            
-            This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
-            <details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
-            <code>{
-              kind: AdlsGen2Account, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the adls gen2 storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of adls gen2 storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
-              }, # Required. Adls gen 2 account asset properties
-            }
-            </code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
-            <code>{
-              kind: BlobAccount, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the blob storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of blob storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the blob storage account.
-              }, # Required. Blob storage account asset properties
-            }
-            </code></details></details></remarks>
+Create an asset on a sent share
+
+Below is the JSON schema for the request and response payloads.
+
+Request Body:
+
+This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
+<details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the adls gen2 storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of adls gen2 storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
+  }, # Required. Adls gen 2 account asset properties
+  kind: AdlsGen2Account, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the blob storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of blob storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the blob storage account.
+  }, # Required. Blob storage account asset properties
+  kind: BlobAccount, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></details>
+
+Response Body:
+
+This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
+<details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the adls gen2 storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of adls gen2 storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
+  }, # Required. Adls gen 2 account asset properties
+  kind: AdlsGen2Account, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the blob storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of blob storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the blob storage account.
+  }, # Required. Blob storage account asset properties
+  kind: BlobAccount, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" />, <paramref name="assetName" /> or <paramref name="content" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call Create with required parameters and request content and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                kind = "AdlsGen2Account",
-                properties = new {
-                    paths = new[] {
-                        new {
-                            containerName = "<StorageAccountPathContainerName>",
-                            receiverPath = "<StorageAccountPathReceiverPath>",
-                            senderPath = "<StorageAccountPathSenderPath>",
-                        }
-                    },
-                    receiverAssetName = "<AdlsGen2AccountAssetPropertiesReceiverAssetName>",
-                    storageAccountResourceId = "<AdlsGen2AccountAssetPropertiesStorageAccountResourceId>",
-                },
-            };
-            
-            var operation = client.Create(WaitUntil.Completed, "<sentShareName>", "<assetName>", RequestContent.Create(data));
-            
-            BinaryData data = operation.WaitForCompletion();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("kind").ToString());
-            ]]></code></example>
+This sample shows how to call Create with required parameters and request content and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {
+        paths = new[] {
+            new {
+                containerName = "<containerName>",
+                receiverPath = "<receiverPath>",
+                senderPath = "<senderPath>",
+            }
+        },
+        receiverAssetName = "<receiverAssetName>",
+        storageAccountResourceId = "<storageAccountResourceId>",
+    },
+    kind = "AdlsGen2Account",
+};
+
+var operation = client.Create(WaitUntil.Completed, "<sentShareName>", "<assetName>", RequestContent.Create(data));
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("kind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="CreateAsync">
@@ -275,134 +275,134 @@
         <summary> Adds a new asset to an existing share. </summary>
         <returns> The <see cref="T:Azure.Operation`1" /> from the service that will contain a <see cref="T:System.BinaryData" /> object once the asynchronous operation on the service has completed. Details of the body schema for the operation's final value are in the Remarks section below. </returns>
         <remarks>
-            Create an asset on a sent share
-            
-            Below is the JSON schema for the request and response payloads.
-            
-            Request Body:
-            
-            This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
-            <details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
-            <code>{
-              kind: AdlsGen2Account, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the adls gen2 storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of adls gen2 storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
-              }, # Required. Adls gen 2 account asset properties
-            }
-            </code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
-            <code>{
-              kind: BlobAccount, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the blob storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of blob storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the blob storage account.
-              }, # Required. Blob storage account asset properties
-            }
-            </code></details></details>
-            
-            Response Body:
-            
-            This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
-            <details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
-            <code>{
-              kind: AdlsGen2Account, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the adls gen2 storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of adls gen2 storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
-              }, # Required. Adls gen 2 account asset properties
-            }
-            </code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
-            <code>{
-              kind: BlobAccount, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the blob storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of blob storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the blob storage account.
-              }, # Required. Blob storage account asset properties
-            }
-            </code></details></details></remarks>
+Create an asset on a sent share
+
+Below is the JSON schema for the request and response payloads.
+
+Request Body:
+
+This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
+<details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the adls gen2 storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of adls gen2 storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
+  }, # Required. Adls gen 2 account asset properties
+  kind: AdlsGen2Account, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the blob storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of blob storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the blob storage account.
+  }, # Required. Blob storage account asset properties
+  kind: BlobAccount, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></details>
+
+Response Body:
+
+This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
+<details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the adls gen2 storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of adls gen2 storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
+  }, # Required. Adls gen 2 account asset properties
+  kind: AdlsGen2Account, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the blob storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of blob storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the blob storage account.
+  }, # Required. Blob storage account asset properties
+  kind: BlobAccount, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" />, <paramref name="assetName" /> or <paramref name="content" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call CreateAsync with required parameters and request content and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            var data = new {
-                kind = "AdlsGen2Account",
-                properties = new {
-                    paths = new[] {
-                        new {
-                            containerName = "<StorageAccountPathContainerName>",
-                            receiverPath = "<StorageAccountPathReceiverPath>",
-                            senderPath = "<StorageAccountPathSenderPath>",
-                        }
-                    },
-                    receiverAssetName = "<AdlsGen2AccountAssetPropertiesReceiverAssetName>",
-                    storageAccountResourceId = "<AdlsGen2AccountAssetPropertiesStorageAccountResourceId>",
-                },
-            };
-            
-            var operation = await client.CreateAsync(WaitUntil.Completed, "<sentShareName>", "<assetName>", RequestContent.Create(data));
-            
-            BinaryData data = await operation.WaitForCompletionAsync();
-            JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("kind").ToString());
-            ]]></code></example>
+This sample shows how to call CreateAsync with required parameters and request content and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+var data = new {
+    properties = new {
+        paths = new[] {
+            new {
+                containerName = "<containerName>",
+                receiverPath = "<receiverPath>",
+                senderPath = "<senderPath>",
+            }
+        },
+        receiverAssetName = "<receiverAssetName>",
+        storageAccountResourceId = "<storageAccountResourceId>",
+    },
+    kind = "AdlsGen2Account",
+};
+
+var operation = await client.CreateAsync(WaitUntil.Completed, "<sentShareName>", "<assetName>", RequestContent.Create(data));
+
+BinaryData data = operation.Value;
+JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+Console.WriteLine(result.GetProperty("kind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -433,23 +433,24 @@
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Delete asset in a sentShare. </summary>
         <returns> The <see cref="T:Azure.Operation" /> representing an asynchronous operation on the service. </returns>
-        <remarks> Delete an asset on a sent share. </remarks>
+        <remarks>
+Delete an asset on a sent share
+</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call Delete with required parameters.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            var operation = client.Delete(WaitUntil.Completed, "<sentShareName>", "<assetName>");
-            
-            var response = operation.WaitForCompletionResponse();
-            Console.WriteLine(response.Status)
-            ]]></code></example>
+This sample shows how to call Delete with required parameters.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+var operation = client.Delete(WaitUntil.Completed, "<sentShareName>", "<assetName>");
+
+Console.WriteLine(operation.GetRawResponse().Status)
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="DeleteAsync">
@@ -480,23 +481,24 @@
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Delete asset in a sentShare. </summary>
         <returns> The <see cref="T:Azure.Operation" /> representing an asynchronous operation on the service. </returns>
-        <remarks> Delete an asset on a sent share. </remarks>
+        <remarks>
+Delete an asset on a sent share
+</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call DeleteAsync with required parameters.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            var operation = await client.DeleteAsync(WaitUntil.Completed, "<sentShareName>", "<assetName>");
-            
-            var response = await operation.WaitForCompletionResponseAsync();
-            Console.WriteLine(response.Status)
-            ]]></code></example>
+This sample shows how to call DeleteAsync with required parameters.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+var operation = await client.DeleteAsync(WaitUntil.Completed, "<sentShareName>", "<assetName>");
+
+Console.WriteLine(operation.GetRawResponse().Status)
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetAsset">
@@ -525,73 +527,73 @@
         <summary> Get asset in a sentShare. </summary>
         <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
         <remarks>
-            Get an asset on a sent share
-            
-            Below is the JSON schema for the response payload.
-            
-            Response Body:
-            
-            This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
-            <details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
-            <code>{
-              kind: AdlsGen2Account, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the adls gen2 storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of adls gen2 storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
-              }, # Required. Adls gen 2 account asset properties
-            }
-            </code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
-            <code>{
-              kind: BlobAccount, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the blob storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of blob storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the blob storage account.
-              }, # Required. Blob storage account asset properties
-            }
-            </code></details></details></remarks>
+Get an asset on a sent share
+
+Below is the JSON schema for the response payload.
+
+Response Body:
+
+This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
+<details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the adls gen2 storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of adls gen2 storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
+  }, # Required. Adls gen 2 account asset properties
+  kind: AdlsGen2Account, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the blob storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of blob storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the blob storage account.
+  }, # Required. Blob storage account asset properties
+  kind: BlobAccount, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAsset with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            Response response = client.GetAsset("<sentShareName>", "<assetName>");
-            
-            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("kind").ToString());
-            ]]></code></example>
+This sample shows how to call GetAsset with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+Response response = client.GetAsset("<sentShareName>", "<assetName>");
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("kind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetAssetAsync">
@@ -620,73 +622,73 @@
         <summary> Get asset in a sentShare. </summary>
         <returns> The response returned from the service. Details of the response body schema are in the Remarks section below. </returns>
         <remarks>
-            Get an asset on a sent share
-            
-            Below is the JSON schema for the response payload.
-            
-            Response Body:
-            
-            This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
-            <details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
-            <code>{
-              kind: AdlsGen2Account, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the adls gen2 storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of adls gen2 storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
-              }, # Required. Adls gen 2 account asset properties
-            }
-            </code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
-            <code>{
-              kind: BlobAccount, # Required. The types of asset.
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              properties: {
-                location: string, # Optional. Location of the blob storage account.
-                paths: [
-                  {
-                    containerName: string, # Required. Gets or sets the container name.
-                    receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
-                    senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
-                  }
-                ], # Required. A list of blob storage account paths to be shared.
-                provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
-                receiverAssetName: string, # Required. Name of the asset for the receiver.
-                storageAccountResourceId: string, # Required. Resource id of the blob storage account.
-              }, # Required. Blob storage account asset properties
-            }
-            </code></details></details></remarks>
+Get an asset on a sent share
+
+Below is the JSON schema for the response payload.
+
+Response Body:
+
+This method takes one of the JSON objects below as a payload. Please select a JSON object to view the schema for this.
+<details><summary>AdlsGen2AccountAsset</summary>Schema for <c>AdlsGen2AccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the adls gen2 storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of adls gen2 storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the adls gen2 storage account.
+  }, # Required. Adls gen 2 account asset properties
+  kind: AdlsGen2Account, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details><details><summary>~+ 1 more JSON objects</summary><details><summary>BlobAccountAsset</summary>Schema for <c>BlobAccountAsset</c>:
+<code>{
+  properties: {
+    location: string, # Optional. Location of the blob storage account.
+    paths: [
+      {
+        containerName: string, # Required. Gets or sets the container name.
+        receiverPath: string, # Optional. Gets or sets the path on the receiver side where the asset is to be mapped.
+        senderPath: string, # Optional. Gets or sets the path to file/folder within the container to be shared.
+      }
+    ], # Required. A list of blob storage account paths to be shared.
+    provisioningState: "Unknown" | "Succeeded" | "Creating" | "Deleting" | "Moving" | "Failed" | "SoftDeleting" | "SoftDeleted" | "SourceMoved" | "SourceDeleted" | "TargetMoved" | "TargetDeleted", # Optional. Provisioning status of the resource
+    receiverAssetName: string, # Required. Name of the asset for the receiver.
+    storageAccountResourceId: string, # Required. Resource id of the blob storage account.
+  }, # Required. Blob storage account asset properties
+  kind: BlobAccount, # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></details></details></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> or <paramref name="assetName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAssetAsync with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            Response response = await client.GetAssetAsync("<sentShareName>", "<assetName>");
-            
-            JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
-            Console.WriteLine(result.GetProperty("id").ToString());
-            Console.WriteLine(result.GetProperty("name").ToString());
-            Console.WriteLine(result.GetProperty("type").ToString());
-            Console.WriteLine(result.GetProperty("kind").ToString());
-            ]]></code></example>
+This sample shows how to call GetAssetAsync with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+Response response = await client.GetAssetAsync("<sentShareName>", "<assetName>");
+
+JsonElement result = JsonDocument.Parse(response.ContentStream).RootElement;
+Console.WriteLine(result.GetProperty("kind").ToString());
+Console.WriteLine(result.GetProperty("id").ToString());
+Console.WriteLine(result.GetProperty("name").ToString());
+Console.WriteLine(result.GetProperty("type").ToString());
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetAssets">
@@ -719,51 +721,52 @@
         <summary> List Assets in a share. </summary>
         <returns> The <see cref="T:Azure.Pageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
         <remarks>
-            List assets on a sent share
-            
-            Below is the JSON schema for one item in the pageable response.
-            
-            Response Body:
-            
-            Schema for <c>AssetListValue</c>:
-            <code>{
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
-            }
-            </code></remarks>
+List assets on a sent share
+
+Below is the JSON schema for one item in the pageable response.
+
+Response Body:
+
+Schema for <c>AssetListValue</c>:
+<code>{
+  kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAssets with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            foreach (var data in client.GetAssets("<sentShareName>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.ToString());
-            }
-            ]]></code>
-            This sample shows how to call GetAssets with all parameters, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            foreach (var data in client.GetAssets("<sentShareName>", "<skipToken>", "<filter>", "<orderby>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.GetProperty("id").ToString());
-                Console.WriteLine(result.GetProperty("name").ToString());
-                Console.WriteLine(result.GetProperty("type").ToString());
-                Console.WriteLine(result.GetProperty("kind").ToString());
-            }
-            ]]></code></example>
+This sample shows how to call GetAssets with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+foreach (var data in client.GetAssets("<sentShareName>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("kind").ToString());
+    Console.WriteLine(result.ToString());
+}
+]]></code>
+This sample shows how to call GetAssets with all parameters, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+foreach (var data in client.GetAssets("<sentShareName>", "<skipToken>", "<filter>", "<orderby>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("kind").ToString());
+    Console.WriteLine(result.GetProperty("id").ToString());
+    Console.WriteLine(result.GetProperty("name").ToString());
+    Console.WriteLine(result.GetProperty("type").ToString());
+}
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetAssetsAsync">
@@ -796,51 +799,52 @@
         <summary> List Assets in a share. </summary>
         <returns> The <see cref="T:Azure.AsyncPageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
         <remarks>
-            List assets on a sent share
-            
-            Below is the JSON schema for one item in the pageable response.
-            
-            Response Body:
-            
-            Schema for <c>AssetListValue</c>:
-            <code>{
-              id: string, # Optional. The resource id of the resource.
-              name: string, # Optional. Name of the resource.
-              type: string, # Optional. Type of the resource.
-              kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
-            }
-            </code></remarks>
+List assets on a sent share
+
+Below is the JSON schema for one item in the pageable response.
+
+Response Body:
+
+Schema for <c>AssetListValue</c>:
+<code>{
+  kind: "AdlsGen2Account" | "BlobAccount", # Required. The types of asset.
+  id: string, # Optional. The resource id of the resource.
+  name: string, # Optional. Name of the resource.
+  type: string, # Optional. Type of the resource.
+}
+</code></remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sentShareName" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="sentShareName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-            This sample shows how to call GetAssetsAsync with required parameters and parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            await foreach (var data in client.GetAssetsAsync("<sentShareName>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.ToString());
-            }
-            ]]></code>
-            This sample shows how to call GetAssetsAsync with all parameters, and how to parse the result.
-            <code><![CDATA[
-            var credential = new DefaultAzureCredential();
-            var client = new AssetsClient("<https://my-service.azure.com>", credential);
-            
-            await foreach (var data in client.GetAssetsAsync("<sentShareName>", "<skipToken>", "<filter>", "<orderby>"))
-            {
-                JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-                Console.WriteLine(result.GetProperty("id").ToString());
-                Console.WriteLine(result.GetProperty("name").ToString());
-                Console.WriteLine(result.GetProperty("type").ToString());
-                Console.WriteLine(result.GetProperty("kind").ToString());
-            }
-            ]]></code></example>
+This sample shows how to call GetAssetsAsync with required parameters and parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+await foreach (var data in client.GetAssetsAsync("<sentShareName>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("kind").ToString());
+    Console.WriteLine(result.ToString());
+}
+]]></code>
+This sample shows how to call GetAssetsAsync with all parameters, and how to parse the result.
+<code><![CDATA[
+var credential = new DefaultAzureCredential();
+var client = new AssetsClient("<https://my-service.azure.com>", credential);
+
+await foreach (var data in client.GetAssetsAsync("<sentShareName>", "<skipToken>", "<filter>", "<orderby>"))
+{
+    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
+    Console.WriteLine(result.GetProperty("kind").ToString());
+    Console.WriteLine(result.GetProperty("id").ToString());
+    Console.WriteLine(result.GetProperty("name").ToString());
+    Console.WriteLine(result.GetProperty("type").ToString());
+}
+]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="Pipeline">

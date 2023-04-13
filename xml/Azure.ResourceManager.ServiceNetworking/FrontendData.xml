@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the Frontend data model. </summary>
+    <summary>
+            A class representing the Frontend data model.
+            Frontend Subresource of Traffic Controller.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

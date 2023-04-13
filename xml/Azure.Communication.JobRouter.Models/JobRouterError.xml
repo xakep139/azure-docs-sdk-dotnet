@@ -1,0 +1,121 @@
+<Type Name="JobRouterError" FullName="Azure.Communication.JobRouter.Models.JobRouterError">
+  <TypeSignature Language="C#" Value="public class JobRouterError" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobRouterError extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.Models.JobRouterError" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobRouterError" />
+  <TypeSignature Language="F#" Value="type JobRouterError = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The Communication Services error. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Code">
+      <MemberSignature Language="C#" Value="public string Code { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Code" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.JobRouterError.Code" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Code As String" />
+      <MemberSignature Language="F#" Value="member this.Code : string" Usage="Azure.Communication.JobRouter.Models.JobRouterError.Code" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The error code. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Details">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.JobRouter.Models.JobRouterError&gt; Details { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.Communication.JobRouter.Models.JobRouterError&gt; Details" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.JobRouterError.Details" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Details As IReadOnlyList(Of JobRouterError)" />
+      <MemberSignature Language="F#" Value="member this.Details : System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.JobRouter.Models.JobRouterError&gt;" Usage="Azure.Communication.JobRouter.Models.JobRouterError.Details" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.JobRouter.Models.JobRouterError&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Further details about specific errors that led to this error. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InnerError">
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.Models.JobRouterError InnerError { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.JobRouter.Models.JobRouterError InnerError" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.JobRouterError.InnerError" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InnerError As JobRouterError" />
+      <MemberSignature Language="F#" Value="member this.InnerError : Azure.Communication.JobRouter.Models.JobRouterError" Usage="Azure.Communication.JobRouter.Models.JobRouterError.InnerError" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.Models.JobRouterError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The inner error if any. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.JobRouterError.Message" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Message As String" />
+      <MemberSignature Language="F#" Value="member this.Message : string" Usage="Azure.Communication.JobRouter.Models.JobRouterError.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The error message. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Target">
+      <MemberSignature Language="C#" Value="public string Target { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Target" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.JobRouterError.Target" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Target As String" />
+      <MemberSignature Language="F#" Value="member this.Target : string" Usage="Azure.Communication.JobRouter.Models.JobRouterError.Target" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The error target. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

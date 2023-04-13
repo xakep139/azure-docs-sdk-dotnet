@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the FactoryPrivateEndpointConnection data model. </summary>
+    <summary>
+            A class representing the FactoryPrivateEndpointConnection data model.
+            Private Endpoint Connection ARM resource.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

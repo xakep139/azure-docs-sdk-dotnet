@@ -77,26 +77,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="CallSource">
-      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.CallSource CallSource { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.CallSource CallSource" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallConnectionProperties.CallSource" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CallSource As CallSource" />
-      <MemberSignature Language="F#" Value="member this.CallSource : Azure.Communication.CallAutomation.CallSource" Usage="Azure.Communication.CallAutomation.CallConnectionProperties.CallSource" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Communication.CallAutomation.CallSource</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The source of the call. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="MediaSubscriptionId">
       <MemberSignature Language="C#" Value="public string MediaSubscriptionId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string MediaSubscriptionId" />
@@ -133,6 +113,72 @@
       </ReturnValue>
       <Docs>
         <summary> The server call id. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceCallerIdNumber">
+      <MemberSignature Language="C#" Value="public Azure.Communication.PhoneNumberIdentifier SourceCallerIdNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.PhoneNumberIdentifier SourceCallerIdNumber" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallConnectionProperties.SourceCallerIdNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceCallerIdNumber As PhoneNumberIdentifier" />
+      <MemberSignature Language="F#" Value="member this.SourceCallerIdNumber : Azure.Communication.PhoneNumberIdentifier" Usage="Azure.Communication.CallAutomation.CallConnectionProperties.SourceCallerIdNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.PhoneNumberIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Caller ID phone number to appear on the invitee.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceDisplayName">
+      <MemberSignature Language="C#" Value="public string SourceDisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallConnectionProperties.SourceDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.SourceDisplayName : string" Usage="Azure.Communication.CallAutomation.CallConnectionProperties.SourceDisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Display name to appear on the invitee.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceIdentity">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CommunicationIdentifier SourceIdentity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CommunicationIdentifier SourceIdentity" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallConnectionProperties.SourceIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceIdentity As CommunicationIdentifier" />
+      <MemberSignature Language="F#" Value="member this.SourceIdentity : Azure.Communication.CommunicationIdentifier" Usage="Azure.Communication.CallAutomation.CallConnectionProperties.SourceIdentity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CommunicationIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Source identity.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

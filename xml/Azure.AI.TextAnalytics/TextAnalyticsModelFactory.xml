@@ -1614,38 +1614,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="DynamicClassifyDocumentResultCollection">
-      <MemberSignature Language="C#" Value="public static Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection DynamicClassifyDocumentResultCollection (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.ClassifyDocumentResult&gt; results, Azure.AI.TextAnalytics.TextDocumentBatchStatistics statistics, string modelVersion);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection DynamicClassifyDocumentResultCollection(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.ClassifyDocumentResult&gt; results, class Azure.AI.TextAnalytics.TextDocumentBatchStatistics statistics, string modelVersion) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsModelFactory.DynamicClassifyDocumentResultCollection(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.ClassifyDocumentResult},Azure.AI.TextAnalytics.TextDocumentBatchStatistics,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function DynamicClassifyDocumentResultCollection (results As IEnumerable(Of ClassifyDocumentResult), statistics As TextDocumentBatchStatistics, modelVersion As String) As DynamicClassifyDocumentResultCollection" />
-      <MemberSignature Language="F#" Value="static member DynamicClassifyDocumentResultCollection : seq&lt;Azure.AI.TextAnalytics.ClassifyDocumentResult&gt; * Azure.AI.TextAnalytics.TextDocumentBatchStatistics * string -&gt; Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection" Usage="Azure.AI.TextAnalytics.TextAnalyticsModelFactory.DynamicClassifyDocumentResultCollection (results, statistics, modelVersion)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
-        <AssemblyVersion>5.3.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="results" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.ClassifyDocumentResult&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="statistics" Type="Azure.AI.TextAnalytics.TextDocumentBatchStatistics" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="modelVersion" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="results">Sets the collection of <see cref="T:Azure.AI.TextAnalytics.ClassifyDocumentResult" />.</param>
-        <param name="statistics">Sets the <see cref="P:Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection.Statistics" /> property.</param>
-        <param name="modelVersion">Sets the <see cref="P:Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection.ModelVersion" /> property.</param>
-        <summary>
-            Initializes a new instance of <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection" /> for mocking purposes.
-            </summary>
-        <returns>
-            A new instance of <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection" /> for mocking purposes.
-            </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="EntityDataSource">
       <MemberSignature Language="C#" Value="public static Azure.AI.TextAnalytics.EntityDataSource EntityDataSource (string name = default, string entityId = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.TextAnalytics.EntityDataSource EntityDataSource(string name, string entityId) cil managed" />

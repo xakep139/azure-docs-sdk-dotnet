@@ -8,6 +8,10 @@
     <AssemblyName>Azure.Analytics.Purview.Sharing</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -17,19 +21,443 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="AddAcceptedSentSharesClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AcceptedSentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAcceptedSentSharesClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.AcceptedSentSharesClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAcceptedSentSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAcceptedSentSharesClient``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddAcceptedSentSharesClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of AcceptedSentSharesClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddAcceptedSentSharesClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AcceptedSentSharesClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAcceptedSentSharesClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AcceptedSentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> The scanning endpoint of your purview account. Example: https://{accountName}.purview.azure.com/share. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.AcceptedSentSharesClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAcceptedSentSharesClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AcceptedSentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAcceptedSentSharesClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.AcceptedSentSharesClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAcceptedSentSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAcceptedSentSharesClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddAcceptedSentSharesClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of AcceptedSentSharesClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddAcceptedSentSharesClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AcceptedSentSharesClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAcceptedSentSharesClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AcceptedSentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration values. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.AcceptedSentSharesClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAssetMappingsClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetMappingsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetMappingsClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.AssetMappingsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetMappingsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetMappingsClient``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddAssetMappingsClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of AssetMappingsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddAssetMappingsClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetMappingsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetMappingsClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetMappingsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> The scanning endpoint of your purview account. Example: https://{accountName}.purview.azure.com/share. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.AssetMappingsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAssetMappingsClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetMappingsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetMappingsClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.AssetMappingsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetMappingsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetMappingsClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddAssetMappingsClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of AssetMappingsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddAssetMappingsClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetMappingsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetMappingsClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetMappingsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration values. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.AssetMappingsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAssetsClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetsClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.AssetsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetsClient``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddAssetsClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of AssetsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddAssetsClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetsClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> The scanning endpoint of your purview account. Example: https://{accountName}.purview.azure.com/share. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.AssetsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAssetsClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetsClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.AssetsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddAssetsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetsClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddAssetsClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of AssetsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddAssetsClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddAssetsClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.AssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration values. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.AssetsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddEmailRegistrationClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.EmailRegistrationClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddEmailRegistrationClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.EmailRegistrationClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddEmailRegistrationClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddEmailRegistrationClient``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddEmailRegistrationClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of EmailRegistrationClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddEmailRegistrationClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.EmailRegistrationClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddEmailRegistrationClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.EmailRegistrationClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> The scanning endpoint of your purview account. Example: https://{accountName}.purview.azure.com/share. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.EmailRegistrationClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddEmailRegistrationClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.EmailRegistrationClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddEmailRegistrationClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.EmailRegistrationClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddEmailRegistrationClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddEmailRegistrationClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddEmailRegistrationClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of EmailRegistrationClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddEmailRegistrationClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.EmailRegistrationClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddEmailRegistrationClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.EmailRegistrationClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration values. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.EmailRegistrationClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddReceivedAssetsClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedAssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedAssetsClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.ReceivedAssetsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedAssetsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedAssetsClient``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddReceivedAssetsClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of ReceivedAssetsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddReceivedAssetsClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedAssetsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedAssetsClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedAssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> The scanning endpoint of your purview account. Example: https://{accountName}.purview.azure.com/share. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.ReceivedAssetsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddReceivedAssetsClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedAssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedAssetsClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.ReceivedAssetsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedAssetsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedAssetsClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddReceivedAssetsClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of ReceivedAssetsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddReceivedAssetsClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedAssetsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedAssetsClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedAssetsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration values. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.ReceivedAssetsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddReceivedInvitationsClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedInvitationsClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.ReceivedInvitationsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedInvitationsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedInvitationsClient``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddReceivedInvitationsClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of ReceivedInvitationsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddReceivedInvitationsClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedInvitationsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedInvitationsClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> The scanning endpoint of your purview account. Example: https://{accountName}.purview.azure.com/share. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.ReceivedInvitationsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddReceivedInvitationsClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedInvitationsClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.ReceivedInvitationsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedInvitationsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedInvitationsClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddReceivedInvitationsClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of ReceivedInvitationsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddReceivedInvitationsClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedInvitationsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedInvitationsClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration values. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.ReceivedInvitationsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AddReceivedSharesClient&lt;TBuilder&gt;">
-      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.ReceivedSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Sharing.ReceivedSharesClient, class Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.ReceivedSharesClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedSharesClient``1(``0,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddReceivedSharesClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of ReceivedSharesClient, PurviewShareClientOptions)" />
-      <MemberSignature Language="F#" Value="static member AddReceivedSharesClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.ReceivedSharesClient, Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedSharesClient (builder, endpoint)" />
+      <MemberSignature Language="F#" Value="static member AddReceivedSharesClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedSharesClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedSharesClient (builder, endpoint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Analytics.Purview.Sharing</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.ReceivedSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt;</ReturnType>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TBuilder">
@@ -52,18 +480,22 @@
       </Docs>
     </Member>
     <Member MemberName="AddReceivedSharesClient&lt;TBuilder,TConfiguration&gt;">
-      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.ReceivedSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Sharing.ReceivedSharesClient, class Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.ReceivedSharesClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddReceivedSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedSharesClient``2(``0,``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddReceivedSharesClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of ReceivedSharesClient, PurviewShareClientOptions)" />
-      <MemberSignature Language="F#" Value="static member AddReceivedSharesClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.ReceivedSharesClient, Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedSharesClient (builder, configuration)" />
+      <MemberSignature Language="F#" Value="static member AddReceivedSharesClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedSharesClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddReceivedSharesClient (builder, configuration)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Analytics.Purview.Sharing</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.ReceivedSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt;</ReturnType>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.ReceivedSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TBuilder">
@@ -87,19 +519,93 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="AddSentShareInvitationsClient&lt;TBuilder&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentShareInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentShareInvitationsClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.SentShareInvitationsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentShareInvitationsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentShareInvitationsClient``1(``0,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSentShareInvitationsClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of SentShareInvitationsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddSentShareInvitationsClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentShareInvitationsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentShareInvitationsClient (builder, endpoint)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentShareInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="endpoint" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="endpoint"> The scanning endpoint of your purview account. Example: https://{accountName}.purview.azure.com/share. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.SentShareInvitationsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddSentShareInvitationsClient&lt;TBuilder,TConfiguration&gt;">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentShareInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentShareInvitationsClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.SentShareInvitationsClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentShareInvitationsClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentShareInvitationsClient``2(``0,``1)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSentShareInvitationsClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of SentShareInvitationsClient, PurviewShareClientOptions)" />
+      <MemberSignature Language="F#" Value="static member AddSentShareInvitationsClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentShareInvitationsClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentShareInvitationsClient (builder, configuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentShareInvitationsClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TBuilder">
+          <Constraints>
+            <InterfaceName>Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;</InterfaceName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TConfiguration" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="builder" Type="TBuilder" RefType="this" />
+        <Parameter Name="configuration" Type="TConfiguration" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TBuilder">To be added.</typeparam>
+        <typeparam name="TConfiguration">To be added.</typeparam>
+        <param name="builder"> The builder to register with. </param>
+        <param name="configuration"> The configuration values. </param>
+        <summary> Registers a <see cref="T:Azure.Analytics.Purview.Share.SentShareInvitationsClient" /> instance. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AddSentSharesClient&lt;TBuilder&gt;">
-      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.SentSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddSentSharesClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Sharing.SentSharesClient, class Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddSentSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentSharesClient&lt;TBuilder&gt; (this TBuilder builder, string endpoint) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.SentSharesClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential) TBuilder&gt;(!!TBuilder builder, string endpoint) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentSharesClient``1(``0,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSentSharesClient(Of TBuilder As IAzureClientFactoryBuilderWithCredential) (builder As TBuilder, endpoint As String) As IAzureClientBuilder(Of SentSharesClient, PurviewShareClientOptions)" />
-      <MemberSignature Language="F#" Value="static member AddSentSharesClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.SentSharesClient, Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentSharesClient (builder, endpoint)" />
+      <MemberSignature Language="F#" Value="static member AddSentSharesClient : 'Builder * string -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentSharesClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithCredential)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentSharesClient (builder, endpoint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Analytics.Purview.Sharing</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.SentSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt;</ReturnType>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TBuilder">
@@ -122,18 +628,22 @@
       </Docs>
     </Member>
     <Member MemberName="AddSentSharesClient&lt;TBuilder,TConfiguration&gt;">
-      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.SentSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddSentSharesClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Sharing.SentSharesClient, class Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; AddSentSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentSharesClient&lt;TBuilder,TConfiguration&gt; (this TBuilder builder, TConfiguration configuration) where TBuilder : Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;TConfiguration&gt;;" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.Extensions.IAzureClientBuilder`2&lt;class Azure.Analytics.Purview.Share.SentSharesClient, class Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; AddSentSharesClient&lt;(class Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration`1&lt;!!TConfiguration&gt;) TBuilder, TConfiguration&gt;(!!TBuilder builder, !!TConfiguration configuration) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentSharesClient``2(``0,``1)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddSentSharesClient(Of TBuilder As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration), TConfiguration As IAzureClientFactoryBuilderWithConfiguration(Of TConfiguration)) (builder As TBuilder, configuration As TConfiguration) As IAzureClientBuilder(Of SentSharesClient, PurviewShareClientOptions)" />
-      <MemberSignature Language="F#" Value="static member AddSentSharesClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.SentSharesClient, Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentSharesClient (builder, configuration)" />
+      <MemberSignature Language="F#" Value="static member AddSentSharesClient : 'Builder * 'Configuration -&gt; Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentSharesClient, Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt; (requires 'Builder :&gt; Azure.Core.Extensions.IAzureClientFactoryBuilderWithConfiguration&lt;'Configuration&gt;)" Usage="Microsoft.Extensions.Azure.PurviewShareClientBuilderExtensions.AddSentSharesClient (builder, configuration)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Analytics.Purview.Sharing</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Analytics.Purview.Share</AssemblyName>
+        <AssemblyVersion>1.0.3.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Sharing.SentSharesClient,Azure.Analytics.Purview.Sharing.PurviewShareClientOptions&gt;</ReturnType>
+        <ReturnType>Azure.Core.Extensions.IAzureClientBuilder&lt;Azure.Analytics.Purview.Share.SentSharesClient,Azure.Analytics.Purview.Share.PurviewShareClientOptions&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TBuilder">

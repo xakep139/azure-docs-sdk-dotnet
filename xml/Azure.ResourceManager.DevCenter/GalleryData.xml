@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the Gallery data model. </summary>
+    <summary>
+            A class representing the Gallery data model.
+            Represents a gallery.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

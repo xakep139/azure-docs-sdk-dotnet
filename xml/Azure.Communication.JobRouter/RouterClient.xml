@@ -1,0 +1,1254 @@
+<Type Name="RouterClient" FullName="Azure.Communication.JobRouter.RouterClient">
+  <TypeSignature Language="C#" Value="public class RouterClient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RouterClient extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.RouterClient" />
+  <TypeSignature Language="VB.NET" Value="Public Class RouterClient" />
+  <TypeSignature Language="F#" Value="type RouterClient = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The Azure Communication Services Router client.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected RouterClient ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of <see cref="T:Azure.Communication.JobRouter.RouterClient" /> for mocking.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RouterClient (string connectionString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.RouterClient : string -&gt; Azure.Communication.JobRouter.RouterClient" Usage="new Azure.Communication.JobRouter.RouterClient connectionString" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">Connection string acquired from the Azure Communication Services resource.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.JobRouter.RouterClient" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RouterClient (string connectionString, Azure.Communication.JobRouter.RouterClientOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString, class Azure.Communication.JobRouter.RouterClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.#ctor(System.String,Azure.Communication.JobRouter.RouterClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As String, options As RouterClientOptions)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.RouterClient : string * Azure.Communication.JobRouter.RouterClientOptions -&gt; Azure.Communication.JobRouter.RouterClient" Usage="new Azure.Communication.JobRouter.RouterClient (connectionString, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.RouterClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">Connection string acquired from the Azure Communication Services resource.</param>
+        <param name="options">Client option exposing <see cref="P:Azure.Core.ClientOptions.Diagnostics" />, <see cref="P:Azure.Core.ClientOptions.Retry" />, <see cref="P:Azure.Core.ClientOptions.Transport" />, etc.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.JobRouter.RouterClient" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RouterClient (Uri endpoint, Azure.AzureKeyCredential credential, Azure.Communication.JobRouter.RouterClientOptions options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.AzureKeyCredential credential, class Azure.Communication.JobRouter.RouterClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.#ctor(System.Uri,Azure.AzureKeyCredential,Azure.Communication.JobRouter.RouterClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As AzureKeyCredential, Optional options As RouterClientOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.RouterClient : Uri * Azure.AzureKeyCredential * Azure.Communication.JobRouter.RouterClientOptions -&gt; Azure.Communication.JobRouter.RouterClient" Usage="new Azure.Communication.JobRouter.RouterClient (endpoint, credential, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.AzureKeyCredential" />
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.RouterClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint">The URI of the Azure Communication Services resource.</param>
+        <param name="credential">The <see cref="T:Azure.AzureKeyCredential" /> used to authenticate requests.</param>
+        <param name="options">Client option exposing <see cref="P:Azure.Core.ClientOptions.Diagnostics" />, <see cref="P:Azure.Core.ClientOptions.Retry" />, <see cref="P:Azure.Core.ClientOptions.Transport" />, etc.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.JobRouter.RouterClient" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RouterClient (Uri endpoint, Azure.Core.TokenCredential credential, Azure.Communication.JobRouter.RouterClientOptions options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri endpoint, class Azure.Core.TokenCredential credential, class Azure.Communication.JobRouter.RouterClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.#ctor(System.Uri,Azure.Core.TokenCredential,Azure.Communication.JobRouter.RouterClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (endpoint As Uri, credential As TokenCredential, Optional options As RouterClientOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.JobRouter.RouterClient : Uri * Azure.Core.TokenCredential * Azure.Communication.JobRouter.RouterClientOptions -&gt; Azure.Communication.JobRouter.RouterClient" Usage="new Azure.Communication.JobRouter.RouterClient (endpoint, credential, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="endpoint" Type="System.Uri" />
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.RouterClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="endpoint">The URI of the Azure Communication Services resource.</param>
+        <param name="credential">The TokenCredential used to authenticate requests, such as DefaultAzureCredential.</param>
+        <param name="options">Client option exposing <see cref="P:Azure.Core.ClientOptions.Diagnostics" />, <see cref="P:Azure.Core.ClientOptions.Retry" />, <see cref="P:Azure.Core.ClientOptions.Transport" />, etc.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.JobRouter.RouterClient" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AcceptJobOffer">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt; AcceptJobOffer (string workerId, string offerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt; AcceptJobOffer(string workerId, string offerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.AcceptJobOffer(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AcceptJobOffer (workerId As String, offerId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AcceptJobOfferResult)" />
+      <MemberSignature Language="F#" Value="abstract member AcceptJobOffer : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;&#xA;override this.AcceptJobOffer : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;" Usage="routerClient.AcceptJobOffer (workerId, offerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="offerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="offerId"> The Id of the Job offer. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Accepts an offer to work on a job and returns a 409/Conflict if another agent accepted the job already. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="offerId" /> or <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="AcceptJobOfferAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;&gt; AcceptJobOfferAsync (string workerId, string offerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;&gt; AcceptJobOfferAsync(string workerId, string offerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.AcceptJobOfferAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function AcceptJobOfferAsync (workerId As String, offerId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AcceptJobOfferResult))" />
+      <MemberSignature Language="F#" Value="abstract member AcceptJobOfferAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;&gt;&#xA;override this.AcceptJobOfferAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;&gt;" Usage="routerClient.AcceptJobOfferAsync (workerId, offerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.AcceptJobOfferResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="offerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="offerId"> The Id of the Job offer. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Accepts an offer to work on a job and returns a 409/Conflict if another agent accepted the job already. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="offerId" /> or <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt; CancelJob (Azure.Communication.JobRouter.CancelJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.CancelJobResult&gt; CancelJob(class Azure.Communication.JobRouter.CancelJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CancelJob(Azure.Communication.JobRouter.CancelJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CancelJob (options As CancelJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of CancelJobResult)" />
+      <MemberSignature Language="F#" Value="abstract member CancelJob : Azure.Communication.JobRouter.CancelJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt;&#xA;override this.CancelJob : Azure.Communication.JobRouter.CancelJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt;" Usage="routerClient.CancelJob (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CancelJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for cancelling a job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Submits request to cancel an existing job by Id while supplying free-form cancellation reason. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt;&gt; CancelJobAsync (Azure.Communication.JobRouter.CancelJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.CancelJobResult&gt;&gt; CancelJobAsync(class Azure.Communication.JobRouter.CancelJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CancelJobAsync(Azure.Communication.JobRouter.CancelJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CancelJobAsync (options As CancelJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CancelJobResult))" />
+      <MemberSignature Language="F#" Value="abstract member CancelJobAsync : Azure.Communication.JobRouter.CancelJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt;&gt;&#xA;override this.CancelJobAsync : Azure.Communication.JobRouter.CancelJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt;&gt;" Usage="routerClient.CancelJobAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CancelJobResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CancelJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for cancelling a job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Submits request to cancel an existing job by Id while supplying free-form cancellation reason. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt; CloseJob (Azure.Communication.JobRouter.CloseJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.CloseJobResult&gt; CloseJob(class Azure.Communication.JobRouter.CloseJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CloseJob(Azure.Communication.JobRouter.CloseJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CloseJob (options As CloseJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of CloseJobResult)" />
+      <MemberSignature Language="F#" Value="abstract member CloseJob : Azure.Communication.JobRouter.CloseJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt;&#xA;override this.CloseJob : Azure.Communication.JobRouter.CloseJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt;" Usage="routerClient.CloseJob (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CloseJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for closing a job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Closes a completed job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt;&gt; CloseJobAsync (Azure.Communication.JobRouter.CloseJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.CloseJobResult&gt;&gt; CloseJobAsync(class Azure.Communication.JobRouter.CloseJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CloseJobAsync(Azure.Communication.JobRouter.CloseJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CloseJobAsync (options As CloseJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CloseJobResult))" />
+      <MemberSignature Language="F#" Value="abstract member CloseJobAsync : Azure.Communication.JobRouter.CloseJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt;&gt;&#xA;override this.CloseJobAsync : Azure.Communication.JobRouter.CloseJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt;&gt;" Usage="routerClient.CloseJobAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CloseJobResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CloseJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for closing a job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Closes a completed job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt; CompleteJob (Azure.Communication.JobRouter.CompleteJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.CompleteJobResult&gt; CompleteJob(class Azure.Communication.JobRouter.CompleteJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CompleteJob(Azure.Communication.JobRouter.CompleteJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CompleteJob (options As CompleteJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of CompleteJobResult)" />
+      <MemberSignature Language="F#" Value="abstract member CompleteJob : Azure.Communication.JobRouter.CompleteJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt;&#xA;override this.CompleteJob : Azure.Communication.JobRouter.CompleteJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt;" Usage="routerClient.CompleteJob (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CompleteJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for completing a job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Completes an assigned job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt;&gt; CompleteJobAsync (Azure.Communication.JobRouter.CompleteJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.CompleteJobResult&gt;&gt; CompleteJobAsync(class Azure.Communication.JobRouter.CompleteJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CompleteJobAsync(Azure.Communication.JobRouter.CompleteJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CompleteJobAsync (options As CompleteJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CompleteJobResult))" />
+      <MemberSignature Language="F#" Value="abstract member CompleteJobAsync : Azure.Communication.JobRouter.CompleteJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt;&gt;&#xA;override this.CompleteJobAsync : Azure.Communication.JobRouter.CompleteJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt;&gt;" Usage="routerClient.CompleteJobAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.CompleteJobResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CompleteJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for completing a job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Completes an assigned job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt; CreateJob (Azure.Communication.JobRouter.CreateJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt; CreateJob(class Azure.Communication.JobRouter.CreateJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CreateJob(Azure.Communication.JobRouter.CreateJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateJob (options As CreateJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterJob)" />
+      <MemberSignature Language="F#" Value="abstract member CreateJob : Azure.Communication.JobRouter.CreateJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&#xA;override this.CreateJob : Azure.Communication.JobRouter.CreateJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;" Usage="routerClient.CreateJob (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CreateJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for creating job with direct queue assignment. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Creates a new job to be routed. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt; CreateJob (Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt; CreateJob(class Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CreateJob(Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateJob (options As CreateJobWithClassificationPolicyOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterJob)" />
+      <MemberSignature Language="F#" Value="abstract member CreateJob : Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&#xA;override this.CreateJob : Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;" Usage="routerClient.CreateJob (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for creating job with classification properties. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Creates a new job to be routed with classification property. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; CreateJobAsync (Azure.Communication.JobRouter.CreateJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; CreateJobAsync(class Azure.Communication.JobRouter.CreateJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CreateJobAsync(Azure.Communication.JobRouter.CreateJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateJobAsync (options As CreateJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RouterJob))" />
+      <MemberSignature Language="F#" Value="abstract member CreateJobAsync : Azure.Communication.JobRouter.CreateJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;&#xA;override this.CreateJobAsync : Azure.Communication.JobRouter.CreateJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;" Usage="routerClient.CreateJobAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CreateJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for creating job with direct queue assignment. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Creates a new job to be routed. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; CreateJobAsync (Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; CreateJobAsync(class Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CreateJobAsync(Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateJobAsync (options As CreateJobWithClassificationPolicyOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RouterJob))" />
+      <MemberSignature Language="F#" Value="abstract member CreateJobAsync : Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;&#xA;override this.CreateJobAsync : Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;" Usage="routerClient.CreateJobAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CreateJobWithClassificationPolicyOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for creating job with classification properties. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Creates a new job to be routed with classification property. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWorker">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt; CreateWorker (Azure.Communication.JobRouter.CreateWorkerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterWorker&gt; CreateWorker(class Azure.Communication.JobRouter.CreateWorkerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CreateWorker(Azure.Communication.JobRouter.CreateWorkerOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateWorker (options As CreateWorkerOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterWorker)" />
+      <MemberSignature Language="F#" Value="abstract member CreateWorker : Azure.Communication.JobRouter.CreateWorkerOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&#xA;override this.CreateWorker : Azure.Communication.JobRouter.CreateWorkerOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;" Usage="routerClient.CreateWorker (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CreateWorkerOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for creating a router worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Create or update a worker to process jobs. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWorkerAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt; CreateWorkerAsync (Azure.Communication.JobRouter.CreateWorkerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt; CreateWorkerAsync(class Azure.Communication.JobRouter.CreateWorkerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.CreateWorkerAsync(Azure.Communication.JobRouter.CreateWorkerOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateWorkerAsync (options As CreateWorkerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RouterWorker))" />
+      <MemberSignature Language="F#" Value="abstract member CreateWorkerAsync : Azure.Communication.JobRouter.CreateWorkerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;&#xA;override this.CreateWorkerAsync : Azure.Communication.JobRouter.CreateWorkerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;" Usage="routerClient.CreateWorkerAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.CreateWorkerOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for creating a router worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Create or update a worker to process jobs. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeclineJobOffer">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt; DeclineJobOffer (string workerId, string offerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt; DeclineJobOffer(string workerId, string offerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.DeclineJobOffer(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeclineJobOffer (workerId As String, offerId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DeclineJobOfferResult)" />
+      <MemberSignature Language="F#" Value="abstract member DeclineJobOffer : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;&#xA;override this.DeclineJobOffer : string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;" Usage="routerClient.DeclineJobOffer (workerId, offerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="offerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="offerId"> The Id of the Job offer. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Declines an offer to work on a job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="offerId" /> or <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeclineJobOfferAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;&gt; DeclineJobOfferAsync (string workerId, string offerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;&gt; DeclineJobOfferAsync(string workerId, string offerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.DeclineJobOfferAsync(System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeclineJobOfferAsync (workerId As String, offerId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DeclineJobOfferResult))" />
+      <MemberSignature Language="F#" Value="abstract member DeclineJobOfferAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;&gt;&#xA;override this.DeclineJobOfferAsync : string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;&gt;" Usage="routerClient.DeclineJobOfferAsync (workerId, offerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.DeclineJobOfferResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="offerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="offerId"> The Id of the Job offer. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Declines an offer to work on a job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="offerId" /> or <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response DeleteJob (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response DeleteJob(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.DeleteJob(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteJob (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Response" />
+      <MemberSignature Language="F#" Value="abstract member DeleteJob : string * System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.DeleteJob : string * System.Threading.CancellationToken -&gt; Azure.Response" Usage="routerClient.DeleteJob (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The String to use. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Deletes a job and all of its traces. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; DeleteJobAsync (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; DeleteJobAsync(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.DeleteJobAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteJobAsync (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteJobAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.DeleteJobAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="routerClient.DeleteJobAsync (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The String to use. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Deletes a job and all of its traces. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteWorker">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt; DeleteWorker (string workerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterWorker&gt; DeleteWorker(string workerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.DeleteWorker(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteWorker (workerId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterWorker)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteWorker : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&#xA;override this.DeleteWorker : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;" Usage="routerClient.DeleteWorker (workerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Deletes an existing worker by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteWorkerAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; DeleteWorkerAsync (string workerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; DeleteWorkerAsync(string workerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.DeleteWorkerAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DeleteWorkerAsync (workerId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteWorkerAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.DeleteWorkerAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="routerClient.DeleteWorkerAsync (workerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Deletes an existing worker by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt; GetJob (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt; GetJob(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetJob(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetJob (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterJob)" />
+      <MemberSignature Language="F#" Value="abstract member GetJob : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&#xA;override this.GetJob : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;" Usage="routerClient.GetJob (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The Id of the job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Retrieves an existing job by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; GetJobAsync (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; GetJobAsync(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetJobAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetJobAsync (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RouterJob))" />
+      <MemberSignature Language="F#" Value="abstract member GetJobAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;&#xA;override this.GetJobAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;" Usage="routerClient.GetJobAsync (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The id of the job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Retrieves an existing job by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobs">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt; GetJobs (Azure.Communication.JobRouter.GetJobsOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.Communication.JobRouter.Models.RouterJobItem&gt; GetJobs(class Azure.Communication.JobRouter.GetJobsOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetJobs(Azure.Communication.JobRouter.GetJobsOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetJobs (Optional options As GetJobsOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RouterJobItem)" />
+      <MemberSignature Language="F#" Value="abstract member GetJobs : Azure.Communication.JobRouter.GetJobsOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt;&#xA;override this.GetJobs : Azure.Communication.JobRouter.GetJobsOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt;" Usage="routerClient.GetJobs (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.GetJobsOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for filter while retrieving jobs. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJobsAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt; GetJobsAsync (Azure.Communication.JobRouter.GetJobsOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.Communication.JobRouter.Models.RouterJobItem&gt; GetJobsAsync(class Azure.Communication.JobRouter.GetJobsOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetJobsAsync(Azure.Communication.JobRouter.GetJobsOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetJobsAsync (Optional options As GetJobsOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RouterJobItem)" />
+      <MemberSignature Language="F#" Value="abstract member GetJobsAsync : Azure.Communication.JobRouter.GetJobsOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt;&#xA;override this.GetJobsAsync : Azure.Communication.JobRouter.GetJobsOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt;" Usage="routerClient.GetJobsAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterJobItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.GetJobsOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for filter while retrieving jobs. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQueuePosition">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt; GetQueuePosition (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.JobPositionDetails&gt; GetQueuePosition(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetQueuePosition(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueuePosition (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of JobPositionDetails)" />
+      <MemberSignature Language="F#" Value="abstract member GetQueuePosition : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt;&#xA;override this.GetQueuePosition : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt;" Usage="routerClient.GetQueuePosition (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The String to use. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Gets a jobs position details. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQueuePositionAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt;&gt; GetQueuePositionAsync (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.JobPositionDetails&gt;&gt; GetQueuePositionAsync(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetQueuePositionAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueuePositionAsync (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of JobPositionDetails))" />
+      <MemberSignature Language="F#" Value="abstract member GetQueuePositionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt;&gt;&#xA;override this.GetQueuePositionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt;&gt;" Usage="routerClient.GetQueuePositionAsync (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.JobPositionDetails&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The String to use. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Gets a jobs position details. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQueueStatistics">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt; GetQueueStatistics (string queueId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.QueueStatistics&gt; GetQueueStatistics(string queueId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetQueueStatistics(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueueStatistics (queueId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of QueueStatistics)" />
+      <MemberSignature Language="F#" Value="abstract member GetQueueStatistics : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt;&#xA;override this.GetQueueStatistics : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt;" Usage="routerClient.GetQueueStatistics (queueId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queueId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="queueId"> Id of the queue. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Retrieves queue statistics by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="queueId" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetQueueStatisticsAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt;&gt; GetQueueStatisticsAsync (string queueId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.QueueStatistics&gt;&gt; GetQueueStatisticsAsync(string queueId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetQueueStatisticsAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueueStatisticsAsync (queueId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of QueueStatistics))" />
+      <MemberSignature Language="F#" Value="abstract member GetQueueStatisticsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt;&gt;&#xA;override this.GetQueueStatisticsAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt;&gt;" Usage="routerClient.GetQueueStatisticsAsync (queueId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.QueueStatistics&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="queueId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="queueId"> Id of the queue. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Retrieves queue statistics by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="queueId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorker">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt; GetWorker (string workerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterWorker&gt; GetWorker(string workerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetWorker(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorker (workerId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterWorker)" />
+      <MemberSignature Language="F#" Value="abstract member GetWorker : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&#xA;override this.GetWorker : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;" Usage="routerClient.GetWorker (workerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Retrieves an existing worker by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorkerAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt; GetWorkerAsync (string workerId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt; GetWorkerAsync(string workerId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetWorkerAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorkerAsync (workerId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RouterWorker))" />
+      <MemberSignature Language="F#" Value="abstract member GetWorkerAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;&#xA;override this.GetWorkerAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;" Usage="routerClient.GetWorkerAsync (workerId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workerId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="workerId"> The Id of the Worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Retrieves an existing worker by Id. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="workerId" /> is null. </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorkers">
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt; GetWorkers (Azure.Communication.JobRouter.GetWorkersOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.Communication.JobRouter.Models.RouterWorkerItem&gt; GetWorkers(class Azure.Communication.JobRouter.GetWorkersOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetWorkers(Azure.Communication.JobRouter.GetWorkersOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorkers (Optional options As GetWorkersOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of RouterWorkerItem)" />
+      <MemberSignature Language="F#" Value="abstract member GetWorkers : Azure.Communication.JobRouter.GetWorkersOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt;&#xA;override this.GetWorkers : Azure.Communication.JobRouter.GetWorkersOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt;" Usage="routerClient.GetWorkers (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Pageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.GetWorkersOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for filtering while retrieving router workers. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Retrieves existing workers. Pass status and Channel Id to filter workers further. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetWorkersAsync">
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt; GetWorkersAsync (Azure.Communication.JobRouter.GetWorkersOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.Communication.JobRouter.Models.RouterWorkerItem&gt; GetWorkersAsync(class Azure.Communication.JobRouter.GetWorkersOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.GetWorkersAsync(Azure.Communication.JobRouter.GetWorkersOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWorkersAsync (Optional options As GetWorkersOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of RouterWorkerItem)" />
+      <MemberSignature Language="F#" Value="abstract member GetWorkersAsync : Azure.Communication.JobRouter.GetWorkersOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt;&#xA;override this.GetWorkersAsync : Azure.Communication.JobRouter.GetWorkersOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt;" Usage="routerClient.GetWorkersAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.Communication.JobRouter.Models.RouterWorkerItem&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.GetWorkersOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for filtering while retrieving router workers. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Retrieves existing workers. Pass status and Channel Id to filter workers further. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ReclassifyJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt; ReclassifyJob (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt; ReclassifyJob(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.ReclassifyJob(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ReclassifyJob (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ReclassifyJobResult)" />
+      <MemberSignature Language="F#" Value="abstract member ReclassifyJob : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;&#xA;override this.ReclassifyJob : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;" Usage="routerClient.ReclassifyJob (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The id of the job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Reclassify a job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" />
+        </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ReclassifyJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;&gt; ReclassifyJobAsync (string jobId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;&gt; ReclassifyJobAsync(string jobId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.ReclassifyJobAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ReclassifyJobAsync (jobId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ReclassifyJobResult))" />
+      <MemberSignature Language="F#" Value="abstract member ReclassifyJobAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;&gt;&#xA;override this.ReclassifyJobAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;&gt;" Usage="routerClient.ReclassifyJobAsync (jobId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.ReclassifyJobResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jobId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="jobId"> The id of the job. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Reclassify a job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="jobId" />
+        </exception>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UnassignJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt; UnassignJob (Azure.Communication.JobRouter.UnassignJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.UnassignJobResult&gt; UnassignJob(class Azure.Communication.JobRouter.UnassignJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.UnassignJob(Azure.Communication.JobRouter.UnassignJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UnassignJob (options As UnassignJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of UnassignJobResult)" />
+      <MemberSignature Language="F#" Value="abstract member UnassignJob : Azure.Communication.JobRouter.UnassignJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt;&#xA;override this.UnassignJob : Azure.Communication.JobRouter.UnassignJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt;" Usage="routerClient.UnassignJob (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.UnassignJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for unassigning a job from a worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Unassign a job from a worker. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UnassignJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt;&gt; UnassignJobAsync (Azure.Communication.JobRouter.UnassignJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.UnassignJobResult&gt;&gt; UnassignJobAsync(class Azure.Communication.JobRouter.UnassignJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.UnassignJobAsync(Azure.Communication.JobRouter.UnassignJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UnassignJobAsync (options As UnassignJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of UnassignJobResult))" />
+      <MemberSignature Language="F#" Value="abstract member UnassignJobAsync : Azure.Communication.JobRouter.UnassignJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt;&gt;&#xA;override this.UnassignJobAsync : Azure.Communication.JobRouter.UnassignJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt;&gt;" Usage="routerClient.UnassignJobAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.UnassignJobResult&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.UnassignJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for unassigning a job from a worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Unassign a job from a worker. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateJob">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt; UpdateJob (Azure.Communication.JobRouter.UpdateJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt; UpdateJob(class Azure.Communication.JobRouter.UpdateJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.UpdateJob(Azure.Communication.JobRouter.UpdateJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateJob (options As UpdateJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterJob)" />
+      <MemberSignature Language="F#" Value="abstract member UpdateJob : Azure.Communication.JobRouter.UpdateJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&#xA;override this.UpdateJob : Azure.Communication.JobRouter.UpdateJobOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;" Usage="routerClient.UpdateJob (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.UpdateJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for updating a job. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Update an existing job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateJobAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; UpdateJobAsync (Azure.Communication.JobRouter.UpdateJobOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterJob&gt;&gt; UpdateJobAsync(class Azure.Communication.JobRouter.UpdateJobOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.UpdateJobAsync(Azure.Communication.JobRouter.UpdateJobOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateJobAsync (options As UpdateJobOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RouterJob))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateJobAsync : Azure.Communication.JobRouter.UpdateJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;&#xA;override this.UpdateJobAsync : Azure.Communication.JobRouter.UpdateJobOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;" Usage="routerClient.UpdateJobAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterJob&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.UpdateJobOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for updating a job. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Update an existing job. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateWorker">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt; UpdateWorker (Azure.Communication.JobRouter.UpdateWorkerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterWorker&gt; UpdateWorker(class Azure.Communication.JobRouter.UpdateWorkerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.UpdateWorker(Azure.Communication.JobRouter.UpdateWorkerOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateWorker (options As UpdateWorkerOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RouterWorker)" />
+      <MemberSignature Language="F#" Value="abstract member UpdateWorker : Azure.Communication.JobRouter.UpdateWorkerOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&#xA;override this.UpdateWorker : Azure.Communication.JobRouter.UpdateWorkerOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;" Usage="routerClient.UpdateWorker (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.UpdateWorkerOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for updating a router worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Create or update a worker to process jobs. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateWorkerAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt; UpdateWorkerAsync (Azure.Communication.JobRouter.UpdateWorkerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt; UpdateWorkerAsync(class Azure.Communication.JobRouter.UpdateWorkerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.JobRouter.RouterClient.UpdateWorkerAsync(Azure.Communication.JobRouter.UpdateWorkerOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateWorkerAsync (options As UpdateWorkerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RouterWorker))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateWorkerAsync : Azure.Communication.JobRouter.UpdateWorkerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;&#xA;override this.UpdateWorkerAsync : Azure.Communication.JobRouter.UpdateWorkerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;" Usage="routerClient.UpdateWorkerAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.JobRouter.Models.RouterWorker&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.Communication.JobRouter.UpdateWorkerOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options"> Options for updating a router worker. </param>
+        <param name="cancellationToken"> (Optional) The cancellation token to use. </param>
+        <summary> Create or update a worker to process jobs. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException">The server returned an error. See <see cref="P:System.Exception.Message" /> for details returned from the server.</exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

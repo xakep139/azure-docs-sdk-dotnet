@@ -1,0 +1,22 @@
+<Type Name="CompleteJobResult" FullName="Azure.Communication.JobRouter.Models.CompleteJobResult">
+  <TypeSignature Language="C#" Value="public class CompleteJobResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CompleteJobResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.Models.CompleteJobResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class CompleteJobResult" />
+  <TypeSignature Language="F#" Value="type CompleteJobResult = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Response received after successful job completion.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

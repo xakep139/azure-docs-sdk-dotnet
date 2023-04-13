@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the Pool data model. </summary>
+    <summary>
+            A class representing the Pool data model.
+            A pool of Virtual Machines.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

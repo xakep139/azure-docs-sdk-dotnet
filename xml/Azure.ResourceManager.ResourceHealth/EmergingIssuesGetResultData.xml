@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the EmergingIssuesGetResult data model. </summary>
+    <summary>
+            A class representing the EmergingIssuesGetResult data model.
+            The Get EmergingIssues operation response.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

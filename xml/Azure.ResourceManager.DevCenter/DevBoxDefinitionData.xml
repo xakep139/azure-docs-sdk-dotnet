@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the DevBoxDefinition data model. </summary>
+    <summary>
+            A class representing the DevBoxDefinition data model.
+            Represents a definition for a Developer Machine.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

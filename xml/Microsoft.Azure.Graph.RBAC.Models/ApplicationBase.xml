@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="allowGuestsSignIn" Type="System.Nullable&lt;System.Boolean&gt;" />
@@ -81,7 +84,6 @@
         <Parameter Name="wwwHomepage" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="optionalClaims">To be added.</param>
         <param name="allowGuestsSignIn">A property on the application to
             indicate if the application accepts other IDPs or not or partially
             accepts.</param>
@@ -131,6 +133,7 @@
             only GET requests will be allowed.</param>
         <param name="orgRestrictions">A list of tenants allowed to access
             application.</param>
+        <param name="optionalClaims">To be added.</param>
         <param name="passwordCredentials">A collection of
             PasswordCredential objects</param>
         <param name="preAuthorizedApplications">list of pre-authorized
@@ -169,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -198,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -227,6 +232,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -256,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -284,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -314,6 +322,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -342,6 +351,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -371,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -400,6 +411,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -428,6 +440,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -456,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -485,6 +499,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -513,6 +528,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -545,6 +561,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -573,6 +590,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -601,6 +619,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -631,6 +650,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -662,6 +682,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -693,6 +714,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -719,6 +741,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -747,6 +770,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -775,6 +799,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -803,6 +828,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -833,6 +859,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -862,6 +889,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -890,6 +918,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -922,6 +951,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -950,6 +980,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -980,6 +1011,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Graph.RBAC</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

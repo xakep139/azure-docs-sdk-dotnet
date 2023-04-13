@@ -145,6 +145,64 @@
         <summary>
             Disposes
             </summary>
+        <returns>A <see cref="T:System.Threading.Tasks.ValueTask" /> of disposing the <see cref="T:Azure.Storage.DataMovement.TransferManager" />.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NotImplementedException" />
+      </Docs>
+    </Member>
+    <Member MemberName="TryPauseTransferAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;bool&gt; TryPauseTransferAsync (Azure.Storage.DataMovement.DataTransfer transfer, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; TryPauseTransferAsync(class Azure.Storage.DataMovement.DataTransfer transfer, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.DataMovement.TransferManager.TryPauseTransferAsync(Azure.Storage.DataMovement.DataTransfer,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TryPauseTransferAsync (transfer As DataTransfer, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member TryPauseTransferAsync : Azure.Storage.DataMovement.DataTransfer * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;bool&gt;&#xA;override this.TryPauseTransferAsync : Azure.Storage.DataMovement.DataTransfer * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="transferManager.TryPauseTransferAsync (transfer, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="transfer" Type="Azure.Storage.DataMovement.DataTransfer" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="transfer" />
+        <param name="cancellationToken" />
+        <summary>
+            Attempts to pause the transfer of the respective id.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NotImplementedException" />
+      </Docs>
+    </Member>
+    <Member MemberName="TryPauseTransferAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;bool&gt; TryPauseTransferAsync (string transferId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; TryPauseTransferAsync(string transferId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.DataMovement.TransferManager.TryPauseTransferAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TryPauseTransferAsync (transferId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member TryPauseTransferAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;bool&gt;&#xA;override this.TryPauseTransferAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="transferManager.TryPauseTransferAsync (transferId, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="transferId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="transferId" />
+        <param name="cancellationToken" />
+        <summary>
+            Attempts to pause the transfer of the respective id.
+            </summary>
         <returns />
         <remarks>To be added.</remarks>
         <exception cref="T:System.NotImplementedException" />

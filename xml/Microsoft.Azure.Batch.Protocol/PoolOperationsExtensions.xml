@@ -11,6 +11,7 @@
     <AssemblyVersion>15.1.0.0</AssemblyVersion>
     <AssemblyVersion>15.3.0.0</AssemblyVersion>
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
+    <AssemblyVersion>15.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,6 +38,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolAddHeaders</ReturnType>
@@ -81,6 +83,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolAddHeaders&gt;</ReturnType>
@@ -129,6 +132,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolDeleteHeaders</ReturnType>
@@ -182,6 +186,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolDeleteHeaders&gt;</ReturnType>
@@ -239,6 +244,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolDisableAutoScaleHeaders</ReturnType>
@@ -279,6 +285,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolDisableAutoScaleHeaders&gt;</ReturnType>
@@ -323,6 +330,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolEnableAutoScaleHeaders</ReturnType>
@@ -374,6 +382,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolEnableAutoScaleHeaders&gt;</ReturnType>
@@ -429,6 +438,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.AutoScaleRun</ReturnType>
@@ -482,6 +492,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.AutoScaleRun&gt;</ReturnType>
@@ -539,6 +550,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -579,6 +591,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -623,6 +636,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.CloudPool</ReturnType>
@@ -663,6 +677,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolStatistics</ReturnType>
@@ -705,6 +720,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolStatistics&gt;</ReturnType>
@@ -751,6 +767,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.CloudPool&gt;</ReturnType>
@@ -795,6 +812,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.CloudPool&gt;</ReturnType>
@@ -831,6 +849,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.CloudPool&gt;&gt;</ReturnType>
@@ -871,6 +890,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.CloudPool&gt;</ReturnType>
@@ -911,6 +931,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.CloudPool&gt;&gt;</ReturnType>
@@ -955,6 +976,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.PoolUsageMetrics&gt;</ReturnType>
@@ -999,6 +1021,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.PoolUsageMetrics&gt;&gt;</ReturnType>
@@ -1047,6 +1070,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.PoolUsageMetrics&gt;</ReturnType>
@@ -1095,6 +1119,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Batch.Protocol.Models.PoolUsageMetrics&gt;&gt;</ReturnType>
@@ -1147,6 +1172,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolPatchHeaders</ReturnType>
@@ -1196,6 +1222,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolPatchHeaders&gt;</ReturnType>
@@ -1249,6 +1276,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolRemoveNodesHeaders</ReturnType>
@@ -1297,6 +1325,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolRemoveNodesHeaders&gt;</ReturnType>
@@ -1349,6 +1378,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolResizeHeaders</ReturnType>
@@ -1402,6 +1432,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolResizeHeaders&gt;</ReturnType>
@@ -1459,6 +1490,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolStopResizeHeaders</ReturnType>
@@ -1508,6 +1540,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolStopResizeHeaders&gt;</ReturnType>
@@ -1561,6 +1594,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Protocol.Models.PoolUpdatePropertiesHeaders</ReturnType>
@@ -1610,6 +1644,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
         <AssemblyVersion>15.3.0.0</AssemblyVersion>
         <AssemblyVersion>15.4.0.0</AssemblyVersion>
+        <AssemblyVersion>15.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Batch.Protocol.Models.PoolUpdatePropertiesHeaders&gt;</ReturnType>

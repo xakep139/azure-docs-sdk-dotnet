@@ -1,0 +1,61 @@
+<Type Name="JobQueueItem" FullName="Azure.Communication.JobRouter.Models.JobQueueItem">
+  <TypeSignature Language="C#" Value="public class JobQueueItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit JobQueueItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.JobRouter.Models.JobQueueItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class JobQueueItem" />
+  <TypeSignature Language="F#" Value="type JobQueueItem = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Paged instance of JobQueue. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Etag">
+      <MemberSignature Language="C#" Value="public string Etag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Etag" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.JobQueueItem.Etag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Etag As String" />
+      <MemberSignature Language="F#" Value="member this.Etag : string" Usage="Azure.Communication.JobRouter.Models.JobQueueItem.Etag" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> (Optional) The Concurrency Token. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobQueue">
+      <MemberSignature Language="C#" Value="public Azure.Communication.JobRouter.Models.JobQueue JobQueue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.JobRouter.Models.JobQueue JobQueue" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.JobRouter.Models.JobQueueItem.JobQueue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JobQueue As JobQueue" />
+      <MemberSignature Language="F#" Value="member this.JobQueue : Azure.Communication.JobRouter.Models.JobQueue" Usage="Azure.Communication.JobRouter.Models.JobQueueItem.JobQueue" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.JobRouter</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.JobRouter.Models.JobQueue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> A queue that can contain jobs to be routed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
