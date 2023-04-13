@@ -11,10 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Analytics.Purview.Account",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Analytics.Purview.Account",
-    "Microsoft.Extensions.Azure"
-  ],
+  "Namespaces": "Azure.Analytics.Purview.Account",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }
